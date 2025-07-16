@@ -1,0 +1,18 @@
+[project]
+name = "bd-data"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "acdh-tei-pyutils>=1.6",
+    "acdh-xml-pyutils>=1.1.1",
+    "pandas>=2.3.1",
+    "tqdm>=4.67.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "ruff>=0.12.2",
+]
