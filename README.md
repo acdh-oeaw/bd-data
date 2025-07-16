@@ -15,9 +15,9 @@ The idea is to process the data in a way it can be easily (re)published using [d
 
 * clone the repo
 * download Baedeker TEI/XML files from ARCHE and move them into a folder `xml` in the repo's root directory
-* more to come...
+* run `./build.sh`
 
 ## License
-* `Milestone` class found in [`__init__.py`](src/__init__.py) and written by Zeth is licensed under BSD Licence and was adapted by Daniel Elsner.
+* `Milestone` class found in [`milestone.py`](src/utils/milestone.py) and written by Zeth is licensed under BSD Licence and was adapted by Daniel Elsner.
 * All other code in the Repo is under MIT-License. 
 * All data in the Repo is under https://creativecommons.org/licenses/by/4.0/.
