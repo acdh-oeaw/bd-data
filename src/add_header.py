@@ -27,11 +27,20 @@ arche_mapping = {
     "Baedeker-Palaestina": "Baedeker-Palaestina_und_Syrien_1875",
 }
 
+title_mapping = {
+    "Baedeker-Indien": "Indien 1914",
+    "Baedeker-Konstantinopel": "Konstantinopel und Kleinasien 1905",
+    "Baedeker-Mittelmeer": "Mittelmeer 1909",
+    "Baedeker-Nordamerika": "Nordamerika 1893",
+    "Baedeker-Palaestina": "Palaestina und Syrien 1875",
+}
+
 files = sorted(glob.glob(f"{output_dir}/*/*jpg.xml"))
 print(f"Adding TEI-Headers to {len(files)} files...")
 for i, x in tqdm(enumerate(files), total=len(files)):
     cur_file_name = os.path.split(x)[-1].split("_")[0]
     template_name = header_mapping[cur_file_name]
+    title_short = title_mapping[cur_file_name]
     f_name = os.path.split(x)[-1].replace(".jpg", "")
     volume_name = arche_mapping[cur_file_name]
     image_name = f_name.replace(".xml", ".tiff")
@@ -56,7 +65,7 @@ for i, x in tqdm(enumerate(files), total=len(files)):
         continue
     page = doc.any_xpath(".//tei:pb[@n]/@n")[0]
     title = doc.any_xpath(".//tei:title[@level='a']")[0]
-    title.text = page
+    title.text = f"{title_short}, {page}"
     for pb in doc.any_xpath(".//tei:pb[@facs]"):
         pb.attrib["facs"] = img_url
     doc.tree_to_file(save_path)
