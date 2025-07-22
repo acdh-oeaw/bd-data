@@ -1,0 +1,936 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title level="a">Indien 1914, v. Umschlag verso</title>
+            <title level="m">Indien. Handbuch für Reisende: Digitale Ausgabe</title>
+            <author>Karl Baedeker (company)</author>
+            <respStmt>
+                <resp xml:lang="en">compiled by</resp>
+                <name>Ulrike Czeitschner</name>
+            </respStmt>
+            <respStmt>
+                <resp xml:lang="en">in collaboration with</resp>
+                <name>Barbara Krautgartner</name>
+                <name>Victoria Eisenheld</name>
+            </respStmt>
+        </titleStmt>
+        <editionStmt>
+            <edition>full-text digital edition <date when="2017">2017</date>
+            </edition>
+            <funder>Austrian Academy of Sciences</funder>
+        </editionStmt>
+        <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+            <address>
+                <addrLine>Bäckerstraße 13</addrLine>
+                <addrLine>1010 Vienna</addrLine>
+            </address>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2017">2017</date>
+            <availability>
+                <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+            </availability>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl type="short">Karl Baedeker: Indien. Leipzig, 1914.</bibl>
+            <bibl type="transcript">Indien 
+      Handbuch für Reisende 
+      von 
+      Karl Bædeker 
+      Mit 22 Karten, 33 Plänen und 8 Grundrissen 
+      Leipzig 
+      Verlag von Karl Bædeker 
+      1914</bibl>
+            <biblStruct type="full">
+                <monogr>
+                    <author>Karl Baedeker</author>
+                    <title type="main">Indien</title>
+                    <title type="sub">Handbuch für Reisende 
+          von 
+          Karl Bædeker 
+          Mit 22 Karten, 33 Plänen und 8 Grundrissen</title>
+                    <edition>first edition</edition>
+                    <imprint>
+                        <publisher>Verlag von Karl Bædeker</publisher>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date when="1914">1914</date>
+                    </imprint>
+                    <extent>
+                        <measure type="pages">546 [LXXIV, 358 p., maps not paged]</measure>
+                    </extent>
+                </monogr>
+            </biblStruct>
+            <msDesc>
+                <msIdentifier>
+                    <settlement>Vienna</settlement>
+                    <institution>Austrian National Library</institution>
+                    <repository>Karten-Sammlung</repository>
+                    <idno type="signatory">805281-A</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <projectDesc>
+            <p>Image creation, optical character recognition and basic XML annotation has been carried out within the framework of the AAC-Austrian Academy Corpus.</p>
+            <p>Transformation to TEI/P5, linguistic and semantic annotation has been applied within the GO!DIGITAL 1.0 project "travel!digital. Exploring People and Monuments in Baedeker Guidebooks (1875-1914)", Project-Nr.: ÖAW0204.</p>
+        </projectDesc>
+        <listPrefixDef>
+            <prefixDef matchPattern="(person)" replacementPattern="persons.xml#$1" ident="person-prefix">
+                <p>Private URIs using the person  
+           prefix are pointers to person
+           elements in the personography.xml file.
+           For example, psn:MDH
+           dereferences to personography.xml#MDH</p>
+            </prefixDef>
+            <prefixDef matchPattern="(t)" replacementPattern="https://vocabs.acdh.oeaw.ac.at/traveldigital/$1" ident="thesaurus-prefix">
+                <p>Private URIs using the t  
+           prefix are pointers to entries
+           in the travel!digital thesaurus.
+           For example, t:Concept6005600
+           dereferences to https://vocabs.acdh.oeaw.ac.at/traveldigital/Concept6005600.</p>
+            </prefixDef>
+        </listPrefixDef>
+        <editorialDecl>
+            <p>Annotation according to TEI/P5.</p>
+            <correction method="markup">
+                <p>Corrections have been represented using markup.</p>
+            </correction>
+            <normalization>
+                <p>Original orthography has been retained.</p>
+                <p>Original typography has been retained.</p>
+            </normalization>
+            <hyphenation eol="all">
+                <p>All end-of-line hyphenation has been retained.</p>
+            </hyphenation>
+            <interpretation>
+                <p>personal names of historical, mythological/religious and literary figures (except occurences in street names and company names), dates, selected designations of groups and sights</p>
+                <p>tokenization, PoS-tagging (Stuttgart-Tübingen-TagSet, 54 part-of-speech tags for annotating German text corpora, Guidelines 1999), lemmatization, manually corrected</p>
+            </interpretation>
+        </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+        <langUsage>
+            <language ident="de" usage="98"/>
+        </langUsage>
+        <textClass>
+            <keywords>
+                <list>
+                    <item>Baedeker guidebook</item>
+                    <item>Karl Baedeker</item>
+                    <item>historical travel guide</item>
+                    <item>India</item>
+                    <item>German language</item>
+                </list>
+            </keywords>
+        </textClass>
+    </profileDesc>
+</teiHeader>
+<text type="book"><front><pb facs="https://id.acdh.oeaw.ac.at/traveldigital/Images/Baedeker-Indien_1914/Baedeker-Indien_a0002.tiff" n="v. Umschlag verso"/>
+<div type="advertisement"><p><seg rend="bold"><gap reason="illegible"/>
+<w lemma="Reisehandbuch" type="NN" xml:id="IC_d1e276">SEHANDBÜCHER</w>
+<pc type="final" xml:id="IC_d1e279">.</pc></seg></p>
+<p><gap reason="illegible"/>
+<seg type="ws"> </seg>
+<w lemma="19" type="CARD" xml:id="IC_d1e288">19</w>
+<seg type="ws"> </seg>
+<w lemma="Karte" type="NN" xml:id="IC_d1e294">Karten</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="IC_d1e301">und</w>
+<seg type="ws"> </seg>
+<w lemma="68" type="CARD" xml:id="IC_d1e307">68</w>
+<seg type="ws"> </seg>
+<w lemma="Plan" type="NN" xml:id="IC_d1e313">Plänen</w>
+<pc type="final" xml:id="IC_d1e316">.</pc>
+<seg type="ws"> </seg>
+<w lemma="3." type="ADJA" xml:id="IC_d1e323">3.</w>
+<seg type="ws"> </seg>
+<abbr><w lemma="Auflage" type="NN_ABK" xml:id="IC_d1e330">Aufl.</w></abbr><lb/>
+<gap reason="illegible"/>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="IC_d1e346">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="9" type="CARD" xml:id="IC_d1e352">9.—</w></p>
+<p><gap reason="illegible"/>
+<w lemma="e" type="undetermined" xml:id="IC_d1e358">e</w>
+<pc type="comma" xml:id="IC_d1e361">,</pc>
+<seg type="ws"> </seg>
+<w lemma="16" type="CARD" xml:id="IC_d1e367">16</w>
+<seg type="ws"> </seg>
+<abbr><w lemma="Grundriss" type="NN_ABK" xml:id="IC_d1e375">Grundr.</w></abbr>
+<seg type="ws"> </seg>
+<w lemma="17." type="ADJA" xml:id="IC_d1e381">17.</w>
+<seg type="ws"> </seg>
+<abbr><w lemma="Auflage" type="NN_ABK" xml:id="IC_d1e388">Aufl.</w></abbr>
+<seg type="ws"> </seg>
+<date><w lemma="1912" type="CARD" xml:id="IC_d1e396">1912</w></date>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="IC_d1e403">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="3" type="CARD" xml:id="IC_d1e409">3.—</w></p>
+<p><gap reason="illegible"/>
+<seg rend="italicised"><w lemma="rk" type="undetermined" xml:id="IC_d1e416">rk</w></seg>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="IC_d1e422">(</pc>
+<w lemma="von" type="APPR" xml:id="IC_d1e425">von</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="IC_d1e432">der</w>
+<seg type="ws"> </seg>
+<w lemma="Elbe" type="NE" xml:id="IC_d1e438">Elbe</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="IC_d1e444">und</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="IC_d1e451">der</w>
+<seg type="ws"> </seg>
+<w lemma="West" type="undetermined" xml:id="IC_d1e457">West</w><lb break="no" type="s"/><gap reason="illegible"/>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="IC_d1e467">und</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="IC_d1e473">der</w>
+<seg type="ws"> </seg>
+<w lemma="Westküste" type="NN" xml:id="IC_d1e479">Westküste</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPR" xml:id="IC_d1e486">von</w>
+<seg type="ws"> </seg>
+<w lemma="Schleswig" type="undetermined" xml:id="IC_d1e492">Schleswig-</w><lb break="no"/>
+<gap reason="illegible"/>
+<seg type="ws"> </seg>
+<w lemma="Plan" type="NN" xml:id="IC_d1e502">Plänen</w>
+<pc type="final" xml:id="IC_d1e505">.</pc>
+<seg type="ws"> </seg>
+<w lemma="30" type="ADJA" xml:id="IC_d1e511">30.</w>
+<seg type="ws"> </seg>
+<abbr><w lemma="Auflage" type="NN_ABK" xml:id="IC_d1e518">Aufl.</w></abbr>
+<seg type="ws"> </seg>
+<date><w lemma="1911" type="CARD" xml:id="IC_d1e526">1911</w></date>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="IC_d1e538">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="6" type="CARD" xml:id="IC_d1e545">6.—</w></p>
+<p><gap reason="illegible"/>
+<w lemma="e" type="undetermined" xml:id="IC_d1e551">e</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="IC_d1e557">und</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="IC_d1e563">der</w>
+<seg type="ws"> </seg>
+<w lemma="Westgrenze" type="NN" xml:id="IC_d1e570">Westgrenze</w>
+<seg type="ws"> </seg>
+<w lemma="Sachsen" type="NE" xml:id="IC_d1e576">Sachsens</w>
+<seg type="ws"> </seg>
+<w lemma="an" type="APZR" xml:id="IC_d1e582">an</w>
+<pc type="comma" xml:id="IC_d1e586">,</pc><lb/>
+<gap reason="illegible"/>
+<w lemma="e" type="undetermined" xml:id="IC_d1e592">e</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPR" xml:id="IC_d1e598">von</w>
+<seg type="ws"> </seg>
+<w lemma="Schleswig-Holstein" type="NE" xml:id="IC_d1e605">Schleswig-Holstein</w>
+<pc type="internal" xml:id="IC_d1e608">)</pc>
+<pc type="final" xml:id="IC_d1e611">.</pc>
+<seg type="ws"> </seg>
+<w lemma="mit" type="APPR" xml:id="IC_d1e617">Mit</w><lb/>
+<w lemma="48" type="CARD" xml:id="IC_d1e622">48</w>
+<seg type="ws"> </seg>
+<w lemma="Karte" type="NN" xml:id="IC_d1e628">Karten</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="IC_d1e634">und</w>
+<seg type="ws"> </seg>
+<w lemma="80" type="CARD" xml:id="IC_d1e641">80</w>
+<seg type="ws"> </seg>
+<w lemma="Plan" type="NN" xml:id="IC_d1e647">Plänen</w>
+<pc type="final" xml:id="IC_d1e650">.</pc>
+<seg type="ws"> </seg>
+<w lemma="30" type="ADJA" xml:id="IC_d1e657">30.</w>
+<seg type="ws"> </seg>
+<abbr><w lemma="Auflage" type="NN_ABK" xml:id="IC_d1e664">Aufl.</w></abbr>
+<seg type="ws"> </seg>
+<date><w lemma="1911" type="CARD" xml:id="IC_d1e671">1911</w></date>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="IC_d1e684">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="6" type="CARD" xml:id="IC_d1e690">6.—</w></p>
+<p><seg rend="italicised"><w lemma="Süd-Deutschland" type="NE" xml:id="IC_d1e695">Süd-Deutschland</w></seg>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="IC_d1e701">(</pc>
+<w lemma="Oberrhein" type="NE" xml:id="IC_d1e704">Oberrhein</w>
+<pc type="comma" xml:id="IC_d1e707">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Baden" type="NE" xml:id="IC_d1e714">Baden</w>
+<pc type="comma" xml:id="IC_d1e717">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Württemberg" type="NE" xml:id="IC_d1e723">Württemberg</w>
+<pc type="comma" xml:id="IC_d1e726">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Bayern" type="NE" xml:id="IC_d1e733">Bayern</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="IC_d1e739">und</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="IC_d1e745">die</w><lb/>
+<w lemma="angrenzen" type="ADJA" xml:id="IC_d1e750">angrenzenden</w>
+<seg type="ws"> </seg>
+<w lemma="Teil" type="NN" xml:id="IC_d1e756">Teile</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPR" xml:id="IC_d1e762">von</w>
+<seg type="ws"> </seg>
+<w lemma="Österreich" type="NE" xml:id="IC_d1e769">Österreich</w>
+<pc type="internal" xml:id="IC_d1e772">)</pc>
+<pc type="final" xml:id="IC_d1e775">.</pc>
+<seg type="ws"> </seg>
+<w lemma="mit" type="APPR" xml:id="IC_d1e781">Mit</w>
+<seg type="ws"> </seg>
+<w lemma="59" type="CARD" xml:id="IC_d1e788">59</w>
+<seg type="ws"> </seg>
+<w lemma="Karte" type="NN" xml:id="IC_d1e794">Karten</w>
+<pc type="comma" xml:id="IC_d1e797">,</pc>
+<seg type="ws"> </seg>
+<w lemma="50" type="CARD" xml:id="IC_d1e803">50</w>
+<seg type="ws"> </seg>
+<w lemma="Plan" type="NN" xml:id="IC_d1e810">Plänen</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="IC_d1e816">und</w><lb/>
+<w lemma="13" type="CARD" xml:id="IC_d1e820">13</w>
+<seg type="ws"> </seg>
+<w lemma="Grundriss" type="NN" xml:id="IC_d1e827">Grundrissen</w>
+<pc type="final" xml:id="IC_d1e830">.</pc>
+<seg type="ws"> </seg>
+<w lemma="31." type="ADJA" xml:id="IC_d1e836">31.</w>
+<seg type="ws"> </seg>
+<abbr><w lemma="Auflage" type="NN_ABK" xml:id="IC_d1e844">Aufl.</w></abbr>
+<seg type="ws"> </seg>
+<date><w lemma="1913" type="CARD" xml:id="IC_d1e851">1913</w></date>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="IC_d1e864">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="6" type="CARD" xml:id="IC_d1e870">6.—</w></p>
+<p><seg rend="italicised"><w lemma="Rheinland" type="NE" xml:id="IC_d1e876">Rheinlande</w>
+<pc type="comma" xml:id="IC_d1e879">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Schwarzwald" type="NE" xml:id="IC_d1e885">Schwarzwald</w>
+<pc type="comma" xml:id="IC_d1e888">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Vogesen" type="NE" xml:id="IC_d1e895">Vogesen</w>
+<pc type="final" xml:id="IC_d1e898">.</pc></seg>
+<seg type="ws"> </seg>
+<w lemma="mit" type="APPR" xml:id="IC_d1e904">Mit</w>
+<seg type="ws"> </seg>
+<w lemma="70" type="CARD" xml:id="IC_d1e910">70</w>
+<seg type="ws"> </seg>
+<w lemma="Karte" type="NN" xml:id="IC_d1e917">Karten</w>
+<pc type="comma" xml:id="IC_d1e920">,</pc>
+<seg type="ws"> </seg>
+<w lemma="66" type="CARD" xml:id="IC_d1e926">66</w>
+<seg type="ws"> </seg>
+<w lemma="Plan" type="NN" xml:id="IC_d1e932">Plänen</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="IC_d1e939">und</w><lb/>
+<w lemma="Grundriss" type="NN" xml:id="IC_d1e943">Grundrissen</w>
+<pc type="final" xml:id="IC_d1e946">.</pc>
+<seg type="ws"> </seg>
+<w lemma="32." type="ADJA" xml:id="IC_d1e953">32.</w>
+<seg type="ws"> </seg>
+<abbr><w lemma="Auflage" type="NN_ABK" xml:id="IC_d1e960">Aufl.</w></abbr>
+<seg type="ws"> </seg>
+<date><w lemma="1912" type="CARD" xml:id="IC_d1e967">1912</w></date>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="IC_d1e980">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="6" type="CARD" xml:id="IC_d1e986">6.—</w></p>
+<p><seg rend="italicised"><w lemma="Südbayern" type="NE" xml:id="IC_d1e991">Südbayern</w>
+<pc type="comma" xml:id="IC_d1e994">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Tirol" type="NE" xml:id="IC_d1e1000">Tirol</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="IC_d1e1006">und</w>
+<seg type="ws"> </seg>
+<w lemma="Salzburg" type="NE" xml:id="IC_d1e1013">Salzburg</w>
+<pc type="comma" xml:id="IC_d1e1016">,</pc></seg>
+<seg type="ws"> </seg>
+<w lemma="Ober-Österreich" type="TRUNC" xml:id="IC_d1e1022">Ober-</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="IC_d1e1028">und</w>
+<seg type="ws"> </seg>
+<w lemma="Nieder-Österreich" type="NE" xml:id="IC_d1e1035">Nieder-Österreich</w>
+<pc type="comma" xml:id="IC_d1e1038">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Steiermark" type="NE" xml:id="IC_d1e1044">Steier<lb break="no" type="s"/>mark</w>
+<pc type="comma" xml:id="IC_d1e1049">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Kärnten" type="NE" xml:id="IC_d1e1056">Kärnten</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="IC_d1e1062">und</w>
+<seg type="ws"> </seg>
+<w lemma="Krain" type="NE" xml:id="IC_d1e1068">Krain</w>
+<pc type="final" xml:id="IC_d1e1071">.</pc>
+<seg type="ws"> </seg>
+<w lemma="mit" type="APPR" xml:id="IC_d1e1078">Mit</w>
+<seg type="ws"> </seg>
+<w lemma="74" type="CARD" xml:id="IC_d1e1084">74</w>
+<seg type="ws"> </seg>
+<w lemma="Karte" type="NN" xml:id="IC_d1e1090">Karten</w>
+<pc type="comma" xml:id="IC_d1e1094">,</pc>
+<seg type="ws"> </seg>
+<w lemma="16" type="CARD" xml:id="IC_d1e1100">16</w>
+<seg type="ws"> </seg>
+<w lemma="Plan" type="NN" xml:id="IC_d1e1106">Plänen</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="IC_d1e1113">und</w>
+<seg type="ws"> </seg>
+<w lemma="11" type="CARD" xml:id="IC_d1e1119">11</w>
+<seg type="ws"> </seg>
+<w lemma="Panorama" type="NN" xml:id="IC_d1e1125">Pan<lb break="no" type="s"/>oramen</w>
+<pc type="final" xml:id="IC_d1e1130">.</pc>
+<seg type="ws"> </seg>
+<w lemma="35." type="ADJA" xml:id="IC_d1e1137">35.</w>
+<seg type="ws"> </seg>
+<abbr><w lemma="Auflage" type="NN_ABK" xml:id="IC_d1e1144">Aufl.</w></abbr>
+<seg type="ws"> </seg>
+<date><w lemma="1912" type="CARD" xml:id="IC_d1e1151">1912</w></date>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="IC_d1e1164">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="8" type="CARD" xml:id="IC_d1e1170">8.—</w></p>
+<p><seg rend="italicised"><w lemma="Nordseebad" type="NN" xml:id="IC_d1e1175">Nordseebäder</w>
+<pc type="comma" xml:id="IC_d1e1178">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Harz" type="NE" xml:id="IC_d1e1184">Harz</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="IC_d1e1190">und</w>
+<seg type="ws"> </seg>
+<w lemma="Thüringen" type="NE" xml:id="IC_d1e1197">Thüringen</w></seg>
+<seg type="ws"> </seg>
+<w lemma="sehen" type="VVIMP" xml:id="IC_d1e1203">siehe</w>
+<seg type="ws"> </seg>
+<w lemma="Nordwest-Deutschland" type="NE" xml:id="IC_d1e1209">Nordwest-Deutschland</w>
+<pc type="final" xml:id="IC_d1e1212">.</pc></p>
+<p><seg rend="italicised"><w lemma="Ostseebad" type="NN" xml:id="IC_d1e1217">Ostseebäder</w>
+<pc type="comma" xml:id="IC_d1e1220">,</pc>
+<seg type="ws"> </seg>
+<abbr><w lemma="sächsisch" type="ADJA_ABK" xml:id="IC_d1e1227">Sächs.</w></abbr>
+<seg type="ws"> </seg>
+<w lemma="Schweiz" type="NE" xml:id="IC_d1e1233">Schweiz</w>
+<seg type="ws"> </seg>
+<abbr><w lemma="und" type="KON_ABK" xml:id="IC_d1e1241">u.</w></abbr>
+<seg type="ws"> </seg>
+<w lemma="Riesengebirge" type="NN" xml:id="IC_d1e1247">Riesengebirge</w></seg>
+<seg type="ws"> </seg>
+<abbr><w lemma="sehen" type="VVIMP_ABK" xml:id="IC_d1e1254">s.</w></abbr>
+<seg type="ws"> </seg>
+<w lemma="Nordost-Deutschland" type="NE" xml:id="IC_d1e1260">Nordost-Deutschland</w>
+<pc type="final" xml:id="IC_d1e1263">.</pc></p>
+<p><seg rend="italicised"><w lemma="Elsaß-Lothringen" type="NE" xml:id="IC_d1e1268">Elsaß-Lothringen</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="IC_d1e1274">und</w>
+<seg type="ws"> </seg>
+<w lemma="Vogesen" type="NE" xml:id="IC_d1e1280">Vogesen</w></seg>
+<seg type="ws"> </seg>
+<abbr><w lemma="sehen" type="VVIMP_ABK" xml:id="IC_d1e1287">s.</w></abbr>
+<seg type="ws"> </seg>
+<w lemma="Rheinland" type="NE" xml:id="IC_d1e1293">Rheinlande</w>
+<pc type="final" xml:id="IC_d1e1296">.</pc></p>
+<p><seg rend="italicised"><w lemma="Schwarzwald" type="NE" xml:id="IC_d1e1301">Schwarzwald</w></seg>
+<seg type="ws"> </seg>
+<abbr><w lemma="sehen" type="VVIMP_ABK" xml:id="IC_d1e1308">s.</w></abbr>
+<seg type="ws"> </seg>
+<w lemma="Rheinland" type="NE" xml:id="IC_d1e1314">Rheinlande</w>
+<seg type="ws"> </seg>
+<w lemma="oder" type="KON" xml:id="IC_d1e1321">oder</w>
+<seg type="ws"> </seg>
+<w lemma="Süd-Deutschland" type="NE" xml:id="IC_d1e1327">Süd-Deutschland</w>
+<pc type="final" xml:id="IC_d1e1330">.</pc></p>
+<p><seg rend="bold"><w lemma="Ägypten" type="NE" xml:id="IC_d1e1336">Ägypten</w>
+<pc type="final" xml:id="IC_d1e1339">.</pc></seg>
+<seg type="ws"> </seg>
+<w lemma="Unterägypten" type="TRUNC" xml:id="IC_d1e1345">Unter-</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="IC_d1e1351">und</w>
+<seg type="ws"> </seg>
+<w lemma="Oberägypten" type="NE" xml:id="IC_d1e1358">Oberägypten</w>
+<pc type="comma" xml:id="IC_d1e1361">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Unter-Nubien" type="TRUNC" xml:id="IC_d1e1367">Unter-</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="IC_d1e1373">und</w>
+<seg type="ws"> </seg>
+<w lemma="Ober-Nubien" type="NE" xml:id="IC_d1e1380">Ober-Nubien</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="IC_d1e1386">und</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="IC_d1e1392">der</w><lb/>
+<w lemma="Sudân" type="NE" xml:id="IC_d1e1397">Sudân</w>
+<pc type="final" xml:id="IC_d1e1400">.</pc>
+<seg type="ws"> </seg>
+<w lemma="mit" type="APPR" xml:id="IC_d1e1406">Mit</w>
+<seg type="ws"> </seg>
+<w lemma="21" type="CARD" xml:id="IC_d1e1413">21</w>
+<seg type="ws"> </seg>
+<w lemma="Karte" type="NN" xml:id="IC_d1e1419">Karten</w>
+<pc type="comma" xml:id="IC_d1e1422">,</pc>
+<seg type="ws"> </seg>
+<w lemma="84" type="CARD" xml:id="IC_d1e1428">84</w>
+<seg type="ws"> </seg>
+<w lemma="Plan" type="NN" xml:id="IC_d1e1435">Plänen</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="IC_d1e1441">und</w>
+<seg type="ws"> </seg>
+<w lemma="Grundriss" type="NN" xml:id="IC_d1e1447">Grundrissen</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="IC_d1e1454">und</w>
+<seg type="ws"> </seg>
+<w lemma="55" type="CARD" xml:id="IC_d1e1460">55</w>
+<seg type="ws"> </seg>
+<w lemma="Abbildung" type="NN" xml:id="IC_d1e1466">Abbil<lb break="no" type="s"/>dungen</w>
+<pc type="final" xml:id="IC_d1e1472">.</pc>
+<seg type="ws"> </seg>
+<w lemma="7." type="ADJA" xml:id="IC_d1e1478">7.</w>
+<seg type="ws"> </seg>
+<abbr><w lemma="Auflage" type="NN_ABK" xml:id="IC_d1e1485">Aufl.</w></abbr>
+<seg type="ws"> </seg>
+<date><w lemma="1913" type="CARD" xml:id="IC_d1e1493">1913</w></date>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="IC_d1e1505">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="15" type="CARD" xml:id="IC_d1e1512">15.—</w></p>
+<p><seg rend="bold"><w lemma="Algerien" type="NE" xml:id="IC_d1e1517">Algerien</w></seg>
+<seg type="ws"> </seg>
+<abbr><w lemma="sehen" type="VVIMP_ABK" xml:id="IC_d1e1524">s.</w></abbr>
+<seg type="ws"> </seg>
+<w lemma="Mittelmeer" type="NE" xml:id="IC_d1e1530">Mittelmeer</w>
+<pc type="final" xml:id="IC_d1e1533">.</pc></p>
+<p><seg rend="bold"><w lemma="Alpenland" type="NN" xml:id="IC_d1e1538">Alpenländer</w></seg>
+<seg type="ws"> </seg>
+<abbr><w lemma="sehen" type="VVIMP_ABK" xml:id="IC_d1e1545">s.</w></abbr>
+<seg type="ws"> </seg>
+<w lemma="Südbayern" type="NE" xml:id="IC_d1e1551">Südbayern</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="IC_d1e1558">und</w>
+<seg type="ws"> </seg>
+<w lemma="Schweiz" type="NE" xml:id="IC_d1e1564">Schweiz</w>
+<pc type="final" xml:id="IC_d1e1567">.</pc></p>
+<p><seg rend="bold"><w lemma="Balkanstaat" type="NN" xml:id="IC_d1e1572">Balkanstaaten</w></seg>
+<seg type="ws"> </seg>
+<abbr><w lemma="sehen" type="VVIMP_ABK" xml:id="IC_d1e1579">s.</w></abbr>
+<seg type="ws"> </seg>
+<w lemma="Konstantinopel" type="NE" xml:id="IC_d1e1585">Konstantinopel</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="IC_d1e1592">und</w>
+<seg type="ws"> </seg>
+<w lemma="Kleinasien" type="NE" xml:id="IC_d1e1598">Kleinasien</w>
+<pc type="final" xml:id="IC_d1e1601">.</pc></p>
+<p><seg rend="bold"><w lemma="Belgien" type="NE" xml:id="IC_d1e1606">Belgien</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="IC_d1e1612">und</w>
+<seg type="ws"> </seg>
+<w lemma="Holland" type="NE" xml:id="IC_d1e1618">Holland</w></seg>
+<seg type="ws"> </seg>
+<w lemma="nebst" type="APPR" xml:id="IC_d1e1624">nebst</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="IC_d1e1630">dem</w>
+<seg type="ws"> </seg>
+<w lemma="Großherzogtum" type="NN" xml:id="IC_d1e1637">Großherzogtum</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Luxemburg" type="NE" xml:id="IC_d1e1644">Luxemburg</w>
+<pc type="final" xml:id="IC_d1e1647">.</pc></seg>
+<seg type="ws"> </seg>
+<w lemma="mit" type="APPR" xml:id="IC_d1e1653">Mit</w><lb/>
+<w lemma="19" type="CARD" xml:id="IC_d1e1658">19</w>
+<seg type="ws"> </seg>
+<w lemma="Karte" type="NN" xml:id="IC_d1e1664">Karten</w>
+<pc type="comma" xml:id="IC_d1e1667">,</pc>
+<seg type="ws"> </seg>
+<w lemma="36" type="CARD" xml:id="IC_d1e1673">36</w>
+<seg type="ws"> </seg>
+<w lemma="Plan" type="NN" xml:id="IC_d1e1680">Plänen</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="IC_d1e1686">und</w>
+<seg type="ws"> </seg>
+<w lemma="8" type="CARD" xml:id="IC_d1e1692">8</w>
+<seg type="ws"> </seg>
+<w lemma="Grundriss" type="NN" xml:id="IC_d1e1699">Grundrissen</w>
+<pc type="final" xml:id="IC_d1e1702">.</pc>
+<seg type="ws"> </seg>
+<w lemma="24." type="ADJA" xml:id="IC_d1e1708">24.</w>
+<seg type="ws"> </seg>
+<abbr><w lemma="Auflage" type="NN_ABK" xml:id="IC_d1e1716">Aufl.</w></abbr>
+<seg type="ws"> </seg>
+<date><w lemma="1910" type="CARD" xml:id="IC_d1e1723">1910</w></date>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="IC_d1e1736">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="6" type="CARD" xml:id="IC_d1e1742">6.—</w></p>
+<p><seg rend="bold"><w lemma="Dänemark" type="NE" xml:id="IC_d1e1747">Dänemark</w></seg>
+<seg type="ws"> </seg>
+<abbr><w lemma="sehen" type="VVIMP_ABK" xml:id="IC_d1e1754">s.</w></abbr>
+<seg type="ws"> </seg>
+<w lemma="Nordost-Deutschland" type="NE" xml:id="IC_d1e1760">Nordost-Deutschland</w>
+<pc type="final" xml:id="IC_d1e1763">.</pc></p>
+<p><seg rend="bold"><w lemma="England" type="NE" xml:id="IC_d1e1769">England</w></seg>
+<seg type="ws"> </seg>
+<abbr><w lemma="sehen" type="VVIMP_ABK" xml:id="IC_d1e1776">s.</w></abbr>
+<seg type="ws"> </seg>
+<w lemma="Großbritannien" type="NE" xml:id="IC_d1e1782">Großbritannien</w>
+<pc type="final" xml:id="IC_d1e1785">.</pc></p>
+<p><seg rend="bold"><w lemma="Frankreich" type="NE" xml:id="IC_d1e1790">Frankreich</w>
+<pc type="final" xml:id="IC_d1e1793">:</pc></seg></p>
+<p><seg rend="italicised"><w lemma="Paris" type="NE" xml:id="IC_d1e1798">Paris</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="IC_d1e1804">und</w>
+<seg type="ws"> </seg>
+<w lemma="Umgebung" type="NN" xml:id="IC_d1e1810">Umgebung</w></seg>
+<seg type="ws"> </seg>
+<w lemma="nebst" type="APPR" xml:id="IC_d1e1816">nebst</w>
+<seg type="ws"> </seg>
+<w lemma="einig" type="PIAT" xml:id="IC_d1e1822">einigen</w>
+<seg type="ws"> </seg>
+<w lemma="Route" type="NN" xml:id="IC_d1e1829">Routen</w>
+<seg type="ws"> </seg>
+<w lemma="durch" type="APPR" xml:id="IC_d1e1835">durch</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Nordfrankreich" type="NE" xml:id="IC_d1e1842">Nordfrankreich</w></seg>
+<pc type="final" xml:id="IC_d1e1845">.</pc><lb/>
+<w lemma="mit" type="APPR" xml:id="IC_d1e1850">Mit</w>
+<seg type="ws"> </seg>
+<w lemma="16" type="CARD" xml:id="IC_d1e1856">16</w>
+<seg type="ws"> </seg>
+<w lemma="Karte" type="NN" xml:id="IC_d1e1862">Karten</w>
+<pc type="comma" xml:id="IC_d1e1866">,</pc>
+<seg type="ws"> </seg>
+<w lemma="40" type="CARD" xml:id="IC_d1e1872">40</w>
+<seg type="ws"> </seg>
+<w lemma="Plan" type="NN" xml:id="IC_d1e1878">Plänen</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="IC_d1e1885">und</w>
+<seg type="ws"> </seg>
+<w lemma="Grundriss" type="NN" xml:id="IC_d1e1891">Grundrissen</w>
+<pc type="final" xml:id="IC_d1e1894">.</pc>
+<seg type="ws"> </seg>
+<w lemma="18." type="ADJA" xml:id="IC_d1e1900">18.</w>
+<seg type="ws"> </seg>
+<abbr><w lemma="Auflage" type="NN_ABK" xml:id="IC_d1e1908">Aufl.</w></abbr>
+<seg type="ws"> </seg>
+<date><w lemma="1912" type="CARD" xml:id="IC_d1e1915">1912</w></date>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="IC_d1e1922">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="6" type="CARD" xml:id="IC_d1e1929">6.—</w></p>
+<p><seg rend="italicised"><w lemma="Südost-Frankreich" type="NE" xml:id="IC_d1e1934">Südost-Frankreich</w></seg>
+<seg type="ws"> </seg>
+<abbr><w lemma="sehen" type="VVIMP_ABK" xml:id="IC_d1e1941">s.</w></abbr>
+<seg type="ws"> </seg>
+<w lemma="Riviera" type="NE" xml:id="IC_d1e1947">Riviera</w>
+<pc type="final" xml:id="IC_d1e1950">.</pc></p>
+<p><w lemma="in" type="APPR" xml:id="IC_d1e1954">In</w>
+<seg type="ws"> </seg>
+<rs type="langScript"><w lemma="französisch" type="ADJA" xml:id="IC_d1e1961">französischer</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Sprache" type="NN" xml:id="IC_d1e1967">Sprache</w>
+<pc type="final" xml:id="IC_d1e1970">:</pc></p>
+<p><seg rend="italicised"><w lemma="le" type="FM" xml:id="IC_d1e1975">Le</w>
+<seg type="ws"> </seg>
+<w lemma="nord-est" type="FM" xml:id="IC_d1e1981">Nord-Est</w>
+<seg type="ws"> </seg>
+<w lemma="de" type="FM" xml:id="IC_d1e1987">de</w>
+<seg type="ws"> </seg>
+<w lemma="la" type="FM" xml:id="IC_d1e1994">la</w>
+<seg type="ws"> </seg>
+<w lemma="France" type="NE" xml:id="IC_d1e2000">France</w>
+<pc type="comma" xml:id="IC_d1e2003">,</pc></seg>
+<seg type="ws"> </seg>
+<w lemma="de" type="FM" xml:id="IC_d1e2009">de</w>
+<seg type="ws"> </seg>
+<w lemma="Paris" type="NE" xml:id="IC_d1e2015">Paris</w>
+<seg type="ws"> </seg>
+<w lemma="à" type="FM" xml:id="IC_d1e2022">aux</w>
+<seg type="ws"> </seg>
+<w lemma="Ardennes" type="NE" xml:id="IC_d1e2028">Ardennes</w>
+<pc type="comma" xml:id="IC_d1e2031">,</pc>
+<seg type="ws"> </seg>
+<w lemma="à" type="FM" xml:id="IC_d1e2037">aux</w>
+<seg type="ws"> </seg>
+<w lemma="Vosges" type="NE" xml:id="IC_d1e2044">Vosges</w>
+<seg type="ws"> </seg>
+<w lemma="et" type="FM" xml:id="IC_d1e2050">et</w><lb/>
+<w lemma="à" type="FM" xml:id="IC_d1e2054">au</w>
+<seg type="ws"> </seg>
+<w lemma="Rhône" type="NE" xml:id="IC_d1e2061">Rhône</w>
+<pc type="final" xml:id="IC_d1e2064">.</pc>
+<seg type="ws"> </seg>
+<w lemma="avec" type="FM" xml:id="IC_d1e2070">Avec</w>
+<seg type="ws"> </seg>
+<w lemma="12" type="CARD" xml:id="IC_d1e2077">12</w>
+<seg type="ws"> </seg>
+<w lemma="carte" type="FM" xml:id="IC_d1e2083">cartes</w>
+<seg type="ws"> </seg>
+<w lemma="et" type="FM" xml:id="IC_d1e2089">et</w>
+<seg type="ws"> </seg>
+<w lemma="30" type="CARD" xml:id="IC_d1e2096">30</w>
+<seg type="ws"> </seg>
+<w lemma="plan" type="FM" xml:id="IC_d1e2102">plans</w>
+<seg type="ws"> </seg>
+<w lemma="de" type="FM" xml:id="IC_d1e2108">de</w>
+<seg type="ws"> </seg>
+<w lemma="ville" type="FM" xml:id="IC_d1e2115">villes</w>
+<pc type="final" xml:id="IC_d1e2118">.</pc>
+<seg type="ws"> </seg>
+<w lemma="8e" type="FM" xml:id="IC_d1e2124">8<seg rend="sup">e</seg></w>
+<seg type="ws"> </seg>
+<abbr><w lemma="édition" type="FM_ABK" xml:id="IC_d1e2133">éd.</w></abbr>
+<seg type="ws"> </seg>
+<date><w lemma="1908" type="CARD" xml:id="IC_d1e2141">1908</w></date>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="IC_d1e2148">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="6" type="CARD" xml:id="IC_d1e2154">6.—</w></p>
+<p><seg rend="italicised"><w lemma="le" type="FM" xml:id="IC_d1e2160">Le</w>
+<seg type="ws"> </seg>
+<w lemma="nord-ouest" type="FM" xml:id="IC_d1e2166">Nord-Ouest</w>
+<seg type="ws"> </seg>
+<w lemma="de" type="FM" xml:id="IC_d1e2172">de</w>
+<seg type="ws"> </seg>
+<w lemma="la" type="FM" xml:id="IC_d1e2179">la</w>
+<seg type="ws"> </seg>
+<w lemma="France" type="NE" xml:id="IC_d1e2185">France</w>
+<pc type="comma" xml:id="IC_d1e2188">,</pc></seg>
+<seg type="ws"> </seg>
+<w lemma="de" type="FM" xml:id="IC_d1e2194">de</w>
+<seg type="ws"> </seg>
+<w lemma="la" type="FM" xml:id="IC_d1e2200">la</w>
+<seg type="ws"> </seg>
+<w lemma="frontière" type="FM" xml:id="IC_d1e2207">frontière</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2001500-1 t:Term2001500-1.1-fr" type="ethNat"><w lemma="belge" type="FM" xml:id="IC_d1e2214">belge</w></rs>
+<seg type="ws"> </seg>
+<w lemma="à" type="FM" xml:id="IC_d1e2220">à</w>
+<seg type="ws"> </seg>
+<w lemma="la" type="FM" xml:id="IC_d1e2227">la</w>
+<seg type="ws"> </seg>
+<w lemma="Loire" type="NE" xml:id="IC_d1e2233">Loire</w>
+<pc type="comma" xml:id="IC_d1e2236">,</pc>
+<seg type="ws"> </seg>
+<w lemma="excepté" type="FM" xml:id="IC_d1e2242">excepté</w><lb/>
+<w lemma="Paris" type="NE" xml:id="IC_d1e2247">Paris</w>
+<pc type="final" xml:id="IC_d1e2250">.</pc>
+<seg type="ws"> </seg>
+<w lemma="avec" type="FM" xml:id="IC_d1e2256">Avec</w>
+<seg type="ws"> </seg>
+<w lemma="12" type="CARD" xml:id="IC_d1e2263">12</w>
+<seg type="ws"> </seg>
+<w lemma="carte" type="FM" xml:id="IC_d1e2269">cartes</w>
+<seg type="ws"> </seg>
+<w lemma="et" type="FM" xml:id="IC_d1e2275">et</w>
+<seg type="ws"> </seg>
+<w lemma="38" type="CARD" xml:id="IC_d1e2282">38</w>
+<seg type="ws"> </seg>
+<w lemma="plan" type="FM" xml:id="IC_d1e2288">plans</w>
+<seg type="ws"> </seg>
+<w lemma="de" type="FM" xml:id="IC_d1e2294">de</w>
+<seg type="ws"> </seg>
+<w lemma="ville" type="FM" xml:id="IC_d1e2301">villes</w>
+<pc type="final" xml:id="IC_d1e2304">.</pc>
+<seg type="ws"> </seg>
+<w lemma="9e" type="FM" xml:id="IC_d1e2310">9<seg rend="sup">e</seg></w>
+<seg type="ws"> </seg>
+<abbr><w lemma="édition" type="FM_ABK" xml:id="IC_d1e2319">éd.</w></abbr>
+<seg type="ws"> </seg>
+<date><w lemma="1913" type="CARD" xml:id="IC_d1e2327">1913</w></date>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="IC_d1e2334">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="6" type="CARD" xml:id="IC_d1e2340">6.—</w></p>
+<p><seg rend="italicised"><w lemma="le" type="FM" xml:id="IC_d1e2345">Le</w>
+<seg type="ws"> </seg>
+<w lemma="sud-est" type="FM" xml:id="IC_d1e2351">Sud-Est</w>
+<seg type="ws"> </seg>
+<w lemma="de" type="FM" xml:id="IC_d1e2357">de</w>
+<seg type="ws"> </seg>
+<w lemma="la" type="FM" xml:id="IC_d1e2364">la</w>
+<seg type="ws"> </seg>
+<w lemma="France" type="NE" xml:id="IC_d1e2370">France</w>
+<pc type="comma" xml:id="IC_d1e2373">,</pc></seg>
+<seg type="ws"> </seg>
+<w lemma="de" type="FM" xml:id="IC_d1e2379">du</w>
+<seg type="ws"> </seg>
+<w lemma="Jura" type="NE" xml:id="IC_d1e2385">Jura</w>
+<seg type="ws"> </seg>
+<w lemma="à" type="FM" xml:id="IC_d1e2392">à</w>
+<seg type="ws"> </seg>
+<w lemma="la" type="FM" xml:id="IC_d1e2398">la</w>
+<seg type="ws"> </seg>
+<w lemma="Méditerranée" type="NE" xml:id="IC_d1e2404">Méditerranée</w>
+<pc type="comma" xml:id="IC_d1e2407">,</pc>
+<seg type="ws"> </seg>
+<w lemma="y" type="FM" xml:id="IC_d1e2414">y</w>
+<seg type="ws"> </seg>
+<w lemma="compris" type="FM" xml:id="IC_d1e2420">compris</w>
+<seg type="ws"> </seg>
+<w lemma="la" type="FM" xml:id="IC_d1e2426">la</w>
+<seg type="ws"> </seg>
+<w lemma="Corse" type="NE" xml:id="IC_d1e2433">Corse</w>
+<pc type="final" xml:id="IC_d1e2436">.</pc><lb/>
+<w lemma="avec" type="FM" xml:id="IC_d1e2440">Avec</w>
+<seg type="ws"> </seg>
+<w lemma="23" type="CARD" xml:id="IC_d1e2447">23</w>
+<seg type="ws"> </seg>
+<w lemma="carte" type="FM" xml:id="IC_d1e2453">cartes</w>
+<pc type="comma" xml:id="IC_d1e2456">,</pc>
+<seg type="ws"> </seg>
+<w lemma="28" type="CARD" xml:id="IC_d1e2462">28</w>
+<seg type="ws"> </seg>
+<w lemma="plan" type="FM" xml:id="IC_d1e2469">plans</w>
+<seg type="ws"> </seg>
+<w lemma="de" type="FM" xml:id="IC_d1e2475">de</w>
+<seg type="ws"> </seg>
+<w lemma="ville" type="FM" xml:id="IC_d1e2481">villes</w>
+<seg type="ws"> </seg>
+<w lemma="et" type="FM" xml:id="IC_d1e2488">et</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="IC_d1e2494">2</w>
+<seg type="ws"> </seg>
+<w lemma="panorama" type="FM" xml:id="IC_d1e2500">panoramas</w>
+<pc type="final" xml:id="IC_d1e2504">.</pc>
+<seg type="ws"> </seg>
+<w lemma="9e" type="FM" xml:id="IC_d1e2510">9<seg rend="sup">e</seg></w>
+<seg type="ws"> </seg>
+<abbr><w lemma="édition" type="FM_ABK" xml:id="IC_d1e2519">éd.</w></abbr>
+<seg type="ws"> </seg>
+<date><w lemma="1910" type="CARD" xml:id="IC_d1e2527">1910</w></date>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="IC_d1e2534">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="6" type="CARD" xml:id="IC_d1e2540">6.—</w></p>
+<p><seg rend="italicised"><w lemma="le" type="FM" xml:id="IC_d1e2545">Le</w>
+<seg type="ws"> </seg>
+<w lemma="sud-ouest" type="FM" xml:id="IC_d1e2551">Sud-Ouest</w>
+<seg type="ws"> </seg>
+<w lemma="de" type="FM" xml:id="IC_d1e2557">de</w>
+<seg type="ws"> </seg>
+<w lemma="la" type="FM" xml:id="IC_d1e2564">la</w>
+<seg type="ws"> </seg>
+<w lemma="France" type="NE" xml:id="IC_d1e2570">France</w>
+<pc type="comma" xml:id="IC_d1e2573">,</pc></seg>
+<seg type="ws"> </seg>
+<w lemma="de" type="FM" xml:id="IC_d1e2579">de</w>
+<seg type="ws"> </seg>
+<w lemma="la" type="FM" xml:id="IC_d1e2585">la</w>
+<seg type="ws"> </seg>
+<w lemma="Loire" type="NE" xml:id="IC_d1e2592">Loire</w>
+<seg type="ws"> </seg>
+<w lemma="à" type="FM" xml:id="IC_d1e2598">à</w>
+<seg type="ws"> </seg>
+<w lemma="la" type="FM" xml:id="IC_d1e2604">la</w>
+<seg type="ws"> </seg>
+<w lemma="frontière" type="FM" xml:id="IC_d1e2611">frontière</w>
+<seg type="ws"> </seg>
+<w lemma="de" type="FM" xml:id="IC_d1e2617">d’</w>
+<w lemma="Espagne" type="NE" xml:id="IC_d1e2620">Espagne</w>
+<pc type="final" xml:id="IC_d1e2623">.</pc><lb/>
+<w lemma="avec" type="FM" xml:id="IC_d1e2628">Avec</w>
+<seg type="ws"> </seg>
+<w lemma="15" type="CARD" xml:id="IC_d1e2634">15</w>
+<seg type="ws"> </seg>
+<w lemma="carte" type="FM" xml:id="IC_d1e2640">cartes</w>
+<seg type="ws"> </seg>
+<w lemma="et" type="FM" xml:id="IC_d1e2647">et</w>
+<seg type="ws"> </seg>
+<w lemma="34" type="CARD" xml:id="IC_d1e2653">34</w>
+<seg type="ws"> </seg>
+<w lemma="plan" type="FM" xml:id="IC_d1e2659">plans</w>
+<seg type="ws"> </seg>
+<w lemma="de" type="FM" xml:id="IC_d1e2666">de</w>
+<seg type="ws"> </seg>
+<w lemma="ville" type="FM" xml:id="IC_d1e2672">villes</w>
+<pc type="final" xml:id="IC_d1e2675">.</pc>
+<seg type="ws"> </seg>
+<w lemma="9e" type="FM" xml:id="IC_d1e2681">9<seg rend="sup">e</seg></w>
+<seg type="ws"> </seg>
+<abbr><w lemma="édition" type="FM_ABK" xml:id="IC_d1e2691">éd.</w></abbr>
+<seg type="ws"> </seg>
+<date><w lemma="1912" type="CARD" xml:id="IC_d1e2698">1912</w></date>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="IC_d1e2711">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="6" type="CARD" xml:id="IC_d1e2717">6.—</w></p>
+<p><seg rend="bold"><w lemma="Griechenland" type="NE" xml:id="IC_d1e2722">Griechenland</w>
+<pc type="comma" xml:id="IC_d1e2725">,</pc></seg>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="IC_d1e2731">die</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2005100-1 t:Term20050100-1.1-de" type="ethNat"><w lemma="griechisch" type="ADJA" xml:id="IC_d1e2738">griechischen</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Insel" type="NN" xml:id="IC_d1e2745">Inseln</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="IC_d1e2751">und</w>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="IC_d1e2757">ein</w>
+<seg type="ws"> </seg>
+<w lemma="Ausflug" type="NN" xml:id="IC_d1e2764">Ausflug</w>
+<seg type="ws"> </seg>
+<w lemma="nach" type="APPR" xml:id="IC_d1e2770">nach</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Kreta" type="NE" xml:id="IC_d1e2777">Kreta</w></seg>
+<pc type="final" xml:id="IC_d1e2780">.</pc><lb/>
+<w lemma="mit" type="APPR" xml:id="IC_d1e2785">Mit</w>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="IC_d1e2791">einem</w>
+<seg type="ws"> </seg>
+<w lemma="Panorama" type="NN" xml:id="IC_d1e2797">Panorama</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPR" xml:id="IC_d1e2804">von</w>
+<seg type="ws"> </seg>
+<w lemma="Athen" type="NE" xml:id="IC_d1e2810">Athen</w>
+<pc type="comma" xml:id="IC_d1e2813">,</pc>
+<seg type="ws"> </seg>
+<w lemma="15" type="CARD" xml:id="IC_d1e2820">15</w>
+<seg type="ws"> </seg>
+<w lemma="Karte" type="NN" xml:id="IC_d1e2826">Karten</w>
+<pc type="comma" xml:id="IC_d1e2829">,</pc>
+<seg type="ws"> </seg>
+<w lemma="25" type="CARD" xml:id="IC_d1e2835">25</w>
+<seg type="ws"> </seg>
+<w lemma="Plan" type="NN" xml:id="IC_d1e2842">Plänen</w>
+<pc type="comma" xml:id="IC_d1e2845">,</pc>
+<seg type="ws"> </seg>
+<w lemma="5" type="CARD" xml:id="IC_d1e2851">5</w>
+<seg type="ws"> </seg>
+<w lemma="Grundriss" type="NN" xml:id="IC_d1e2858">Grund<lb break="no" type="s"/>rissen</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="IC_d1e2866">und</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="IC_d1e2872">2</w>
+<seg type="ws"> </seg>
+<w lemma="Tafel" type="NN" xml:id="IC_d1e2879">Tafeln</w>
+<pc type="final" xml:id="IC_d1e2882">.</pc>
+<seg type="ws"> </seg>
+<w lemma="5." type="ADJA" xml:id="IC_d1e2888">5.</w>
+<seg type="ws"> </seg>
+<abbr><w lemma="Auflage" type="NN_ABK" xml:id="IC_d1e2895">Aufl.</w></abbr>
+<seg type="ws"> </seg>
+<date><w lemma="1908" type="CARD" xml:id="IC_d1e2903">1908</w></date>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="IC_d1e2915">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="8" type="CARD" xml:id="IC_d1e2922">8.—</w></p>
+
+</div></front></text></TEI>

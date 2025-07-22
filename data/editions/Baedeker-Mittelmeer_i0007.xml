@@ -1,0 +1,553 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Mittelmeer 1909, S. VII, Inhalt</title>
+            <title level="m">Das Mittelmeer. Handbuch für Reisende: Digitale Ausgabe</title>
+            <author>Karl Baedeker (company)</author>
+            <respStmt>
+               <resp xml:lang="en">compiled by</resp>
+               <name>Ulrike Czeitschner</name>
+            </respStmt>
+            <respStmt>
+               <resp xml:lang="en">in collaboration with</resp>
+               <name>Barbara Krautgartner</name>
+               <name>Victoria Eisenheld</name>
+               <name>Laura Lanig</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>full-text digital edition <date when="2017">2017</date></edition>
+            <funder>Austrian Academy of Sciences</funder>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+            <address>
+               <addrLine>Bäckerstraße 13</addrLine>
+               <addrLine>1010 Vienna</addrLine>
+            </address>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2017">2017</date>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="short">Karl Baedeker: Das Mittelmeer. Leipzig, 1909.</bibl>
+            <bibl type="transcript">Das Mittelmeer 
+            Hafenplätze und Seewege 
+            nebst 
+            Madeira, den Kanarischen Inseln, der Küste 
+            Marokkos, Algerien und Tunesien 
+            Handbuch für Reisende 
+            von 
+            Karl Bædeker 
+            Mit 38 Karten und 49 Plänen 
+            Leipzig 
+            Verlag von Karl Bædeker 
+            1909</bibl>
+            <biblStruct type="full">
+               <monogr>
+                  <author>Karl Baedeker</author>
+                  <title type="main">Das Mittelmeer</title>
+                  <title type="sub">Hafenplätze und Seewege 
+                    nebst 
+                    Madeira, den Kanarischen Inseln, der Küste 
+                    Marokkos, Algerien und Tunesien 
+                    Handbuch für Reisende 
+                    von 
+                    Karl Bædeker 
+                    Mit 38 Karten und 49 Plänen</title>
+                  <edition>first edition</edition>
+                  <imprint>
+                     <publisher>Verlag von Karl Bædeker</publisher>
+                     <pubPlace>Leipzig</pubPlace>
+                     <date when="1909">1909</date>
+                  </imprint>
+                  <extent>
+                     <measure type="pages">826 [XXXII, 635 p., maps not paged]</measure>
+                  </extent>
+               </monogr>
+            </biblStruct>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Vienna</settlement> 
+                  <institution>Austrian National Library</institution>
+                  <repository>Karten-Sammlung</repository>
+                  <idno type="signatory">583155-A</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Image creation, optical character recognition and basic XML annotation has been carried out within the framework of the AAC-Austrian Academy Corpus.</p>
+            <p>Transformation to TEI/P5, linguistic and semantic annotation has been applied within the the GO!DIGITAL 1.0 project "travel!digital. Exploring People and Monuments in Baedeker Guidebooks (1875-1914)", Project-Nr.: ÖAW0204.</p>
+         </projectDesc>
+         <listPrefixDef>
+            <prefixDef matchPattern="(person)" replacementPattern="persons.xml#$1" ident="person-prefix">
+               <p>Private URIs using the person  
+                  prefix are pointers to person
+                  elements in the personography.xml file.
+                  For example, psn:MDH
+                  dereferences to personography.xml#MDH</p>
+            </prefixDef>
+            <prefixDef matchPattern="(t)" replacementPattern="https://vocabs.acdh.oeaw.ac.at/traveldigital/$1" ident="thesaurus-prefix">
+               <p>Private URIs using the t  
+                  prefix are pointers to entries
+                  in the travel!digital thesaurus.
+                  For example, t:Concept6005600
+                  dereferences to https://vocabs.acdh.oeaw.ac.at/traveldigital/Concept6005600.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <editorialDecl>
+            <p>Annotation according to TEI/P5.</p>
+            <correction method="markup">
+               <p>Corrections have been represented using markup.</p>
+            </correction>
+            <normalization>
+               <p>Original orthography has been retained.</p>
+               <p>Original typography has been retained.</p>
+            </normalization>
+            <hyphenation eol="all">   
+               <p>All end-of-line hyphenation has been retained.</p>
+            </hyphenation>
+            <interpretation>
+               <p>personal names of historical, mythological/religious and literary figures (except occurences in street names and company names), dates, selected designations of groups and sights</p>
+               <p>tokenization, PoS-tagging (Stuttgart-Tübingen-TagSet, 54 part-of-speech tags for annotating German text corpora, Guidelines 1999), lemmatization, manually corrected</p>
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de" usage="98"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <list>
+                  <item>Baedeker guidebook</item>
+                  <item>Karl Baedeker</item>
+                  <item>historical travel guide</item>
+                  <item>Mediterranean Sea</item>
+                  <item>German language</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+<text type="book"><front><pb facs="https://id.acdh.oeaw.ac.at/traveldigital/Images/Baedeker-Mittelmeer_1909/Baedeker-Mittelmeer_i0007.tiff" n="S. VII, Inhalt"/>
+<div n="Inhalts-Verzeichnis." type="contents"><head><seg rend="bold"><w lemma="Inhalts-Verzeichnis" type="NN" xml:id="MM_d1e11745">Inhalts-Verzeichnis</w>
+<pc type="final" xml:id="MM_d1e11748">.</pc></seg></head>
+<milestone rend="hr" type="separator" unit="undetermined"/>
+<table><row><cell/>
+<cell/>
+<cell><w lemma="Seite" type="NN" xml:id="MM_d1e11760">Seite</w>
+<seg type="ws"> </seg></cell></row>
+<row><cell cols="2"><w lemma="Einleitung" type="NN" xml:id="MM_d1e11768">Einleitung</w>
+<seg type="ws"> </seg>
+<space dim="horizontal"/></cell>
+<cell><w lemma="13" type="CARD" xml:id="MM_d1e11777">XIII</w>
+<seg type="ws"> </seg></cell></row>
+<row><cell cols="3"><seg type="enum"><seg rend="bold"><w lemma="1." type="ADV" xml:id="MM_d1e11787">I.</w></seg></seg>
+<seg type="ws"> </seg>
+<seg rend="bold"><w lemma="Seeweg" type="NN" xml:id="MM_d1e11794">Seewege</w>
+<seg type="ws"> </seg>
+<w lemma="aus" type="APPR" xml:id="MM_d1e11800">aus</w>
+<seg type="ws"> </seg>
+<w lemma="Deutschland" type="NE" xml:id="MM_d1e11806">Deutschland</w>
+<seg type="ws"> </seg>
+<w lemma="nach" type="APPR" xml:id="MM_d1e11813">nach</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e11819">dem</w>
+<seg type="ws"> </seg>
+<w lemma="Mittelmeer" type="NE" xml:id="MM_d1e11825">Mittelmeer</w>
+<pc type="final" xml:id="MM_d1e11828">.</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e11835">Die</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2010700-1 t:Term2010700-1.1-de" type="ethNat"><w lemma="portugiesisch" type="ADJA" xml:id="MM_d1e11842">portugiesische</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Küste" type="NN" xml:id="MM_d1e11848">Küste</w>
+<pc type="final" xml:id="MM_d1e11852">.</pc></seg></cell></row>
+<row><cell cols="2"><w lemma="Route" type="NN" xml:id="MM_d1e11857">Route</w></cell></row>
+<row><cell><w lemma="1." type="ADV" xml:id="MM_d1e11862">1.</w></cell>
+<cell><w lemma="von" type="APPR" xml:id="MM_d1e11866">Von</w>
+<seg type="ws"> </seg>
+<w lemma="Hamburg" type="NE" xml:id="MM_d1e11872">Hamburg</w>
+<seg type="ws"> </seg>
+<w lemma="oder" type="KON" xml:id="MM_d1e11878">oder</w>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="MM_d1e11885">(</pc>
+<w lemma="Bremen" type="NE" xml:id="MM_d1e11888">Bremen</w>
+<pc type="internal" xml:id="MM_d1e11891">)</pc>
+<seg type="ws"> </seg>
+<w lemma="Bremerhaven" type="NE" xml:id="MM_d1e11897">Bremerhaven</w>
+<seg type="ws"> </seg>
+<w lemma="nach" type="APPR" xml:id="MM_d1e11904">nach</w>
+<seg type="ws"> </seg>
+<w lemma="Gibraltar" type="NE" xml:id="MM_d1e11910">Gibral<lb break="no" type="s"/>tar</w>
+<seg type="ws"> </seg>
+<w lemma="oder" type="KON" xml:id="MM_d1e11918">oder</w>
+<seg type="ws"> </seg>
+<w lemma="Tanger" type="NE" xml:id="MM_d1e11925">Tanger</w>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="MM_d1e11931">(</pc>
+<w lemma="Genua" type="NE" xml:id="MM_d1e11934">Genua</w>
+<pc type="comma" xml:id="MM_d1e11937">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Marseille" type="NE" xml:id="MM_d1e11944">Marseille</w>
+<pc type="internal" xml:id="MM_d1e11947">)</pc>
+<seg type="ws"> </seg>
+<space dim="horizontal"/></cell>
+<cell><w lemma="1" type="CARD" xml:id="MM_d1e11956">1</w>
+<seg type="ws"> </seg></cell></row>
+<row><cell><w lemma="2." type="ADV" xml:id="MM_d1e11964">2.</w>
+<seg type="ws"> </seg></cell>
+<cell><w lemma="von" type="APPR" xml:id="MM_d1e11971">Von</w>
+<seg type="ws"> </seg>
+<w lemma="Hamburg" type="NE" xml:id="MM_d1e11977">Hamburg</w>
+<seg type="ws"> </seg>
+<w lemma="über" type="APPR" xml:id="MM_d1e11983">über</w>
+<seg type="ws"> </seg>
+<w lemma="Leixões" type="NE" xml:id="MM_d1e11990">Leixões</w>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="MM_d1e11996">(</pc>
+<w lemma="Oporto" type="NE" xml:id="MM_d1e11999">Oporto</w>
+<pc type="internal" xml:id="MM_d1e12002">)</pc>
+<seg type="ws"> </seg>
+<w lemma="nach" type="APPR" xml:id="MM_d1e12009">nach</w>
+<seg type="ws"> </seg>
+<w lemma="Lissabon" type="NE" xml:id="MM_d1e12015">Lissabon</w>
+<seg type="ws"> </seg></cell>
+<cell><w lemma="6" type="CARD" xml:id="MM_d1e12022">6</w>
+<seg type="ws"> </seg></cell></row>
+<row><cell><w lemma="3." type="ADV" xml:id="MM_d1e12031">3.</w>
+<seg type="ws"> </seg></cell>
+<cell><w lemma="Lissabon" type="NE" xml:id="MM_d1e12038">Lissabon</w>
+<seg type="ws"> </seg>
+<space dim="horizontal"/></cell>
+<cell><w lemma="8" type="CARD" xml:id="MM_d1e12047">8</w>
+<seg type="ws"> </seg></cell></row>
+<row><cell cols="3"><seg type="enum"><seg rend="bold"><w lemma="2." type="ADV" xml:id="MM_d1e12057">II.</w></seg></seg>
+<seg type="ws"> </seg>
+<seg rend="bold"><w lemma="Madeira" type="NE" xml:id="MM_d1e12064">Madeira</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="MM_d1e12070">und</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e12076">die</w>
+<seg type="ws"> </seg>
+<w lemma="kanarisch" type="ADJA" xml:id="MM_d1e12083">Kanarischen</w>
+<seg type="ws"> </seg>
+<w lemma="Insel" type="NN" xml:id="MM_d1e12089">Inseln</w>
+<pc type="final" xml:id="MM_d1e12092">.</pc></seg></cell></row>
+<row><cell><w lemma="4." type="ADV" xml:id="MM_d1e12097">4.</w></cell>
+<cell><w lemma="Madeira" type="NE" xml:id="MM_d1e12101">Madeira</w>
+<seg type="ws"> </seg>
+<space dim="horizontal"/></cell>
+<cell><w lemma="19" type="CARD" xml:id="MM_d1e12110">19</w>
+<seg type="ws"> </seg></cell></row>
+<row><cell><w lemma="5." type="ADV" xml:id="MM_d1e12118">5.</w>
+<seg type="ws"> </seg></cell>
+<cell><w lemma="d" type="ART" xml:id="MM_d1e12125">Die</w>
+<seg type="ws"> </seg>
+<w lemma="kanarisch" type="ADJA" xml:id="MM_d1e12131">Kanarischen</w>
+<seg type="ws"> </seg>
+<w lemma="Insel" type="NN" xml:id="MM_d1e12137">Inseln</w>
+<seg type="ws"> </seg>
+<space dim="horizontal"/></cell>
+<cell><w lemma="30" type="CARD" xml:id="MM_d1e12147">30</w>
+<seg type="ws"> </seg></cell></row>
+<row><cell cols="3"><seg type="enum"><seg rend="bold"><w lemma="3." type="ADV" xml:id="MM_d1e12157">III.</w></seg></seg>
+<seg type="ws"> </seg>
+<seg rend="bold"><w lemma="Andalusien" type="NE" xml:id="MM_d1e12164">Andalusien</w>
+<pc type="final" xml:id="MM_d1e12167">.</pc></seg></cell></row>
+<row><cell><w lemma="6." type="ADV" xml:id="MM_d1e12172">6.</w>
+<seg type="ws"> </seg></cell>
+<cell><w lemma="Gibraltar" type="NE" xml:id="MM_d1e12179">Gibraltar</w>
+<seg type="ws"> </seg>
+<space dim="horizontal"/></cell>
+<cell><w lemma="54" type="CARD" xml:id="MM_d1e12188">54</w>
+<seg type="ws"> </seg></cell></row>
+<row><cell><w lemma="7." type="ADV" xml:id="MM_d1e12197">7.</w></cell>
+<cell><w lemma="von" type="APPR" xml:id="MM_d1e12201">Von</w>
+<seg type="ws"> </seg>
+<w lemma="Gibraltar" type="NE" xml:id="MM_d1e12207">Gibraltar</w>
+<seg type="ws"> </seg>
+<w lemma="über" type="APPR" xml:id="MM_d1e12213">über</w>
+<seg type="ws"> </seg>
+<w lemma="Bobadilla" type="NE" xml:id="MM_d1e12220">Bobadilla</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="MM_d1e12226">und</w>
+<seg type="ws"> </seg>
+<w lemma="Utrera" type="NE" xml:id="MM_d1e12232">Utrera</w>
+<seg type="ws"> </seg>
+<w lemma="nach" type="APPR" xml:id="MM_d1e12239">nach</w>
+<seg type="ws"> </seg>
+<w lemma="Sevilla" type="NE" xml:id="MM_d1e12245">Sevilla</w>
+<seg type="ws"> </seg>
+<space dim="horizontal"/></cell>
+<cell><w lemma="58" type="CARD" xml:id="MM_d1e12254">58</w>
+<seg type="ws"> </seg></cell></row>
+<row><cell><w lemma="8." type="ADV" xml:id="MM_d1e12262">8.</w></cell>
+<cell><w lemma="von" type="APPR" xml:id="MM_d1e12266">Von</w>
+<seg type="ws"> </seg>
+<w lemma="Gibraltar" type="NE" xml:id="MM_d1e12272">Gibraltar</w>
+<seg type="ws"> </seg>
+<w lemma="über" type="APPR" xml:id="MM_d1e12278">über</w>
+<seg type="ws"> </seg>
+<w lemma="Algeciras" type="NE" xml:id="MM_d1e12285">Algeciras</w>
+<pc type="comma" xml:id="MM_d1e12288">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Tanger" type="NE" xml:id="MM_d1e12294">Tanger</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="MM_d1e12300">und</w>
+<seg type="ws"> </seg>
+<w lemma="Cadix" type="NE" xml:id="MM_d1e12307">Cadix</w>
+<seg type="ws"> </seg>
+<w lemma="nach" type="APPR" xml:id="MM_d1e12313">nach</w><lb/>
+<w lemma="Sevilla" type="NE" xml:id="MM_d1e12318">Sevilla</w>
+<seg type="ws"> </seg>
+<space dim="horizontal"/></cell>
+<cell><w lemma="59" type="CARD" xml:id="MM_d1e12328">59</w>
+<seg type="ws"> </seg></cell></row>
+<row><cell><w lemma="9." type="ADV" xml:id="MM_d1e12336">9.</w>
+<seg type="ws"> </seg></cell>
+<cell><w lemma="Sevilla" type="NE" xml:id="MM_d1e12343">Sevilla</w>
+<seg type="ws"> </seg>
+<space dim="horizontal"/></cell>
+<cell><w lemma="61" type="CARD" xml:id="MM_d1e12352">61</w>
+<seg type="ws"> </seg></cell></row>
+<row><cell><w lemma="10." type="ADV" xml:id="MM_d1e12360">10.</w>
+<seg type="ws"> </seg></cell>
+<cell><w lemma="von" type="APPR" xml:id="MM_d1e12367">Von</w>
+<seg type="ws"> </seg>
+<w lemma="Sevilla" type="NE" xml:id="MM_d1e12373">Sevilla</w>
+<seg type="ws"> </seg>
+<w lemma="nach" type="APPR" xml:id="MM_d1e12379">nach</w>
+<seg type="ws"> </seg>
+<w lemma="Córdoba" type="NE" xml:id="MM_d1e12386">Córdoba</w>
+<seg type="ws"> </seg>
+<space dim="horizontal"/></cell>
+<cell><w lemma="70" type="CARD" xml:id="MM_d1e12395">70</w>
+<seg type="ws"> </seg></cell></row>
+<row><cell><w lemma="11." type="ADV" xml:id="MM_d1e12403">11.</w>
+<seg type="ws"> </seg></cell>
+<cell><w lemma="von" type="APPR" xml:id="MM_d1e12410">Von</w>
+<seg type="ws"> </seg>
+<w lemma="Córdoba" type="NE" xml:id="MM_d1e12416">Córdoba</w>
+<seg type="ws"> </seg>
+<w lemma="über" type="APPR" xml:id="MM_d1e12422">über</w>
+<seg type="ws"> </seg>
+<w lemma="Bobadilla" type="NE" xml:id="MM_d1e12429">Bobadilla</w>
+<seg type="ws"> </seg>
+<w lemma="nach" type="APPR" xml:id="MM_d1e12435">nach</w>
+<seg type="ws"> </seg>
+<w lemma="Granada" type="NE" xml:id="MM_d1e12441">Granada</w>
+<seg type="ws"> </seg></cell>
+<cell><w lemma="74" type="CARD" xml:id="MM_d1e12448">74</w>
+<seg type="ws"> </seg></cell></row>
+<row><cell><w lemma="12." type="ADV" xml:id="MM_d1e12456">12.</w>
+<seg type="ws"> </seg></cell>
+<cell><w lemma="Granada" type="NE" xml:id="MM_d1e12463">Granada</w>
+<seg type="ws"> </seg>
+<space dim="horizontal"/></cell>
+<cell><w lemma="75" type="CARD" xml:id="MM_d1e12472">75</w>
+<seg type="ws"> </seg></cell></row>
+<row><cell><w lemma="13." type="ADV" xml:id="MM_d1e12481">13.</w>
+<seg type="ws"> </seg></cell>
+<cell><w lemma="von" type="APPR" xml:id="MM_d1e12488">Von</w>
+<seg type="ws"> </seg>
+<w lemma="Granada" type="NE" xml:id="MM_d1e12494">Granada</w>
+<seg type="ws"> </seg>
+<w lemma="über" type="APPR" xml:id="MM_d1e12500">über</w>
+<seg type="ws"> </seg>
+<w lemma="Bobadilla" type="NE" xml:id="MM_d1e12507">Bobadilla</w>
+<seg type="ws"> </seg>
+<w lemma="nach" type="APPR" xml:id="MM_d1e12513">nach</w>
+<seg type="ws"> </seg>
+<w lemma="Málaga" type="NE" xml:id="MM_d1e12519">Málaga</w>
+<seg type="ws"> </seg>
+<space dim="horizontal"/></cell>
+<cell><w lemma="90" type="CARD" xml:id="MM_d1e12529">90</w>
+<seg type="ws"> </seg></cell></row>
+<row><cell cols="3"><seg type="enum"><seg rend="bold"><w lemma="4." type="ADV" xml:id="MM_d1e12539">IV.</w></seg></seg>
+<seg type="ws"> </seg>
+<seg rend="bold"><w lemma="Marokko" type="NE" xml:id="MM_d1e12546">Marokko</w>
+<pc type="final" xml:id="MM_d1e12549">.</pc></seg></cell></row>
+<row><cell><w lemma="14." type="ADV" xml:id="MM_d1e12554">14.</w>
+<seg type="ws"> </seg></cell>
+<cell><w lemma="Tanger" type="NE" xml:id="MM_d1e12561">Tanger</w>
+<seg type="ws"> </seg>
+<space dim="horizontal"/></cell>
+<cell><w lemma="100" type="CARD" xml:id="MM_d1e12570">100</w>
+<seg type="ws"> </seg></cell></row>
+<row><cell><w lemma="15." type="ADV" xml:id="MM_d1e12578">15.</w>
+<seg type="ws"> </seg></cell>
+<cell><w lemma="von" type="APPR" xml:id="MM_d1e12585">Von</w>
+<seg type="ws"> </seg>
+<w lemma="Tanger" type="NE" xml:id="MM_d1e12591">Tanger</w>
+<seg type="ws"> </seg>
+<w lemma="nach" type="APPR" xml:id="MM_d1e12597">nach</w>
+<seg type="ws"> </seg>
+<w lemma="Tetuán" type="NE" xml:id="MM_d1e12604">Tetuán</w>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="MM_d1e12610">(</pc>
+<w lemma="Ceuta" type="NE" xml:id="MM_d1e12613">Ceuta</w>
+<pc type="internal" xml:id="MM_d1e12616">)</pc>
+<seg type="ws"> </seg>
+<space dim="horizontal"/></cell>
+<cell><w lemma="104" type="CARD" xml:id="MM_d1e12626">104</w>
+<seg type="ws"> </seg></cell></row>
+<row><cell><w lemma="16." type="ADV" xml:id="MM_d1e12634">16.</w>
+<seg type="ws"> </seg></cell>
+<cell><w lemma="von" type="APPR" xml:id="MM_d1e12641">Von</w>
+<seg type="ws"> </seg>
+<w lemma="Tanger" type="NE" xml:id="MM_d1e12647">Tanger</w>
+<seg type="ws"> </seg>
+<w lemma="zu" type="APPRART" xml:id="MM_d1e12653">zur</w>
+<seg type="ws"> </seg>
+<w lemma="See" type="NN" xml:id="MM_d1e12660">See</w>
+<seg type="ws"> </seg>
+<w lemma="nach" type="APPR" xml:id="MM_d1e12666">nach</w>
+<seg type="ws"> </seg>
+<w lemma="Mogador" type="NE" xml:id="MM_d1e12672">Mogador</w>
+<seg type="ws"> </seg>
+<space dim="horizontal"/></cell>
+<cell><w lemma="106" type="CARD" xml:id="MM_d1e12682">106</w>
+<seg type="ws"> </seg></cell></row>
+<row><cell cols="3"><seg type="enum"><seg rend="bold"><w lemma="5." type="ADV" xml:id="MM_d1e12692">V.</w></seg></seg>
+<seg type="ws"> </seg>
+<seg rend="bold"><w lemma="Seeweg" type="NN" xml:id="MM_d1e12699">Seewege</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPRART" xml:id="MM_d1e12705">im</w>
+<seg type="ws"> </seg>
+<w lemma="westlich" type="ADJA" xml:id="MM_d1e12711">westlichen</w>
+<seg type="ws"> </seg>
+<w lemma="Mittelmeer" type="NE" xml:id="MM_d1e12718">Mittelmeer</w>
+<pc type="final" xml:id="MM_d1e12721">.</pc></seg></cell></row>
+<row><cell><w lemma="17." type="ADV" xml:id="MM_d1e12727">17.</w></cell>
+<cell><w lemma="von" type="APPR" xml:id="MM_d1e12731">Von</w>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="MM_d1e12737">(</pc>
+<w lemma="Bremen" type="NE" xml:id="MM_d1e12740">Bremen</w>
+<pc type="internal" xml:id="MM_d1e12743">)</pc>
+<seg type="ws"> </seg>
+<w lemma="Bremerhaven" type="NE" xml:id="MM_d1e12750">Bremerhaven</w>
+<seg type="ws"> </seg>
+<w lemma="durch" type="APPR" xml:id="MM_d1e12756">durch</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e12762">das</w>
+<seg type="ws"> </seg>
+<w lemma="balearisch" type="ADJA" xml:id="MM_d1e12769">Balearische</w>
+<seg type="ws"> </seg>
+<w lemma="Meer" type="NN" xml:id="MM_d1e12775">Meer</w><lb/>
+<w lemma="nach" type="APPR" xml:id="MM_d1e12780">nach</w>
+<seg type="ws"> </seg>
+<w lemma="Genua" type="NE" xml:id="MM_d1e12787">Genua</w>
+<seg type="ws"> </seg>
+<space dim="horizontal"/></cell>
+<cell><w lemma="113" type="CARD" xml:id="MM_d1e12796">113</w>
+<seg type="ws"> </seg></cell></row>
+<row><cell><w lemma="18." type="ADV" xml:id="MM_d1e12804">18.</w>
+<seg type="ws"> </seg></cell>
+<cell><w lemma="von" type="APPR" xml:id="MM_d1e12811">Von</w>
+<seg type="ws"> </seg>
+<w lemma="Gibraltar" type="NE" xml:id="MM_d1e12817">Gibraltar</w>
+<seg type="ws"> </seg>
+<w lemma="über" type="APPR" xml:id="MM_d1e12823">über</w>
+<seg type="ws"> </seg>
+<w lemma="Algier" type="NE" xml:id="MM_d1e12830">Algier</w>
+<seg type="ws"> </seg>
+<w lemma="nach" type="APPR" xml:id="MM_d1e12836">nach</w>
+<seg type="ws"> </seg>
+<w lemma="Genua" type="NE" xml:id="MM_d1e12842">Genua</w>
+<seg type="ws"> </seg>
+<space dim="horizontal"/></cell>
+<cell><w lemma="120" type="CARD" xml:id="MM_d1e12852">120</w>
+<seg type="ws"> </seg></cell></row>
+<row><cell><w lemma="19." type="ADV" xml:id="MM_d1e12860">19.</w>
+<seg type="ws"> </seg></cell>
+<cell><w lemma="von" type="APPR" xml:id="MM_d1e12867">Von</w>
+<seg type="ws"> </seg>
+<w lemma="Gibraltar" type="NE" xml:id="MM_d1e12873">Gibraltar</w>
+<seg type="ws"> </seg>
+<w lemma="nach" type="APPR" xml:id="MM_d1e12879">nach</w>
+<seg type="ws"> </seg>
+<w lemma="Neapel" type="NE" xml:id="MM_d1e12886">Neapel</w>
+<seg type="ws"> </seg>
+<space dim="horizontal"/></cell>
+<cell><w lemma="121" type="CARD" xml:id="MM_d1e12895">121</w>
+<seg type="ws"> </seg></cell></row>
+<row><cell><w lemma="20." type="ADV" xml:id="MM_d1e12903">20.</w>
+<seg type="ws"> </seg></cell>
+<cell><w lemma="von" type="APPR" xml:id="MM_d1e12910">Von</w>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="MM_d1e12916">(</pc>
+<w lemma="Lissabon" type="NE" xml:id="MM_d1e12919">Lissabon</w>
+<pc type="internal" xml:id="MM_d1e12922">)</pc>
+<seg type="ws"> </seg>
+<w lemma="Tanger" type="NE" xml:id="MM_d1e12929">Tanger</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="MM_d1e12935">und</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPR" xml:id="MM_d1e12941">von</w>
+<seg type="ws"> </seg>
+<w lemma="Gibraltar" type="NE" xml:id="MM_d1e12948">Gibraltar</w>
+<seg type="ws"> </seg>
+<w lemma="nach" type="APPR" xml:id="MM_d1e12954">nach</w>
+<seg type="ws"> </seg>
+<w lemma="Marseille" type="NE" xml:id="MM_d1e12960">Marseille</w></cell>
+<cell><w lemma="122" type="CARD" xml:id="MM_d1e12964">122</w>
+<seg type="ws"> </seg></cell></row>
+<row><cell><w lemma="21." type="ADV" xml:id="MM_d1e12972">21.</w></cell>
+<cell><w lemma="von" type="APPR" xml:id="MM_d1e12976">Von</w>
+<seg type="ws"> </seg>
+<w lemma="Tanger" type="NE" xml:id="MM_d1e12982">Tanger</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="MM_d1e12988">und</w>
+<seg type="ws"> </seg>
+<w lemma="Cartagena" type="NE" xml:id="MM_d1e12995">Cartagena</w>
+<seg type="ws"> </seg>
+<w lemma="nach" type="APPR" xml:id="MM_d1e13001">nach</w>
+<seg type="ws"> </seg>
+<w lemma="Oran" type="NE" xml:id="MM_d1e13007">Oran</w>
+<seg type="ws"> </seg>
+<space dim="horizontal"/></cell>
+<cell><w lemma="126" type="CARD" xml:id="MM_d1e13017">126</w>
+<seg type="ws"> </seg></cell></row>
+<row><cell><w lemma="22." type="ADV" xml:id="MM_d1e13025">22.</w></cell>
+<cell><w lemma="von" type="APPR" xml:id="MM_d1e13029">Von</w>
+<seg type="ws"> </seg>
+<w lemma="Marseille" type="NE" xml:id="MM_d1e13035">Marseille</w>
+<seg type="ws"> </seg>
+<w lemma="nach" type="APPR" xml:id="MM_d1e13041">nach</w>
+<seg type="ws"> </seg>
+<w lemma="Oran" type="NE" xml:id="MM_d1e13048">Oran</w>
+<seg type="ws"> </seg>
+<space dim="horizontal"/></cell>
+<cell><w lemma="129" type="CARD" xml:id="MM_d1e13057">129</w>
+<seg type="ws"> </seg></cell></row>
+<row><cell><w lemma="23." type="ADV" xml:id="MM_d1e13066">23.</w></cell>
+<cell><w lemma="von" type="APPR" xml:id="MM_d1e13070">Von</w>
+<seg type="ws"> </seg>
+<w lemma="Marseille" type="NE" xml:id="MM_d1e13076">Marseille</w>
+<seg type="ws"> </seg>
+<w lemma="nach" type="APPR" xml:id="MM_d1e13082">nach</w>
+<seg type="ws"> </seg>
+<w lemma="Algier" type="NE" xml:id="MM_d1e13089">Algier</w>
+<pc type="comma" xml:id="MM_d1e13092">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Bougie" type="NE" xml:id="MM_d1e13098">Bougie</w>
+<pc type="comma" xml:id="MM_d1e13101">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Philippeville" type="NE" xml:id="MM_d1e13108">Philippeville</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="MM_d1e13114">und</w><lb/>
+<w lemma="Bône" type="NE" xml:id="MM_d1e13119">Bône</w>
+<seg type="ws"> </seg>
+<space dim="horizontal"/></cell>
+<cell><w lemma="130" type="CARD" xml:id="MM_d1e13129">130</w>
+<seg type="ws"> </seg></cell></row></table>
+
+</div></front></text></TEI>

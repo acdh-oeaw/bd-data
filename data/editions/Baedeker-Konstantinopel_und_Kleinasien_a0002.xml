@@ -1,0 +1,973 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title level="a">Konstantinopel und Kleinasien 1905, v. Umschlag verso</title>
+            <title level="m">Konstantinopel und Kleinasien. Handbuch für Reisende: Digitale Ausgabe</title>
+            <author>Karl Baedeker (company)</author>
+            <respStmt>
+                <resp xml:lang="en">compiled by</resp>
+                <name>Ulrike Czeitschner</name>
+            </respStmt>
+            <respStmt>
+                <resp xml:lang="en">in collaboration with</resp>
+                <name>Barbara Krautgartner</name>
+                <name>Victoria Eisenheld</name>
+            </respStmt>
+        </titleStmt>
+        <editionStmt>
+            <edition>full-text digital edition <date when="2017">2017</date>
+            </edition>
+            <funder>Austrian Academy of Sciences</funder>
+        </editionStmt>
+        <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+            <address>
+                <addrLine>Bäckerstraße 13</addrLine>
+                <addrLine>1010 Vienna</addrLine>
+            </address>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2017">2017</date>
+            <availability>
+                <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+            </availability>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl type="short">Karl Baedeker: Konstantinopel und Kleinasien. Leipzig, 1905.</bibl>
+            <bibl type="transcript">Konstantinopel 
+            und das
+            Westliche Kleinasien 
+            Handbuch für Reisende
+            von 
+            Karl Bædeker 
+            Mit 9 Karten, 29 Plänen und 5 Grundrissen 
+            Leipzig 
+            Verlag von Karl Bædeker 
+            1905</bibl>
+            <biblStruct type="full">
+                <monogr>
+                    <author>Karl Baedeker</author>
+                    <title type="main">Konstantinopel 
+                    und das 
+                    Westliche Kleinasien</title>
+                    <title type="sub">Handbuch für Reisende 
+                    von 
+                    Karl Bædeker 
+                    Mit 9 Karten, 29 Plänen und 5 Grundrissen</title>
+                    <edition>first edition</edition>
+                    <imprint>
+                        <publisher>Verlag von Karl Bædeker</publisher>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date when="1905">1905</date>
+                    </imprint>
+                    <extent>
+                        <measure type="pages">376 [XXIV, 275 p., maps not paged]</measure>
+                    </extent>
+                </monogr>
+            </biblStruct>
+            <msDesc>
+                <msIdentifier>
+                    <settlement>Vienna</settlement>
+                    <institution>Austrian Academy of Sciences</institution>
+                    <repository>Sammlung Woldan</repository>
+                    <idno type="signatory">G-I: AS/Vor 666</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <projectDesc>
+            <p>Image creation, optical character recognition and basic XML annotation has been carried out within the framework of the AAC-Austrian Academy Corpus.</p>
+            <p>Transformation to TEI/P5, linguistic and semantic annotation has been applied within the the GO!DIGITAL 1.0 project "travel!digital. Exploring People and Monuments in Baedeker Guidebooks (1875-1914)", Project-Nr.: ÖAW0204.</p>
+        </projectDesc>
+        <listPrefixDef>
+            <prefixDef matchPattern="(person)" replacementPattern="persons.xml#$1" ident="person-prefix">
+                <p>Private URIs using the person  
+                      prefix are pointers to person
+                      elements in the personography.xml file.
+                      For example, psn:MDH
+                      dereferences to personography.xml#MDH</p>
+            </prefixDef>
+            <prefixDef matchPattern="(t)" replacementPattern="https://vocabs.acdh.oeaw.ac.at/traveldigital/$1" ident="thesaurus-prefix">
+                <p>Private URIs using the t  
+                      prefix are pointers to entries
+                      in the travel!digital thesaurus.
+                      For example, t:Concept6005600
+                      dereferences to https://vocabs.acdh.oeaw.ac.at/traveldigital/Concept6005600.</p>
+            </prefixDef>
+        </listPrefixDef>
+        <editorialDecl>
+            <p>Annotation according to TEI/P5.</p>
+            <correction method="markup">
+                <p>Corrections have been represented using markup.</p>
+            </correction>
+            <normalization>
+                <p>Original orthography has been retained.</p>
+                <p>Original typography has been retained.</p>
+            </normalization>
+            <hyphenation eol="all">
+                <p>All end-of-line hyphenation has been retained.</p>
+            </hyphenation>
+            <interpretation>
+                <p>personal names of historical, mythological/religious and literary figures (except occurences in street names and company names), dates, selected designations of groups and sights</p>
+                <p>tokenization, PoS-tagging (Stuttgart-Tübingen-TagSet, 54 part-of-speech tags for annotating German text corpora, Guidelines 1999), lemmatization, manually corrected</p>
+            </interpretation>
+        </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+        <langUsage>
+            <language ident="de" usage="98"/>
+        </langUsage>
+        <textClass>
+            <keywords>
+                <list>
+                    <item>Baedeker guidebook</item>
+                    <item>Karl Baedeker</item>
+                    <item>historical travel guide</item>
+                    <item>Constantinople</item>
+                    <item>Asia Minor</item>
+                    <item>German language</item>
+                </list>
+            </keywords>
+        </textClass>
+    </profileDesc>
+</teiHeader>
+<text type="book"><front><pb facs="https://id.acdh.oeaw.ac.at/traveldigital/Images/Baedeker-Konstantinopel_und_Kleinasien_1905/Baedeker-Konstantinopel_und_Kleinasien_a0002.tiff" n="v. Umschlag verso"/>
+<div type="advertisement"><p><seg rend="bold"><persName ref="person:baedeker" type="hist"><w lemma="Baedeker" type="NE" xml:id="KK_d1e286">BÆDEKERS</w></persName>
+<seg type="ws"> </seg>
+<w lemma="Reisehandbuch" type="NN" xml:id="KK_d1e292">REISEHANDBÜCHER</w>
+<pc type="final" xml:id="KK_d1e295">.</pc></seg></p>
+<p><seg rend="bold"><w lemma="Deutschland" type="NE" xml:id="KK_d1e300">Deutschland</w>
+<pc type="final" xml:id="KK_d1e303">:</pc></seg></p>
+<p><seg rend="italicised"><w lemma="Deutschland" type="NE" xml:id="KK_d1e308">Deutschland</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="KK_d1e314">in</w>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="KK_d1e320">einem</w>
+<seg type="ws"> </seg>
+<w lemma="Band" type="NN" xml:id="KK_d1e327">Bande</w></seg>
+<pc type="final" xml:id="KK_d1e330">.</pc>
+<seg type="ws"> </seg>
+<w lemma="mit" type="APPR" xml:id="KK_d1e336">Mit</w>
+<seg type="ws"> </seg>
+<w lemma="19" type="CARD" xml:id="KK_d1e342">19</w>
+<seg type="ws"> </seg>
+<w lemma="Karte" type="NN" xml:id="KK_d1e349">Karten</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON_ABK" xml:id="KK_d1e355">u.</w>
+<seg type="ws"> </seg>
+<w lemma="67" type="CARD" xml:id="KK_d1e361">67</w>
+<seg type="ws"> </seg>
+<w lemma="Plan" type="NN" xml:id="KK_d1e368">Plänen</w>
+<pc type="final" xml:id="KK_d1e371">.</pc>
+<seg type="ws"> </seg>
+<w lemma="2." type="ADJA" xml:id="KK_d1e377">2.</w>
+<seg type="ws"> </seg>
+<w lemma="Auflage" type="NN_ABK" xml:id="KK_d1e384">Aufl.</w><lb/>
+<date><w lemma="1909" type="CARD" xml:id="KK_d1e389">1909</w></date>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="KK_d1e402">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="9" type="CARD" xml:id="KK_d1e408">9.—</w></p>
+<p><seg rend="italicised"><w lemma="Berlin" type="NE" xml:id="KK_d1e413">Berlin</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON_ABK" xml:id="KK_d1e419">u.</w>
+<seg type="ws"> </seg>
+<w lemma="Umgebung" type="NN" xml:id="KK_d1e425">Umgebung</w></seg>
+<pc type="final" xml:id="KK_d1e428">.</pc>
+<seg type="ws"> </seg>
+<w lemma="mit" type="APPR" xml:id="KK_d1e434">Mit</w>
+<seg type="ws"> </seg>
+<w lemma="5" type="CARD" xml:id="KK_d1e440">5</w>
+<seg type="ws"> </seg>
+<w lemma="Karte" type="NN_ABK" xml:id="KK_d1e447">Kart.</w>
+<pc type="comma" xml:id="KK_d1e450">,</pc>
+<seg type="ws"> </seg>
+<w lemma="6" type="CARD" xml:id="KK_d1e456">6</w>
+<seg type="ws"> </seg>
+<w lemma="Plan" type="NN_ABK" xml:id="KK_d1e463">Plän.</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON_ABK" xml:id="KK_d1e469">u.</w>
+<seg type="ws"> </seg>
+<w lemma="14" type="CARD" xml:id="KK_d1e475">14</w>
+<seg type="ws"> </seg>
+<w lemma="Grundriss" type="NN_ABK" xml:id="KK_d1e482">Grundr.</w>
+<seg type="ws"> </seg>
+<w lemma="15." type="ADJA" xml:id="KK_d1e488">15.</w>
+<seg type="ws"> </seg>
+<w lemma="Auflage" type="NN_ABK" xml:id="KK_d1e494">Aufl.</w>
+<date><w lemma="1908" type="CARD" xml:id="KK_d1e498">1908</w></date>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="KK_d1e506">M</w></seg>
+<seg type="ws"> </seg>
+<choice><sic><w lemma="3" type="CARD" xml:id="KK_d1e514">3<supplied reason="missing">.</supplied>—</w></sic>
+<corr cert="high">3.—</corr></choice></p>
+<p><seg rend="italicised"><w lemma="Nordost-Deutschland" type="NE" xml:id="KK_d1e525">Nordost-Deutschland</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="KK_d1e531">und</w>
+<seg type="ws"> </seg>
+<w lemma="Dänemark" type="NE" xml:id="KK_d1e537">Dänemark</w></seg>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="KK_d1e543">(</pc>
+<w lemma="von" type="APPR" xml:id="KK_d1e546">von</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="KK_d1e552">der</w>
+<seg type="ws"> </seg>
+<w lemma="Elbe" type="NE" xml:id="KK_d1e559">Elbe</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="KK_d1e565">und</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="KK_d1e571">der</w>
+<seg type="ws"> </seg>
+<w lemma="Westgrenze" type="NN" xml:id="KK_d1e578">West<lb break="no" type="s"/>grenze</w>
+<seg type="ws"> </seg>
+<w lemma="Sachsen" type="NE" xml:id="KK_d1e586">Sachsens</w>
+<seg type="ws"> </seg>
+<w lemma="an" type="APZR" xml:id="KK_d1e592">an</w>
+<seg type="ws"> </seg>
+<w lemma="nebst" type="APPR" xml:id="KK_d1e599">nebst</w>
+<seg type="ws"> </seg>
+<w lemma="Hamburg" type="NE" xml:id="KK_d1e605">Hamburg</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="KK_d1e611">und</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="KK_d1e618">der</w>
+<seg type="ws"> </seg>
+<w lemma="Westküste" type="NN" xml:id="KK_d1e624">Westküste</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPR" xml:id="KK_d1e630">von</w>
+<seg type="ws"> </seg>
+<w lemma="Schleswig-Holstein" type="NE" xml:id="KK_d1e637">Schleswig-<lb break="no"/>Holstein</w>
+<pc type="internal" xml:id="KK_d1e642">)</pc>
+<pc type="final" xml:id="KK_d1e645">.</pc>
+<seg type="ws"> </seg>
+<w lemma="mit" type="APPR" xml:id="KK_d1e651">Mit</w>
+<seg type="ws"> </seg>
+<w lemma="über" type="ADV" xml:id="KK_d1e658">über</w>
+<seg type="ws"> </seg>
+<w lemma="100" type="CARD" xml:id="KK_d1e664">100</w>
+<seg type="ws"> </seg>
+<w lemma="Karte" type="NN" xml:id="KK_d1e670">Karten</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="KK_d1e677">und</w>
+<seg type="ws"> </seg>
+<w lemma="Plan" type="NN" xml:id="KK_d1e683">Plänen</w>
+<pc type="final" xml:id="KK_d1e686">.</pc>
+<seg type="ws"> </seg>
+<w lemma="29." type="ADJA" xml:id="KK_d1e693">29.</w>
+<seg type="ws"> </seg>
+<w lemma="Auflage" type="NN_ABK" xml:id="KK_d1e699">Aufl.</w>
+<seg type="ws"> </seg>
+<date><w lemma="1908" type="CARD" xml:id="KK_d1e706">1908</w></date>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="KK_d1e714">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="6" type="CARD" xml:id="KK_d1e720">6.—</w></p>
+<p><seg rend="italicised"><w lemma="Nordwest-Deutschland" type="NE" xml:id="KK_d1e725">Nordwest-Deutschland</w></seg>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="KK_d1e731">(</pc>
+<w lemma="von" type="APPR" xml:id="KK_d1e734">von</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="KK_d1e740">der</w>
+<seg type="ws"> </seg>
+<w lemma="Elbe" type="NE" xml:id="KK_d1e747">Elbe</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="KK_d1e753">und</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="KK_d1e759">der</w>
+<seg type="ws"> </seg>
+<w lemma="Westgrenze" type="NN" xml:id="KK_d1e766">Westgrenze</w>
+<seg type="ws"> </seg>
+<w lemma="Sachsen" type="NE" xml:id="KK_d1e772">Sachsens</w>
+<seg type="ws"> </seg>
+<w lemma="an" type="APZR" xml:id="KK_d1e778">an</w>
+<pc type="comma" xml:id="KK_d1e782">,</pc><lb/>
+<w lemma="nebst" type="APPR" xml:id="KK_d1e786">nebst</w>
+<seg type="ws"> </seg>
+<w lemma="Hamburg" type="NE" xml:id="KK_d1e792">Hamburg</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="KK_d1e799">und</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="KK_d1e805">der</w>
+<seg type="ws"> </seg>
+<w lemma="Westküste" type="NN" xml:id="KK_d1e811">Westküste</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPR" xml:id="KK_d1e818">von</w>
+<seg type="ws"> </seg>
+<w lemma="Schleswig-Holstein" type="NE" xml:id="KK_d1e824">Schleswig-Holstein</w>
+<pc type="internal" xml:id="KK_d1e827">)</pc>
+<pc type="final" xml:id="KK_d1e830">.</pc>
+<seg type="ws"> </seg>
+<w lemma="mit" type="APPR" xml:id="KK_d1e837">Mit</w>
+<seg type="ws"> </seg>
+<w lemma="über" type="ADV" xml:id="KK_d1e843">über</w><lb/>
+<w lemma="100" type="CARD" xml:id="KK_d1e847">100</w>
+<seg type="ws"> </seg>
+<w lemma="Karte" type="NN" xml:id="KK_d1e854">Karten</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="KK_d1e860">und</w>
+<seg type="ws"> </seg>
+<w lemma="Plan" type="NN" xml:id="KK_d1e866">Plänen</w>
+<pc type="final" xml:id="KK_d1e869">.</pc>
+<seg type="ws"> </seg>
+<w lemma="29." type="ADJA" xml:id="KK_d1e876">29.</w>
+<seg type="ws"> </seg>
+<w lemma="Auflage" type="NN_ABK" xml:id="KK_d1e882">Aufl.</w>
+<seg type="ws"> </seg>
+<date><w lemma="1908" type="CARD" xml:id="KK_d1e889">1908</w></date>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="KK_d1e902">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="6" type="CARD" xml:id="KK_d1e908">6.—</w></p>
+<p><seg rend="italicised"><w lemma="Süd-Deutschland" type="NE" xml:id="KK_d1e914">Süd-Deutschland</w></seg>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="KK_d1e920">(</pc>
+<w lemma="Oberrhein" type="NE" xml:id="KK_d1e923">Oberrhein</w>
+<pc type="comma" xml:id="KK_d1e926">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Baden" type="NE" xml:id="KK_d1e933">Baden</w>
+<pc type="comma" xml:id="KK_d1e936">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Württemberg" type="NE" xml:id="KK_d1e942">Württemberg</w>
+<pc type="comma" xml:id="KK_d1e945">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Bayern" type="NE" xml:id="KK_d1e952">Bayern</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="KK_d1e958">und</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="KK_d1e964">die</w><lb/>
+<w lemma="angrenzen" type="ADJA" xml:id="KK_d1e969">angrenzenden</w>
+<seg type="ws"> </seg>
+<w lemma="Teil" type="NN" xml:id="KK_d1e975">Teile</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPR" xml:id="KK_d1e981">von</w>
+<seg type="ws"> </seg>
+<w lemma="Österreich" type="NE" xml:id="KK_d1e988">Österreich</w>
+<pc type="internal" xml:id="KK_d1e991">)</pc>
+<pc type="final" xml:id="KK_d1e994">.</pc>
+<seg type="ws"> </seg>
+<w lemma="mit" type="APPR" xml:id="KK_d1e1000">Mit</w>
+<seg type="ws"> </seg>
+<w lemma="über" type="ADV" xml:id="KK_d1e1007">über</w>
+<seg type="ws"> </seg>
+<w lemma="100" type="CARD" xml:id="KK_d1e1013">100</w>
+<seg type="ws"> </seg>
+<w lemma="Karte" type="NN" xml:id="KK_d1e1019">Karten</w>
+<pc type="comma" xml:id="KK_d1e1022">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Plan" type="NN" xml:id="KK_d1e1029">Plänen</w><lb/>
+<w lemma="und" type="KON" xml:id="KK_d1e1033">und</w>
+<seg type="ws"> </seg>
+<w lemma="Grundriss" type="NN" xml:id="KK_d1e1039">Grundrissen</w>
+<pc type="final" xml:id="KK_d1e1043">.</pc>
+<seg type="ws"> </seg>
+<w lemma="30." type="ADJA" xml:id="KK_d1e1049">30.</w>
+<seg type="ws"> </seg>
+<w lemma="Auflage" type="NN_ABK" xml:id="KK_d1e1055">Aufl.</w>
+<seg type="ws"> </seg>
+<date><w lemma="1909" type="CARD" xml:id="KK_d1e1063">1909</w></date>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="KK_d1e1075">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="6" type="CARD" xml:id="KK_d1e1082">6.—</w></p>
+<p><seg rend="italicised"><w lemma="Rheinland" type="NE" xml:id="KK_d1e1087">Rheinlande</w>
+<pc type="comma" xml:id="KK_d1e1090">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Schwarzwald" type="NE" xml:id="KK_d1e1096">Schwarzwald</w>
+<pc type="comma" xml:id="KK_d1e1099">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Vogesen" type="NE" xml:id="KK_d1e1106">Vogesen</w></seg>
+<pc type="final" xml:id="KK_d1e1109">.</pc>
+<seg type="ws"> </seg>
+<w lemma="mit" type="APPR" xml:id="KK_d1e1115">Mit</w>
+<seg type="ws"> </seg>
+<w lemma="65" type="CARD" xml:id="KK_d1e1121">65</w>
+<seg type="ws"> </seg>
+<w lemma="Karte" type="NN" xml:id="KK_d1e1128">Karten</w>
+<pc type="comma" xml:id="KK_d1e1131">,</pc>
+<seg type="ws"> </seg>
+<w lemma="62" type="CARD" xml:id="KK_d1e1137">62</w>
+<seg type="ws"> </seg>
+<w lemma="Plan" type="NN" xml:id="KK_d1e1144">Plänen</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="KK_d1e1150">und</w><lb/>
+<w lemma="Grundriss" type="NN" xml:id="KK_d1e1154">Grundrissen</w>
+<pc type="final" xml:id="KK_d1e1157">.</pc>
+<seg type="ws"> </seg>
+<w lemma="31." type="ADJA" xml:id="KK_d1e1164">31.</w>
+<seg type="ws"> </seg>
+<w lemma="Auflage" type="NN_ABK" xml:id="KK_d1e1170">Aufl.</w>
+<seg type="ws"> </seg>
+<date><w lemma="1909" type="CARD" xml:id="KK_d1e1177">1909</w></date>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="KK_d1e1190">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="6" type="CARD" xml:id="KK_d1e1196">6.—</w></p>
+<p><seg rend="italicised"><w lemma="Südbayern" type="NE" xml:id="KK_d1e1201">Südbayern</w>
+<pc type="comma" xml:id="KK_d1e1204">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Tirol" type="NE" xml:id="KK_d1e1210">Tirol</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="KK_d1e1216">und</w>
+<seg type="ws"> </seg>
+<w lemma="Salzburg" type="NE" xml:id="KK_d1e1223">Salzburg</w></seg>
+<pc type="comma" xml:id="KK_d1e1226">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Ober-Österreich" type="TRUNC" xml:id="KK_d1e1232">Ober-</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="KK_d1e1238">und</w>
+<seg type="ws"> </seg>
+<w lemma="Nieder-Österreich" type="NE" xml:id="KK_d1e1245">Nieder-Österreich</w>
+<pc type="comma" xml:id="KK_d1e1248">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Steiermark" type="NE" xml:id="KK_d1e1254">Steier<lb break="no" type="s"/>mark</w>
+<pc type="comma" xml:id="KK_d1e1259">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Kärnten" type="NE" xml:id="KK_d1e1266">Kärnten</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="KK_d1e1272">und</w>
+<seg type="ws"> </seg>
+<w lemma="Krain" type="NE" xml:id="KK_d1e1278">Krain</w>
+<pc type="final" xml:id="KK_d1e1282">.</pc>
+<seg type="ws"> </seg>
+<w lemma="mit" type="APPR" xml:id="KK_d1e1288">Mit</w>
+<seg type="ws"> </seg>
+<w lemma="66" type="CARD" xml:id="KK_d1e1294">66</w>
+<seg type="ws"> </seg>
+<w lemma="Karte" type="NN" xml:id="KK_d1e1301">Karten</w>
+<pc type="comma" xml:id="KK_d1e1304">,</pc>
+<seg type="ws"> </seg>
+<w lemma="12" type="CARD" xml:id="KK_d1e1310">12</w>
+<seg type="ws"> </seg>
+<w lemma="Plan" type="NN" xml:id="KK_d1e1316">Plänen</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="KK_d1e1323">und</w>
+<seg type="ws"> </seg>
+<w lemma="8" type="CARD" xml:id="KK_d1e1329">8</w>
+<seg type="ws"> </seg>
+<w lemma="Panorama" type="NN" xml:id="KK_d1e1335">Pan<lb break="no" type="s"/>oramen</w>
+<pc type="final" xml:id="KK_d1e1341">.</pc>
+<seg type="ws"> </seg>
+<w lemma="33." type="ADJA" xml:id="KK_d1e1347">33.</w>
+<seg type="ws"> </seg>
+<w lemma="Auflage" type="NN_ABK" xml:id="KK_d1e1353">Aufl.</w>
+<seg type="ws"> </seg>
+<date><w lemma="1908" type="CARD" xml:id="KK_d1e1361">1908</w></date>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="KK_d1e1373">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="8" type="CARD" xml:id="KK_d1e1380">8.—</w></p>
+<p><seg rend="italicised"><w lemma="Nordseebad" type="NN" xml:id="KK_d1e1385">Nordseebäder</w>
+<pc type="comma" xml:id="KK_d1e1388">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Harz" type="NE" xml:id="KK_d1e1394">Harz</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="KK_d1e1400">und</w>
+<seg type="ws"> </seg>
+<w lemma="Thüringen" type="NE" xml:id="KK_d1e1407">Thüringen</w></seg>
+<seg type="ws"> </seg>
+<w lemma="sehen" type="VVIMP_ABK" xml:id="KK_d1e1413">siehe</w>
+<seg type="ws"> </seg>
+<w lemma="Nordwest-Deutschland" type="NE" xml:id="KK_d1e1419">Nordwest-Deutschland</w>
+<pc type="final" xml:id="KK_d1e1422">.</pc></p>
+<p><seg rend="italicised"><w lemma="Ostseebad" type="NN" xml:id="KK_d1e1427">Ostseebäder</w>
+<pc type="comma" xml:id="KK_d1e1430">,</pc>
+<seg type="ws"> </seg>
+<w lemma="sächsisch" type="ADJA_ABK" xml:id="KK_d1e1436">Sächs.</w>
+<seg type="ws"> </seg>
+<w lemma="Schweiz" type="NE" xml:id="KK_d1e1442">Schweiz</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="KK_d1e1449">und</w>
+<seg type="ws"> </seg>
+<w lemma="Riesengebirge" type="NE" xml:id="KK_d1e1455">Riesengebirge</w></seg>
+<seg type="ws"> </seg>
+<w lemma="sehen" type="VVIMP_ABK" xml:id="KK_d1e1461">s.</w>
+<seg type="ws"> </seg>
+<w lemma="Nordost-Deutschland" type="NE" xml:id="KK_d1e1467">Nordost-Deutschland</w>
+<pc type="final" xml:id="KK_d1e1470">.</pc></p>
+<p><seg rend="italicised"><w lemma="Elsaß-Lothringen" type="NE" xml:id="KK_d1e1475">Elsaß-Lothringen</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="KK_d1e1481">und</w>
+<seg type="ws"> </seg>
+<w lemma="Vogesen" type="NE" xml:id="KK_d1e1487">Vogesen</w></seg>
+<seg type="ws"> </seg>
+<w lemma="sehen" type="VVIMP_ABK" xml:id="KK_d1e1493">s.</w>
+<seg type="ws"> </seg>
+<w lemma="Rheinland" type="NE" xml:id="KK_d1e1499">Rheinlande</w>
+<pc type="final" xml:id="KK_d1e1502">.</pc></p>
+<p><seg rend="italicised"><w lemma="Schwarzwald" type="NE" xml:id="KK_d1e1508">Schwarzwald</w></seg>
+<seg type="ws"> </seg>
+<w lemma="sehen" type="VVIMP_ABK" xml:id="KK_d1e1514">s.</w>
+<seg type="ws"> </seg>
+<w lemma="Rheinland" type="NE" xml:id="KK_d1e1520">Rheinlande</w>
+<seg type="ws"> </seg>
+<w lemma="oder" type="KON" xml:id="KK_d1e1527">oder</w>
+<seg type="ws"> </seg>
+<w lemma="Süd-Deutschland" type="NE" xml:id="KK_d1e1533">Süd-Deutschland</w>
+<pc type="final" xml:id="KK_d1e1536">.</pc></p>
+<p><seg rend="bold"><w lemma="Ägypten" type="NE" xml:id="KK_d1e1541">Ägypten</w>
+<pc type="final" xml:id="KK_d1e1544">.</pc></seg>
+<seg type="ws"> </seg>
+<w lemma="Unterägypten" type="TRUNC" xml:id="KK_d1e1550">Unter-</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="KK_d1e1556">und</w>
+<seg type="ws"> </seg>
+<w lemma="Oberägypten" type="NE" xml:id="KK_d1e1563">Oberägypten</w>
+<pc type="comma" xml:id="KK_d1e1566">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Unter-Nubien" type="TRUNC" xml:id="KK_d1e1572">Unter-</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="KK_d1e1578">und</w>
+<seg type="ws"> </seg>
+<w lemma="Ober-Nubien" type="NE" xml:id="KK_d1e1585">Ober-Nubien</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="KK_d1e1591">und</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="KK_d1e1597">der</w><lb/>
+<w lemma="Sudân" type="NE" xml:id="KK_d1e1602">Sudân</w>
+<pc type="final" xml:id="KK_d1e1605">.</pc>
+<seg type="ws"> </seg>
+<w lemma="mit" type="APPR" xml:id="KK_d1e1611">Mit</w>
+<seg type="ws"> </seg>
+<w lemma="38" type="CARD" xml:id="KK_d1e1618">38</w>
+<seg type="ws"> </seg>
+<w lemma="Karte" type="NN" xml:id="KK_d1e1624">Karten</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="KK_d1e1630">und</w>
+<seg type="ws"> </seg>
+<w lemma="Plan" type="NN" xml:id="KK_d1e1637">Plänen</w>
+<pc type="comma" xml:id="KK_d1e1640">,</pc>
+<seg type="ws"> </seg>
+<w lemma="59" type="CARD" xml:id="KK_d1e1646">59</w>
+<seg type="ws"> </seg>
+<w lemma="Grundriss" type="NN" xml:id="KK_d1e1652">Grundrissen</w>
+<pc type="comma" xml:id="KK_d1e1656">,</pc>
+<seg type="ws"> </seg>
+<w lemma="57" type="CARD" xml:id="KK_d1e1662">57</w>
+<seg type="ws"> </seg>
+<w lemma="Ansicht" type="NN" xml:id="KK_d1e1668">Ansichten</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="KK_d1e1675">und</w><lb/>
+<w lemma="Textvignette" type="NN" xml:id="KK_d1e1679">Textvignetten</w>
+<pc type="final" xml:id="KK_d1e1682">.</pc>
+<seg type="ws"> </seg>
+<w lemma="6." type="ADJA" xml:id="KK_d1e1688">6.</w>
+<seg type="ws"> </seg>
+<w lemma="Auflage" type="NN_ABK" xml:id="KK_d1e1695">Aufl.</w>
+<seg type="ws"> </seg>
+<date><w lemma="1906" type="CARD" xml:id="KK_d1e1702">1906</w></date>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="KK_d1e1715">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="15" type="CARD" xml:id="KK_d1e1721">15.—</w></p>
+<p><seg rend="bold"><w lemma="Belgien" type="NE" xml:id="KK_d1e1726">Belgien</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="KK_d1e1732">und</w>
+<seg type="ws"> </seg>
+<w lemma="Holland" type="NE" xml:id="KK_d1e1738">Holland</w></seg>
+<seg type="ws"> </seg>
+<w lemma="nebst" type="APPR" xml:id="KK_d1e1744">nebst</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="KK_d1e1750">dem</w>
+<seg type="ws"> </seg>
+<w lemma="Großherzogtum" type="NN" xml:id="KK_d1e1757">Großherzogtum</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Luxemburg" type="NE" xml:id="KK_d1e1764">Luxemburg</w></seg>
+<pc type="final" xml:id="KK_d1e1767">.</pc>
+<seg type="ws"> </seg>
+<w lemma="mit" type="APPR" xml:id="KK_d1e1773">Mit</w><lb/>
+<w lemma="16" type="CARD" xml:id="KK_d1e1778">16</w>
+<seg type="ws"> </seg>
+<w lemma="Karte" type="NN" xml:id="KK_d1e1784">Karten</w>
+<pc type="comma" xml:id="KK_d1e1787">,</pc>
+<seg type="ws"> </seg>
+<w lemma="27" type="CARD" xml:id="KK_d1e1794">27</w>
+<seg type="ws"> </seg>
+<w lemma="Plan" type="NN" xml:id="KK_d1e1800">Plänen</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON_ABK" xml:id="KK_d1e1806">u.</w>
+<seg type="ws"> </seg>
+<w lemma="mehrer" type="PIAT" xml:id="KK_d1e1813">mehreren</w>
+<seg type="ws"> </seg>
+<w lemma="Grundriss" type="NN" xml:id="KK_d1e1819">Grundrissen</w>
+<pc type="final" xml:id="KK_d1e1822">.</pc>
+<seg type="ws"> </seg>
+<w lemma="23." type="ADJA" xml:id="KK_d1e1828">23.</w>
+<seg type="ws"> </seg>
+<w lemma="Auflage" type="NN_ABK" xml:id="KK_d1e1835">Aufl.</w>
+<seg type="ws"> </seg>
+<date><w lemma="1904" type="CARD" xml:id="KK_d1e1842">1904</w></date>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="KK_d1e1849">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="6" type="CARD" xml:id="KK_d1e1856">6.—</w></p>
+<p><seg rend="bold"><w lemma="Dänemark" type="NE" xml:id="KK_d1e1861">Dänemark</w></seg>
+<seg type="ws"> </seg>
+<w lemma="sehen" type="VVIMP_ABK" xml:id="KK_d1e1867">s.</w>
+<seg type="ws"> </seg>
+<w lemma="Nordost-Deutschland" type="NE" xml:id="KK_d1e1873">Nordost-Deutschland</w>
+<pc type="final" xml:id="KK_d1e1876">.</pc></p>
+<p><seg rend="bold"><w lemma="England" type="NE" xml:id="KK_d1e1881">England</w></seg>
+<seg type="ws"> </seg>
+<w lemma="sehen" type="VVIMP_ABK" xml:id="KK_d1e1887">s.</w>
+<seg type="ws"> </seg>
+<w lemma="Großbritannien" type="NE" xml:id="KK_d1e1893">Großbritannien</w>
+<pc type="final" xml:id="KK_d1e1896">.</pc></p>
+<p><seg rend="bold"><w lemma="Frankreich" type="NE" xml:id="KK_d1e1901">Frankreich</w>
+<pc type="final" xml:id="KK_d1e1904">:</pc></seg></p>
+<p><seg rend="italicised"><w lemma="Paris" type="NE" xml:id="KK_d1e1910">Paris</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="KK_d1e1916">und</w>
+<seg type="ws"> </seg>
+<w lemma="Umgebung" type="NN" xml:id="KK_d1e1922">Umgebung</w></seg>
+<seg type="ws"> </seg>
+<w lemma="nebst" type="APPR" xml:id="KK_d1e1928">nebst</w>
+<seg type="ws"> </seg>
+<w lemma="einig" type="PIAT" xml:id="KK_d1e1934">einigen</w>
+<seg type="ws"> </seg>
+<w lemma="Route" type="NN" xml:id="KK_d1e1941">Routen</w>
+<seg type="ws"> </seg>
+<w lemma="durch" type="APPR" xml:id="KK_d1e1947">durch</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Nordfrankreich" type="NE" xml:id="KK_d1e1954">Nordfrankreich</w></seg>
+<pc type="final" xml:id="KK_d1e1957">.</pc><lb/>
+<w lemma="mit" type="APPR" xml:id="KK_d1e1962">Mit</w>
+<seg type="ws"> </seg>
+<w lemma="16" type="CARD" xml:id="KK_d1e1968">16</w>
+<seg type="ws"> </seg>
+<w lemma="Karte" type="NN" xml:id="KK_d1e1974">Karten</w>
+<pc type="comma" xml:id="KK_d1e1978">,</pc>
+<seg type="ws"> </seg>
+<w lemma="36" type="CARD" xml:id="KK_d1e1984">36</w>
+<seg type="ws"> </seg>
+<w lemma="Plan" type="NN" xml:id="KK_d1e1990">Plänen</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="KK_d1e1997">und</w>
+<seg type="ws"> </seg>
+<w lemma="Grundriss" type="NN" xml:id="KK_d1e2003">Grundrissen</w>
+<pc type="final" xml:id="KK_d1e2006">.</pc>
+<seg type="ws"> </seg>
+<w lemma="17." type="ADJA" xml:id="KK_d1e2012">17.</w>
+<seg type="ws"> </seg>
+<w lemma="Auflage" type="NN_ABK" xml:id="KK_d1e2019">Aufl.</w>
+<seg type="ws"> </seg>
+<date><w lemma="1909" type="CARD" xml:id="KK_d1e2026">1909</w></date>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="KK_d1e2033">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="6" type="CARD" xml:id="KK_d1e2040">6.—</w></p>
+<p><seg rend="italicised"><w lemma="Südost-Frankreich" type="NE" xml:id="KK_d1e2045">Südost-Frankreich</w></seg>
+<seg type="ws"> </seg>
+<w lemma="sehen" type="VVIMP_ABK" xml:id="KK_d1e2051">s.</w>
+<seg type="ws"> </seg>
+<w lemma="Riviera" type="NE" xml:id="KK_d1e2057">Riviera</w>
+<pc type="final" xml:id="KK_d1e2060">.</pc></p>
+<p><w lemma="in" type="APPR" xml:id="KK_d1e2064">In</w>
+<seg type="ws"> </seg>
+<rs type="langScript"><w lemma="französisch" type="ADJA" xml:id="KK_d1e2071">französischer</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Sprache" type="NN" xml:id="KK_d1e2077">Sprache</w>
+<pc type="final" xml:id="KK_d1e2080">:</pc></p>
+<p><seg rend="italicised"><w lemma="le" type="FM" xml:id="KK_d1e2085">Le</w>
+<seg type="ws"> </seg>
+<w lemma="nord-est" type="FM" xml:id="KK_d1e2091">Nord-Est</w>
+<seg type="ws"> </seg>
+<w lemma="de" type="FM" xml:id="KK_d1e2097">de</w>
+<seg type="ws"> </seg>
+<w lemma="la" type="FM" xml:id="KK_d1e2104">la</w>
+<seg type="ws"> </seg>
+<w lemma="France" type="NE" xml:id="KK_d1e2110">France</w></seg>
+<pc type="comma" xml:id="KK_d1e2113">,</pc>
+<seg type="ws"> </seg>
+<w lemma="de" type="FM" xml:id="KK_d1e2119">de</w>
+<seg type="ws"> </seg>
+<w lemma="Paris" type="NE" xml:id="KK_d1e2125">Paris</w>
+<seg type="ws"> </seg>
+<w lemma="à" type="FM" xml:id="KK_d1e2132">aux</w>
+<seg type="ws"> </seg>
+<w lemma="Ardennes" type="NE" xml:id="KK_d1e2138">Ardennes</w>
+<pc type="comma" xml:id="KK_d1e2141">,</pc>
+<seg type="ws"> </seg>
+<w lemma="à" type="FM" xml:id="KK_d1e2148">aux</w>
+<seg type="ws"> </seg>
+<w lemma="Vosges" type="NE" xml:id="KK_d1e2154">Vosges</w>
+<seg type="ws"> </seg>
+<w lemma="et" type="FM" xml:id="KK_d1e2160">et</w><lb/>
+<w lemma="à" type="FM" xml:id="KK_d1e2165">au</w>
+<seg type="ws"> </seg>
+<w lemma="Rhone" type="NE" xml:id="KK_d1e2171">Rhone</w>
+<pc type="final" xml:id="KK_d1e2174">.</pc>
+<seg type="ws"> </seg>
+<w lemma="avec" type="FM" xml:id="KK_d1e2180">Avec</w>
+<seg type="ws"> </seg>
+<w lemma="12" type="CARD" xml:id="KK_d1e2187">12</w>
+<seg type="ws"> </seg>
+<w lemma="carte" type="FM" xml:id="KK_d1e2193">cartes</w>
+<seg type="ws"> </seg>
+<w lemma="et" type="FM" xml:id="KK_d1e2199">et</w>
+<seg type="ws"> </seg>
+<w lemma="30" type="CARD" xml:id="KK_d1e2206">30</w>
+<seg type="ws"> </seg>
+<w lemma="plan" type="FM" xml:id="KK_d1e2212">plans</w>
+<seg type="ws"> </seg>
+<w lemma="de" type="FM" xml:id="KK_d1e2218">de</w>
+<seg type="ws"> </seg>
+<w lemma="ville" type="FM" xml:id="KK_d1e2225">villes</w>
+<pc type="final" xml:id="KK_d1e2228">.</pc>
+<seg type="ws"> </seg>
+<w lemma="8e" type="FM" xml:id="KK_d1e2234">8<seg rend="sup">e</seg></w>
+<seg type="ws"> </seg>
+<w lemma="édition" type="FM_ABK" xml:id="KK_d1e2243">éd.</w>
+<seg type="ws"> </seg>
+<date><w lemma="1908" type="CARD" xml:id="KK_d1e2250">1908</w></date>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="KK_d1e2257">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="6" type="CARD" xml:id="KK_d1e2264">6.—</w></p>
+<p><seg rend="italicised"><w lemma="le" type="FM" xml:id="KK_d1e2269">Le</w>
+<seg type="ws"> </seg>
+<w lemma="nord-ouest" type="FM" xml:id="KK_d1e2275">Nord-Ouest</w>
+<seg type="ws"> </seg>
+<w lemma="de" type="FM" xml:id="KK_d1e2281">de</w>
+<seg type="ws"> </seg>
+<w lemma="la" type="FM" xml:id="KK_d1e2288">la</w>
+<seg type="ws"> </seg>
+<w lemma="France" type="NE" xml:id="KK_d1e2294">France</w></seg>
+<pc type="comma" xml:id="KK_d1e2297">,</pc>
+<seg type="ws"> </seg>
+<w lemma="de" type="FM" xml:id="KK_d1e2303">de</w>
+<seg type="ws"> </seg>
+<w lemma="la" type="FM" xml:id="KK_d1e2309">la</w>
+<seg type="ws"> </seg>
+<w lemma="frontière" type="FM" xml:id="KK_d1e2316">frontière</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2001500-1 t:Term2001500-1.1-fr" type="ethNat"><w lemma="belge" type="FM" xml:id="KK_d1e2323">belge</w></rs>
+<seg type="ws"> </seg>
+<w lemma="à" type="FM" xml:id="KK_d1e2329">à</w>
+<seg type="ws"> </seg>
+<w lemma="la" type="FM" xml:id="KK_d1e2336">la</w>
+<seg type="ws"> </seg>
+<w lemma="Loire" type="NE" xml:id="KK_d1e2342">Loire</w>
+<seg type="ws"> </seg>
+<w lemma="excepté" type="FM" xml:id="KK_d1e2348">excepté</w><lb/>
+<w lemma="Paris" type="NE" xml:id="KK_d1e2353">Paris</w>
+<pc type="final" xml:id="KK_d1e2356">.</pc>
+<seg type="ws"> </seg>
+<w lemma="avec" type="FM" xml:id="KK_d1e2362">Avec</w>
+<seg type="ws"> </seg>
+<w lemma="11" type="CARD" xml:id="KK_d1e2369">11</w>
+<seg type="ws"> </seg>
+<w lemma="carte" type="FM" xml:id="KK_d1e2375">cartes</w>
+<seg type="ws"> </seg>
+<w lemma="et" type="FM" xml:id="KK_d1e2381">et</w>
+<seg type="ws"> </seg>
+<w lemma="33" type="CARD" xml:id="KK_d1e2388">33</w>
+<seg type="ws"> </seg>
+<w lemma="plan" type="FM" xml:id="KK_d1e2394">plans</w>
+<seg type="ws"> </seg>
+<w lemma="de" type="FM" xml:id="KK_d1e2400">de</w>
+<seg type="ws"> </seg>
+<w lemma="ville" type="FM" xml:id="KK_d1e2407">villes</w>
+<pc type="final" xml:id="KK_d1e2410">.</pc>
+<seg type="ws"> </seg>
+<w lemma="8e" type="FM" xml:id="KK_d1e2416">8<seg rend="sup">e</seg></w>
+<seg type="ws"> </seg>
+<w lemma="édition" type="FM_ABK" xml:id="KK_d1e2424">éd.</w>
+<seg type="ws"> </seg>
+<date><w lemma="1908" type="CARD" xml:id="KK_d1e2432">1908</w></date>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="KK_d1e2444">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="6" type="CARD" xml:id="KK_d1e2451">6.—</w></p>
+<p><seg rend="italicised"><w lemma="le" type="FM" xml:id="KK_d1e2456">Le</w>
+<seg type="ws"> </seg>
+<w lemma="sud-est" type="FM" xml:id="KK_d1e2462">Sud-Est</w>
+<seg type="ws"> </seg>
+<w lemma="de" type="FM" xml:id="KK_d1e2468">de</w>
+<seg type="ws"> </seg>
+<w lemma="la" type="FM" xml:id="KK_d1e2475">la</w>
+<seg type="ws"> </seg>
+<w lemma="France" type="NE" xml:id="KK_d1e2481">France</w></seg>
+<pc type="comma" xml:id="KK_d1e2484">,</pc>
+<seg type="ws"> </seg>
+<w lemma="de" type="FM" xml:id="KK_d1e2490">du</w>
+<seg type="ws"> </seg>
+<w lemma="Jura" type="NE" xml:id="KK_d1e2496">Jura</w>
+<seg type="ws"> </seg>
+<w lemma="à" type="FM" xml:id="KK_d1e2503">à</w>
+<seg type="ws"> </seg>
+<w lemma="la" type="FM" xml:id="KK_d1e2509">la</w>
+<seg type="ws"> </seg>
+<w lemma="Méditerranée" type="NE" xml:id="KK_d1e2515">Méditerranée</w>
+<seg type="ws"> </seg>
+<w lemma="y" type="FM" xml:id="KK_d1e2522">y</w>
+<seg type="ws"> </seg>
+<w lemma="compris" type="FM" xml:id="KK_d1e2528">compris</w>
+<seg type="ws"> </seg>
+<w lemma="la" type="FM" xml:id="KK_d1e2534">la</w>
+<seg type="ws"> </seg>
+<w lemma="Corse" type="NE" xml:id="KK_d1e2541">Corse</w>
+<pc type="final" xml:id="KK_d1e2544">.</pc><lb/>
+<w lemma="avec" type="FM" xml:id="KK_d1e2548">Avec</w>
+<seg type="ws"> </seg>
+<w lemma="22" type="CARD" xml:id="KK_d1e2555">22</w>
+<seg type="ws"> </seg>
+<w lemma="carte" type="FM" xml:id="KK_d1e2561">cartes</w>
+<pc type="comma" xml:id="KK_d1e2564">,</pc>
+<seg type="ws"> </seg>
+<w lemma="25" type="CARD" xml:id="KK_d1e2570">25</w>
+<seg type="ws"> </seg>
+<w lemma="plan" type="FM" xml:id="KK_d1e2577">plans</w>
+<seg type="ws"> </seg>
+<w lemma="de" type="FM" xml:id="KK_d1e2583">de</w>
+<seg type="ws"> </seg>
+<w lemma="ville" type="FM" xml:id="KK_d1e2589">villes</w>
+<seg type="ws"> </seg>
+<w lemma="et" type="FM" xml:id="KK_d1e2596">et</w>
+<seg type="ws"> </seg>
+<w lemma="un" type="FM" xml:id="KK_d1e2602">un</w>
+<seg type="ws"> </seg>
+<w lemma="panorama" type="FM" xml:id="KK_d1e2608">panorama</w>
+<pc type="final" xml:id="KK_d1e2612">.</pc>
+<seg type="ws"> </seg>
+<w lemma="8e" type="FM" xml:id="KK_d1e2618">8<seg rend="sup">e</seg></w>
+<seg type="ws"> </seg>
+<w lemma="édition" type="FM_ABK" xml:id="KK_d1e2626">éd.</w>
+<seg type="ws"> </seg>
+<date><w lemma="1906" type="CARD" xml:id="KK_d1e2634">1906</w></date>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="KK_d1e2641">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="6" type="CARD" xml:id="KK_d1e2647">6.—</w></p>
+<p><seg rend="italicised"><w lemma="le" type="FM" xml:id="KK_d1e2653">Le</w>
+<seg type="ws"> </seg>
+<w lemma="sud-ouest" type="FM" xml:id="KK_d1e2659">Sud-Ouest</w>
+<seg type="ws"> </seg>
+<w lemma="de" type="FM" xml:id="KK_d1e2665">de</w>
+<seg type="ws"> </seg>
+<w lemma="la" type="FM" xml:id="KK_d1e2672">la</w>
+<seg type="ws"> </seg>
+<w lemma="France" type="NE" xml:id="KK_d1e2678">France</w></seg>
+<pc type="comma" xml:id="KK_d1e2681">,</pc>
+<seg type="ws"> </seg>
+<w lemma="de" type="FM" xml:id="KK_d1e2687">de</w>
+<seg type="ws"> </seg>
+<w lemma="la" type="FM" xml:id="KK_d1e2693">la</w>
+<seg type="ws"> </seg>
+<w lemma="Loire" type="NE" xml:id="KK_d1e2700">Loire</w>
+<seg type="ws"> </seg>
+<w lemma="à" type="FM" xml:id="KK_d1e2706">à</w>
+<seg type="ws"> </seg>
+<w lemma="la" type="FM" xml:id="KK_d1e2712">la</w>
+<seg type="ws"> </seg>
+<w lemma="frontière" type="FM" xml:id="KK_d1e2719">frontière</w>
+<seg type="ws"> </seg>
+<w lemma="de" type="FM" xml:id="KK_d1e2725">d’</w>
+<w lemma="Espagne" type="NE" xml:id="KK_d1e2728">Espagne</w>
+<pc type="final" xml:id="KK_d1e2731">.</pc>
+<seg type="ws"> </seg>
+<w lemma="avec" type="FM" xml:id="KK_d1e2738">Avec</w><lb/>
+<w lemma="13" type="CARD" xml:id="KK_d1e2742">13</w>
+<seg type="ws"> </seg>
+<w lemma="carte" type="FM" xml:id="KK_d1e2748">cartes</w>
+<seg type="ws"> </seg>
+<w lemma="et" type="FM" xml:id="KK_d1e2755">et</w>
+<seg type="ws"> </seg>
+<w lemma="25" type="CARD" xml:id="KK_d1e2761">25</w>
+<seg type="ws"> </seg>
+<w lemma="plan" type="FM" xml:id="KK_d1e2767">plans</w>
+<seg type="ws"> </seg>
+<w lemma="de" type="FM" xml:id="KK_d1e2774">de</w>
+<seg type="ws"> </seg>
+<w lemma="ville" type="FM" xml:id="KK_d1e2780">villes</w>
+<pc type="final" xml:id="KK_d1e2783">.</pc>
+<seg type="ws"> </seg>
+<w lemma="8e" type="FM" xml:id="KK_d1e2790">8<seg rend="sup">e</seg></w>
+<seg type="ws"> </seg>
+<w lemma="édition" type="FM_ABK" xml:id="KK_d1e2798">éd.</w>
+<seg type="ws"> </seg>
+<date><w lemma="1906" type="CARD" xml:id="KK_d1e2805">1906</w></date>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="KK_d1e2818">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="6" type="CARD" xml:id="KK_d1e2824">6.—</w></p>
+<p><seg rend="bold"><w lemma="Griechenland" type="NE" xml:id="KK_d1e2829">Griechenland</w>
+<pc type="comma" xml:id="KK_d1e2832">,</pc></seg>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="KK_d1e2838">die</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2005100-1 t:Term20050100-1.1-de" type="ethNat"><w lemma="griechisch" type="ADJA" xml:id="KK_d1e2845">griechischen</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Insel" type="NN" xml:id="KK_d1e2852">Inseln</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="KK_d1e2858">und</w>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="KK_d1e2864">ein</w>
+<seg type="ws"> </seg>
+<w lemma="Ausflug" type="NN" xml:id="KK_d1e2871">Ausflug</w>
+<seg type="ws"> </seg>
+<w lemma="nach" type="APPR" xml:id="KK_d1e2877">nach</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Kreta" type="NE" xml:id="KK_d1e2884">Kreta</w></seg>
+<pc type="final" xml:id="KK_d1e2887">.</pc><lb/>
+<w lemma="mit" type="APPR" xml:id="KK_d1e2892">Mit</w>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="KK_d1e2898">einem</w>
+<seg type="ws"> </seg>
+<w lemma="Panorama" type="NN" xml:id="KK_d1e2904">Panorama</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPR" xml:id="KK_d1e2911">von</w>
+<seg type="ws"> </seg>
+<w lemma="Athen" type="NE" xml:id="KK_d1e2917">Athen</w>
+<pc type="comma" xml:id="KK_d1e2920">,</pc>
+<seg type="ws"> </seg>
+<w lemma="15" type="CARD" xml:id="KK_d1e2927">15</w>
+<seg type="ws"> </seg>
+<w lemma="Karte" type="NN" xml:id="KK_d1e2933">Karten</w>
+<pc type="comma" xml:id="KK_d1e2936">,</pc>
+<seg type="ws"> </seg>
+<w lemma="25" type="CARD" xml:id="KK_d1e2942">25</w>
+<seg type="ws"> </seg>
+<w lemma="Plan" type="NN" xml:id="KK_d1e2949">Plänen</w>
+<pc type="comma" xml:id="KK_d1e2952">,</pc>
+<seg type="ws"> </seg>
+<w lemma="5" type="CARD" xml:id="KK_d1e2958">5</w>
+<seg type="ws"> </seg>
+<w lemma="Grundriss" type="NN" xml:id="KK_d1e2965">Grundrissen</w><lb/>
+<w lemma="und" type="KON" xml:id="KK_d1e2969">und</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="KK_d1e2975">2</w>
+<seg type="ws"> </seg>
+<w lemma="Tafel" type="NN" xml:id="KK_d1e2982">Tafeln</w>
+<pc type="final" xml:id="KK_d1e2985">.</pc>
+<seg type="ws"> </seg>
+<w lemma="5." type="ADJA" xml:id="KK_d1e2991">5.</w>
+<seg type="ws"> </seg>
+<w lemma="Auflage" type="NN_ABK" xml:id="KK_d1e2997">Aufl.</w>
+<seg type="ws"> </seg>
+<date><w lemma="1908" type="CARD" xml:id="KK_d1e3005">1908</w></date>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mark" type="NN_ABK" xml:id="KK_d1e3017">M</w></seg>
+<seg type="ws"> </seg>
+<w lemma="8" type="CARD" xml:id="KK_d1e3024">8.—</w></p>
+
+</div></front></text></TEI>

@@ -1,0 +1,986 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title level="a">Nordamerika 1893, S. L</title>
+            <title>Nordamerika. Handbuch für Reisende: Digitale Ausgabe</title>
+            <author>Karl Baedeker (company)</author>
+            <respStmt>
+                <resp xml:lang="en">compiled by</resp>
+                <name>Ulrike Czeitschner</name>
+            </respStmt>
+            <respStmt>
+                <resp xml:lang="en">in collaboration with</resp>
+                <name>Barbara Krautgartner</name>
+                <name>Victoria Eisenheld</name>
+            </respStmt>
+        </titleStmt>
+        <editionStmt>
+            <edition>full-text digital edition <date when="2017">2017</date>
+            </edition>
+            <funder>Austrian Academy of Sciences</funder>
+        </editionStmt>
+        <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+            <address>
+                <addrLine>Bäckerstraße 13</addrLine>
+                <addrLine>1010 Vienna</addrLine>
+            </address>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2017">2017</date>
+            <availability>
+                <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+            </availability>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl type="short">Karl Baedeker: Nordamerika. Leipzig, 1893.</bibl>
+            <bibl type="transcript">Nordamerika 
+     Die
+     Vereinigten Staaten
+     nebst einem Ausflug nach
+     Mexiko
+     Handbuch für Reisende
+     von 
+     K. Bædeker 
+     Mit 17 Karten, 22 Plänen und 2 Grundrissen 
+     Leipzig 
+     Verlag von Karl Bædeker 
+     1893</bibl>
+            <biblStruct type="full">
+                <monogr>
+                    <author>Karl Baedeker</author>
+                    <title type="main">Nordamerika
+      Die
+      Vereinigten Staaten
+      nebst einem Ausglug nach
+      Mexiko</title>
+                    <title type="sub">Handbuch für Reisende 
+       von 
+       K. Bædeker 
+       Mit 17 Karten, 22 Plänen und 2 Grundrissen</title>
+                    <edition>first edition</edition>
+                    <imprint>
+                        <publisher>Verlag von Karl Bædeker</publisher>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date when="1893">1893</date>
+                    </imprint>
+                    <extent>
+                        <measure type="pages">658 [LVIII, 488 p., maps not paged]</measure>
+                    </extent>
+                </monogr>
+            </biblStruct>
+            <msDesc>
+                <msIdentifier>
+                    <settlement>Basel</settlement>
+                    <institution>Universitätsbibliothek Basel</institution>
+                    <repository>UB Hauptbibliothek</repository>
+                    <idno type="signatory">Et 647</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <projectDesc>
+            <p>Image creation, optical character recognition and basic XML annotation has been carried out within the framework of the AAC-Austrian Academy Corpus.</p>
+            <p>Transformation to TEI/P5, linguistic and semantic annotation has been applied within the the GO!DIGITAL 1.0 project "travel!digital. Exploring People and Monuments in Baedeker Guidebooks (1875-1914)", Project-Nr.: ÖAW0204.</p>
+        </projectDesc>
+        <listPrefixDef>
+            <prefixDef matchPattern="(person)" replacementPattern="persons.xml#$1" ident="person-prefix">
+                <p>Private URIs using the person  
+                  prefix are pointers to person
+                  elements in the personography.xml file.
+                  For example, psn:MDH
+                  dereferences to personography.xml#MDH</p>
+            </prefixDef>
+            <prefixDef matchPattern="(t)" replacementPattern="https://vocabs.acdh.oeaw.ac.at/traveldigital/$1" ident="thesaurus-prefix">
+                <p>Private URIs using the t  
+                  prefix are pointers to entries
+                  in the travel!digital thesaurus.
+                  For example, t:Concept6005600
+                  dereferences to https://vocabs.acdh.oeaw.ac.at/traveldigital/Concept6005600.</p>
+            </prefixDef>
+        </listPrefixDef>
+        <editorialDecl>
+            <p>Annotation according to TEI/P5.</p>
+            <correction method="markup">
+                <p>Corrections have been represented using markup.</p>
+            </correction>
+            <normalization>
+                <p>Original orthography has been retained.</p>
+                <p>Original typography has been retained.</p>
+            </normalization>
+            <hyphenation eol="all">
+                <p>All end-of-line hyphenation has been retained.</p>
+            </hyphenation>
+            <interpretation>
+                <p>personal names of historical, mythological/religious and literary figures (except occurences in street names and company names), dates, selected designations of groups and sights</p>
+                <p>tokenization, PoS-tagging (Stuttgart-Tübingen-TagSet, 54 part-of-speech tags for annotating German text corpora, Guidelines 1999), lemmatization, manually corrected</p>
+            </interpretation>
+        </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+        <langUsage>
+            <language ident="de" usage="98"/>
+        </langUsage>
+        <textClass>
+            <keywords>
+                <list>
+                    <item>Baedeker guidebook</item>
+                    <item>Karl Baedeker</item>
+                    <item>historical travel guide</item>
+                    <item>North America</item>
+                    <item>Mexico</item>
+                    <item>German language</item>
+                </list>
+            </keywords>
+        </textClass>
+    </profileDesc>
+</teiHeader>
+<text type="book"><front><div n="EINLEITUNG."><div n="IX. Ein geographischer Blick auf Nordamerika." type="chapter"><p rend="indent" prev="true"><pb facs="https://id.acdh.oeaw.ac.at/traveldigital/Images/Baedeker-Nordamerika_1893/Baedeker-Nordamerika_i0050.tiff" n="S. L"/>
+<fw type="header"><fw n="50" place="top_left" type="pageNum">L</fw>
+<fw place="top_center">IX. ZUR GEOGRAPHIE.</fw></fw>
+<w lemma="Einwanderung" type="NN" xml:id="NA_d1e135192">wanderung</w>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="NA_d1e135198">einen</w>
+<seg type="ws"> </seg>
+<w lemma="ganz" type="ADV" xml:id="NA_d1e135205">ganz</w>
+<seg type="ws"> </seg>
+<w lemma="neu" type="ADJA" xml:id="NA_d1e135211">neuen</w>
+<seg type="ws"> </seg>
+<w lemma="Charakter" type="NN" xml:id="NA_d1e135217">Charakter</w>
+<seg type="ws"> </seg>
+<w lemma="durch" type="APPR" xml:id="NA_d1e135224">durch</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e135230">die</w>
+<seg type="ws"> </seg>
+<w lemma="stark" type="ADJA" xml:id="NA_d1e135236">starke</w>
+<seg type="ws"> </seg>
+<w lemma="Beimischung" type="NN" xml:id="NA_d1e135243">Beimischung</w><lb/>
+<w lemma="von" type="APPR" xml:id="NA_d1e135247">von</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2011500 t:Term2011500.1-de" type="ethNat"><w lemma="Slawe" type="NN" xml:id="NA_d1e135254">Slawen</w></rs>
+<pc type="comma" xml:id="NA_d1e135257">,</pc>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2006900 t:Term2006900.1-de" type="ethNat"><w lemma="Italiener" type="NN" xml:id="NA_d1e135265">Italienern</w></rs>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e135271">und</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.05 t:Concept01.05.01 t:Concept5005000 t:Term5005000.1-de" type="rel"><w lemma="Jude" type="NN" xml:id="NA_d1e135278">Juden</w></rs>
+<seg type="ws"> </seg>
+<w lemma="erhalten" type="VVPP" xml:id="NA_d1e135285">erhalten</w>
+<pc type="final" xml:id="NA_d1e135288">.</pc>
+<seg type="ws"> </seg>
+<w lemma="Österreich-Ungarn" type="NE" xml:id="NA_d1e135294">Österreich-Ungarn</w>
+<pc type="comma" xml:id="NA_d1e135297">,</pc><lb/>
+<w lemma="Russland" type="NE" xml:id="NA_d1e135302">Rußland</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e135308">und</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2018500 t:Term2018500.1-de" type="ethNat"><w lemma="Pole" type="NN" xml:id="NA_d1e135315">Polen</w></rs>
+<seg type="ws"> </seg>
+<w lemma="haben" type="VAFIN" xml:id="NA_d1e135322">haben</w>
+<seg type="ws"> </seg>
+<date><w lemma="1891" type="CARD" xml:id="NA_d1e135329">1891</w></date>
+<seg type="ws"> </seg>
+<w lemma="zusammen" type="ADV" xml:id="NA_d1e135335">zusammen</w>
+<seg type="ws"> </seg>
+<w lemma="222000" type="CARD" xml:id="NA_d1e135342">222000</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.01 t:Concept1001100 t:Term1001100.1-de" type="gen"><w lemma="Einwanderer" type="NN" xml:id="NA_d1e135349">Einwanderer</w></rs>
+<pc type="comma" xml:id="NA_d1e135352">,</pc><lb/>
+<w lemma="fast" type="ADV" xml:id="NA_d1e135357">fast</w>
+<seg type="ws"> </seg>
+<w lemma="doppelt" type="ADJD" xml:id="NA_d1e135363">doppelt</w>
+<seg type="ws"> </seg>
+<w lemma="soviel" type="PIS" xml:id="NA_d1e135369">soviel</w>
+<seg type="ws"> </seg>
+<w lemma="wie" type="KOKOM" xml:id="NA_d1e135376">wie</w>
+<seg type="ws"> </seg>
+<w lemma="Deutschland" type="NE" xml:id="NA_d1e135382">Deutschland</w>
+<pc type="comma" xml:id="NA_d1e135385">,</pc>
+<seg type="ws"> </seg>
+<w lemma="senden" type="VVPP" xml:id="NA_d1e135391">gesandt</w>
+<pc type="final" xml:id="NA_d1e135395">.</pc>
+<seg type="ws"> </seg>
+<w lemma="wesentlich" type="ADJD" xml:id="NA_d1e135401">Wesentlich</w>
+<seg type="ws"> </seg>
+<w lemma="dies" type="PDAT" xml:id="NA_d1e135407">diesem</w><lb/>
+<w lemma="Zufluss" type="NN" xml:id="NA_d1e135412">Zufluß</w>
+<pc type="comma" xml:id="NA_d1e135415">,</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="PRELAT" xml:id="NA_d1e135421">dessen</w>
+<seg type="ws"> </seg>
+<w lemma="Dauer" type="NN" xml:id="NA_d1e135427">Dauer</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e135434">und</w>
+<seg type="ws"> </seg>
+<w lemma="Wachstum" type="NN" xml:id="NA_d1e135440">Wachstum</w>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="NA_d1e135446">eine</w>
+<seg type="ws"> </seg>
+<w lemma="folgenreich" type="ADJA" xml:id="NA_d1e135453">folgenreiche</w>
+<seg type="ws"> </seg>
+<w lemma="Veränderung" type="NN" xml:id="NA_d1e135459">Veränderung</w><lb/>
+<w lemma="d" type="ART" xml:id="NA_d1e135463">des</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2004900-1 t:Concept2046400-1 t:Concept2027400-1 t:Term2046400-1.1-de" type="ethNat"><w lemma="germanisch-keltisch" type="ADJA" xml:id="NA_d1e135471">germanisch-keltischen</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Grundcharakter" type="NN" xml:id="NA_d1e135477">Grundcharakters</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e135483">der</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2000500 t:Concept2043900 t:Concept01.03 t:Term2043900.2-de" type="ethNat"><w lemma="Nordameriker" type="NN" xml:id="NA_d1e135491">Nordameriker</w></rs>
+<seg type="ws"> </seg>
+<w lemma="bewirken" type="VVINF" xml:id="NA_d1e135497">be<lb break="no" type="s"/>wirken</w>
+<seg type="ws"> </seg>
+<w lemma="können" type="VMFIN" xml:id="NA_d1e135505">könnte</w>
+<pc type="comma" xml:id="NA_d1e135509">,</pc>
+<seg type="ws"> </seg>
+<w lemma="sein" type="VAFIN" xml:id="NA_d1e135515">sind</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e135521">die</w>
+<seg type="ws"> </seg>
+<w lemma="Maßregel" type="NN" xml:id="NA_d1e135528">Maßregeln</w>
+<seg type="ws"> </seg>
+<w lemma="zu" type="APPRART" xml:id="NA_d1e135534">zur</w>
+<seg type="ws"> </seg>
+<w lemma="Verminderung" type="NN" xml:id="NA_d1e135540">Verminderung</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e135547">der</w>
+<seg type="ws"> </seg>
+<w lemma="Einwanderung" type="NN" xml:id="NA_d1e135553">Einwan<lb break="no" type="s"/>derung</w>
+<seg type="ws"> </seg>
+<w lemma="zuschreiben" type="VVIZU" xml:id="NA_d1e135561">zuzuschreiben</w>
+<pc type="comma" xml:id="NA_d1e135564">,</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="PRELS" xml:id="NA_d1e135571">die</w>
+<seg type="ws"> </seg>
+<w lemma="man" type="PIS" xml:id="NA_d1e135577">man</w>
+<seg type="ws"> </seg>
+<w lemma="noch" type="ADV" xml:id="NA_d1e135583">noch</w>
+<seg type="ws"> </seg>
+<w lemma="vor" type="APPR" xml:id="NA_d1e135590">vor</w>
+<seg type="ws"> </seg>
+<w lemma="20" type="CARD" xml:id="NA_d1e135596">20</w>
+<seg type="ws"> </seg>
+<w lemma="Jahr" type="NN" xml:id="NA_d1e135602">Jahren</w>
+<seg type="ws"> </seg>
+<w lemma="für" type="APPR" xml:id="NA_d1e135609">für</w>
+<seg type="ws"> </seg>
+<w lemma="unmöglich" type="ADJD" xml:id="NA_d1e135615">unmöglich</w><lb/>
+<w lemma="halten" type="VVPP" xml:id="NA_d1e135619">gehalten</w>
+<seg type="ws"> </seg>
+<w lemma="haben" type="VAINF" xml:id="NA_d1e135626">haben</w>
+<seg type="ws"> </seg>
+<w lemma="werden" type="VAFIN" xml:id="NA_d1e135632">würde</w>
+<pc type="final" xml:id="NA_d1e135635">.</pc>
+<seg type="ws"> </seg>
+<w lemma="ihr" type="PPOSAT" xml:id="NA_d1e135642">Ihr</w>
+<seg type="ws"> </seg>
+<w lemma="Ursprung" type="NN" xml:id="NA_d1e135648">Ursprung</w>
+<seg type="ws"> </seg>
+<w lemma="liegen" type="VVFIN" xml:id="NA_d1e135654">liegt</w>
+<seg type="ws"> </seg>
+<w lemma="aber" type="ADV" xml:id="NA_d1e135661">aber</w>
+<seg type="ws"> </seg>
+<w lemma="tief" type="ADJD" xml:id="NA_d1e135667">tiefer</w>
+<pc type="final" xml:id="NA_d1e135670">.</pc>
+<seg type="ws"> </seg>
+<w lemma="man" type="PIS" xml:id="NA_d1e135676">Man</w>
+<seg type="ws"> </seg>
+<w lemma="vergessen" type="VVFIN" xml:id="NA_d1e135683">vergißt</w><lb/>
+<w lemma="in" type="APPR" xml:id="NA_d1e135687">in</w>
+<seg type="ws"> </seg>
+<w lemma="Europa" type="NE" xml:id="NA_d1e135693">Europa</w>
+<seg type="ws"> </seg>
+<w lemma="zu" type="PTKA" xml:id="NA_d1e135700">zu</w>
+<seg type="ws"> </seg>
+<w lemma="leicht" type="ADJD" xml:id="NA_d1e135706">leicht</w>
+<pc type="comma" xml:id="NA_d1e135709">,</pc>
+<seg type="ws"> </seg>
+<w lemma="dass" type="KOUS" xml:id="NA_d1e135716">daß</w>
+<seg type="ws"> </seg>
+<w lemma="unter" type="APPR" xml:id="NA_d1e135722">unter</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e135728">den</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.01 t:Concept1001300 t:Concept1005300 t:Term1005300.1-de" type="gen"><w lemma="Weiße" type="NN" xml:id="NA_d1e135736">Weißen</w></rs>
+<seg type="ws"> </seg>
+<w lemma="7,5" type="CARD" xml:id="NA_d1e135742">7,<seg rend="sub">5</seg></w>
+<seg type="ws"> </seg>
+<w lemma="Million" type="NN_ABK" xml:id="NA_d1e135750">Mill.</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.01 t:Concept1001300 t:Concept1002700 t:Term1002700.1-de" type="gen"><w lemma="Neger" type="NN" xml:id="NA_d1e135758">Neger</w></rs>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e135764">und</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.01 t:Concept1011200 t:Term1011200.1-de" type="gen"><w lemma="Mulatte" type="NN" xml:id="NA_d1e135771">Mu<lb break="no" type="s"/>latten</w></rs>
+<pc type="comma" xml:id="NA_d1e135776">,</pc>
+<seg type="ws"> </seg>
+<w lemma="250000" type="CARD" xml:id="NA_d1e135783">250000</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.01 t:Concept1010600 t:Term1010600.1-de" type="gen"><w lemma="Indianer" type="NN" xml:id="NA_d1e135790">Indianer</w></rs>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e135796">und</w>
+<seg type="ws"> </seg>
+<w lemma="107000" type="CARD" xml:id="NA_d1e135803">107000</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2002600 t:Term2002600.1-de" type="ethNat"><w lemma="Chinese" type="NN" xml:id="NA_d1e135810">Chinesen</w></rs>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="NA_d1e135816">(</pc>
+<w lemma="dazu" type="PAV" xml:id="NA_d1e135820">dazu</w>
+<seg type="ws"> </seg>
+<w lemma="2000" type="CARD" xml:id="NA_d1e135826">2000</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2007000 t:Term2007000.1-de" type="ethNat"><w lemma="Japaner" type="NN" xml:id="NA_d1e135833">Ja<lb break="no" type="s"/>paner</w></rs>
+<pc type="internal" xml:id="NA_d1e135838">)</pc>
+<seg type="ws"> </seg>
+<w lemma="leben" type="VVFIN" xml:id="NA_d1e135845">leben</w>
+<pc type="final" xml:id="NA_d1e135848">.</pc>
+<seg type="ws"> </seg>
+<w lemma="was" type="PIS" xml:id="NA_d1e135854">Was</w>
+<seg type="ws"> </seg>
+<w lemma="als" type="KOKOM" xml:id="NA_d1e135861">als</w>
+<seg type="ws"> </seg>
+<w lemma="mild" type="ADJD" xml:id="NA_d1e135867">milder</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e135873">und</w>
+<seg type="ws"> </seg>
+<w lemma="oft" type="ADV" xml:id="NA_d1e135880">oft</w>
+<seg type="ws"> </seg>
+<w lemma="nur" type="ADV" xml:id="NA_d1e135886">nur</w>
+<seg type="ws"> </seg>
+<w lemma="eingebildet" type="ADJA" xml:id="NA_d1e135892">eingebildeter</w>
+<seg type="ws"> </seg>
+<w lemma="Unterschied" type="NN" xml:id="NA_d1e135899">Unterschied</w><lb/>
+<w lemma="d" type="ART" xml:id="NA_d1e135903">der</w>
+<seg type="ws"> </seg>
+<w lemma="Nationalität" type="NN" xml:id="NA_d1e135909">Nationalitäten</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e135916">die</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.03 t:Concept3000500-1 t:Term3000500-1.1-de" type="geo"><w lemma="europäisch" type="ADJA" xml:id="NA_d1e135923">europäische</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Gesellschaft" type="NN" xml:id="NA_d1e135929">Gesellschaft</w>
+<seg type="ws"> </seg>
+<w lemma="seicht" type="ADJD" xml:id="NA_d1e135936">seicht</w>
+<seg type="ws"> </seg>
+<w lemma="durchfurchen" type="VVFIN" xml:id="NA_d1e135942">durchfurcht</w>
+<pc type="comma" xml:id="NA_d1e135945">,</pc><lb/>
+<w lemma="d" type="PDS" xml:id="NA_d1e135949">das</w>
+<seg type="ws"> </seg>
+<w lemma="bedingen" type="VVFIN" xml:id="NA_d1e135956">bedingt</w>
+<seg type="ws"> </seg>
+<w lemma="als" type="KOKOM" xml:id="NA_d1e135962">als</w>
+<seg type="ws"> </seg>
+<w lemma="Gegensatz" type="NN" xml:id="NA_d1e135968">Gegensatz</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e135975">der</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.01 t:Concept1002800 t:Term1002800.1-de" type="gen"><w lemma="Rasse" type="NN" xml:id="NA_d1e135982">Rassen</w></rs>
+<seg type="ws"> </seg>
+<w lemma="klaffen" type="ADJA" xml:id="NA_d1e135988">klaffende</w>
+<seg type="ws"> </seg>
+<w lemma="Wunde" type="NN" xml:id="NA_d1e135995">Wunden</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPRART" xml:id="NA_d1e136001">im</w>
+<seg type="ws"> </seg>
+<w lemma="Körper" type="NN" xml:id="NA_d1e136007">Körper</w><lb/>
+<w lemma="d" type="ART" xml:id="NA_d1e136012">der</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2000500-1 t:Term2000500-1.1-de" type="ethNat"><w lemma="amerikanisch" type="ADJA" xml:id="NA_d1e136019">amerikanischen</w></rs>
+<pc type="final" xml:id="NA_d1e136022">.</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e136029">Die</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.01 t:Concept1010600 t:Term1010600.1-de" type="gen"><w lemma="Indianer" type="NN" xml:id="NA_d1e136036">Indianer</w></rs>
+<seg type="ws"> </seg>
+<w lemma="kämpfen" type="VVFIN" xml:id="NA_d1e136042">kämpfen</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPR" xml:id="NA_d1e136049">von</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e136055">dem</w>
+<seg type="ws"> </seg>
+<w lemma="erste" type="ADJA" xml:id="NA_d1e136061">ersten</w>
+<seg type="ws"> </seg>
+<w lemma="Erscheinen" type="NN" xml:id="NA_d1e136068">Erschei<lb break="no" type="s"/>nen</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e136076">der</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.01 t:Concept1001300 t:Concept1005300 t:Term1005300.1-de" type="gen"><w lemma="Weiße" type="NN" xml:id="NA_d1e136083">Weißen</w></rs>
+<seg type="ws"> </seg>
+<w lemma="an" type="APPR" xml:id="NA_d1e136090">an</w>
+<pc type="comma" xml:id="NA_d1e136093">,</pc>
+<seg type="ws"> </seg>
+<w lemma="unglücklich" type="ADJD" xml:id="NA_d1e136099">unglücklich</w>
+<seg type="ws"> </seg>
+<w lemma="zwar" type="ADV" xml:id="NA_d1e136105">zwar</w>
+<pc type="comma" xml:id="NA_d1e136109">,</pc>
+<seg type="ws"> </seg>
+<w lemma="aber" type="KON" xml:id="NA_d1e136115">aber</w>
+<seg type="ws"> </seg>
+<w lemma="mit" type="APPR" xml:id="NA_d1e136121">mit</w>
+<seg type="ws"> </seg>
+<w lemma="bewundernswert" type="ADJA" xml:id="NA_d1e136128">bewundernswerter</w><lb/>
+<w lemma="Zähigkeit" type="NN" xml:id="NA_d1e136132">Zähigkeit</w>
+<pc type="comma" xml:id="NA_d1e136135">,</pc>
+<seg type="ws"> </seg>
+<w lemma="um" type="APPR" xml:id="NA_d1e136141">um</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e136148">den</w>
+<seg type="ws"> </seg>
+<w lemma="Boden" type="NN" xml:id="NA_d1e136154">Boden</w>
+<pc type="final" xml:id="NA_d1e136157">.</pc>
+<seg type="ws"> </seg>
+<w lemma="alljährlich" type="ADJD" xml:id="NA_d1e136164">Alljährlich</w>
+<seg type="ws"> </seg>
+<w lemma="werden" type="VAFIN" xml:id="NA_d1e136170">werden</w>
+<seg type="ws"> </seg>
+<w lemma="sie" type="PPER" xml:id="NA_d1e136176">sie</w>
+<seg type="ws"> </seg>
+<w lemma="weiter" type="ADV" xml:id="NA_d1e136183">weiter</w>
+<seg type="ws"> </seg>
+<w lemma="nach" type="APPR" xml:id="NA_d1e136189">nach</w><lb/>
+<w lemma="Westen" type="NN" xml:id="NA_d1e136193">Westen</w>
+<pc type="comma" xml:id="NA_d1e136196">,</pc>
+<seg type="ws"> </seg>
+<w lemma="mehr" type="ADV" xml:id="NA_d1e136203">mehr</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPRART" xml:id="NA_d1e136209">vom</w>
+<seg type="ws"> </seg>
+<w lemma="gut" type="ADJA" xml:id="NA_d1e136215">guten</w>
+<seg type="ws"> </seg>
+<w lemma="Land" type="NN" xml:id="NA_d1e136222">Lande</w>
+<seg type="ws"> </seg>
+<w lemma="weg" type="APPR" xml:id="NA_d1e136228">weg</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e136234">und</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e136241">dem</w>
+<seg type="ws"> </seg>
+<w lemma="weniger" type="ADV" xml:id="NA_d1e136247">weniger</w>
+<seg type="ws"> </seg>
+<w lemma="gut" type="ADJA" xml:id="NA_d1e136253">guten</w>
+<seg type="ws"> </seg>
+<w lemma="zuschieben" type="VVPP" xml:id="NA_d1e136260">zu<lb break="no" type="s"/>geschoben</w>
+<pc type="final" xml:id="NA_d1e136265">.</pc>
+<seg type="ws"> </seg>
+<w lemma="wenig" type="PIAT" xml:id="NA_d1e136271">Wenige</w>
+<seg type="ws"> </seg>
+<w lemma="1000" type="CARD" xml:id="NA_d1e136278">1000</w>
+<seg type="ws"> </seg>
+<w lemma="sein" type="VAFIN" xml:id="NA_d1e136284">sind</w>
+<seg type="ws"> </seg>
+<w lemma="östlich" type="ADJD_ABK" xml:id="NA_d1e136290">ö.</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPRART" xml:id="NA_d1e136297">vom</w>
+<seg type="ws"> </seg>
+<choice><sic><w lemma="Mississippi" type="NE" xml:id="NA_d1e136305">Mississsipi</w></sic>
+<corr cert="high">Mississippi</corr></choice>
+<seg type="ws"> </seg>
+<w lemma="übrig" type="ADJD" xml:id="NA_d1e136313">übrig</w>
+<seg type="ws"> </seg>
+<w lemma="bleiben" type="VVPP" xml:id="NA_d1e136320">geblieben</w><lb/>
+<w lemma="und" type="KON" xml:id="NA_d1e136324">und</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e136330">der</w>
+<seg type="ws"> </seg>
+<w lemma="Reisende" type="NN" xml:id="NA_d1e136337">Reisende</w>
+<seg type="ws"> </seg>
+<w lemma="suchen" type="VVFIN" xml:id="NA_d1e136343">sucht</w>
+<seg type="ws"> </seg>
+<w lemma="sie" type="PPER" xml:id="NA_d1e136349">sie</w>
+<seg type="ws"> </seg>
+<w lemma="vergebens" type="ADV" xml:id="NA_d1e136356">vergebens</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="NA_d1e136362">in</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e136368">den</w>
+<seg type="ws"> </seg>
+<w lemma="Stadt" type="NN" xml:id="NA_d1e136375">Städten</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e136381">und</w>
+<seg type="ws"> </seg>
+<w lemma="auf" type="APPR" xml:id="NA_d1e136387">auf</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e136394">den</w><lb/>
+<w lemma="groß" type="ADJA" xml:id="NA_d1e136398">großen</w>
+<seg type="ws"> </seg>
+<w lemma="wegen" type="APPR" xml:id="NA_d1e136404">Wegen</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e136411">des</w>
+<seg type="ws"> </seg>
+<w lemma="Verkehr" type="NN" xml:id="NA_d1e136417">Verkehrs</w>
+<pc type="final" xml:id="NA_d1e136420">.</pc>
+<seg type="ws"> </seg>
+<w lemma="erst" type="ADV" xml:id="NA_d1e136426">Erst</w>
+<seg type="ws"> </seg>
+<w lemma="vor" type="APPR" xml:id="NA_d1e136433">vor</w>
+<seg type="ws"> </seg>
+<w lemma="zwei" type="CARD" xml:id="NA_d1e136439">zwei</w>
+<seg type="ws"> </seg>
+<w lemma="Jahr" type="NN" xml:id="NA_d1e136445">Jahren</w>
+<seg type="ws"> </seg>
+<w lemma="sein" type="VAFIN" xml:id="NA_d1e136452">ist</w>
+<seg type="ws"> </seg>
+<w lemma="aus" type="APPR" xml:id="NA_d1e136458">aus</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e136464">dem</w>
+<seg type="ws"> </seg>
+<w lemma="sie" type="PPER" xml:id="NA_d1e136471">ihnen</w><lb/>
+<w lemma="gewährleisten" type="ADJA" xml:id="NA_d1e136475">gewährleisteten</w>
+<seg type="ws"> </seg>
+<w lemma="Indianer-Territorium" type="NN" xml:id="NA_d1e136481">Indianer-Territorium</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e136488">das</w>
+<seg type="ws"> </seg>
+<w lemma="neu" type="ADJA" xml:id="NA_d1e136494">neue</w>
+<seg type="ws"> </seg>
+<w lemma="Gebiet" type="NN" xml:id="NA_d1e136500">Gebiet</w>
+<seg type="ws"> </seg>
+<w lemma="Oklahoma" type="NE" xml:id="NA_d1e136507">Oklahoma</w><lb/>
+<w lemma="bilden" type="VVPP" xml:id="NA_d1e136511">gebildet</w>
+<seg type="ws"> </seg>
+<w lemma="werden" type="VAPP" xml:id="NA_d1e136517">worden</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e136524">und</w>
+<seg type="ws"> </seg>
+<w lemma="alljährlich" type="ADJD" xml:id="NA_d1e136530">alljährlich</w>
+<seg type="ws"> </seg>
+<w lemma="werden" type="VAFIN" xml:id="NA_d1e136536">werden</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e136543">die</w>
+<seg type="ws"> </seg>
+<w lemma="sie" type="PPER" xml:id="NA_d1e136549">ihnen</w>
+<seg type="ws"> </seg>
+<w lemma="einräumen" type="ADJA" xml:id="NA_d1e136555">eingeräumten</w><lb/>
+<w lemma="Reservation" type="NN" xml:id="NA_d1e136560">Reservationen</w>
+<seg type="ws"> </seg>
+<w lemma="vermindern" type="VVPP" xml:id="NA_d1e136566">vermindert</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e136572">und</w>
+<seg type="ws"> </seg>
+<w lemma="verkleinern" type="VVPP" xml:id="NA_d1e136579">verkleinert</w>
+<pc type="final" xml:id="NA_d1e136582">.</pc>
+<seg type="ws"> </seg>
+<w lemma="leicht" type="ADJA" xml:id="NA_d1e136588">Leichteres</w>
+<seg type="ws"> </seg>
+<w lemma="Spiel" type="NN" xml:id="NA_d1e136595">Spiel</w>
+<seg type="ws"> </seg>
+<w lemma="haben" type="VAFIN" xml:id="NA_d1e136601">hat</w><lb/>
+<w lemma="man" type="PIS" xml:id="NA_d1e136605">man</w>
+<seg type="ws"> </seg>
+<w lemma="mit" type="APPR" xml:id="NA_d1e136612">mit</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e136618">den</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2002600 t:Term2002600.1-de" type="ethNat"><w lemma="Chinese" type="NN" xml:id="NA_d1e136625">Chinesen</w></rs>
+<pc type="comma" xml:id="NA_d1e136628">,</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="PRELS" xml:id="NA_d1e136635">die</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="NA_d1e136641">in</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e136647">den</w>
+<seg type="ws"> </seg>
+<w lemma="pazifisch" type="ADJA" xml:id="NA_d1e136654">pacifischen</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e136660">und</w>
+<seg type="ws"> </seg>
+<w lemma="Felsengebirgsstaat" type="NN" xml:id="NA_d1e136666">Felsengebirgs<lb break="no" type="s"/>staaten</w>
+<seg type="ws"> </seg>
+<w lemma="seit" type="APPR" xml:id="NA_d1e136675">seit</w>
+<seg type="ws"> </seg>
+<w lemma="40" type="CARD" xml:id="NA_d1e136681">40</w>
+<seg type="ws"> </seg>
+<w lemma="Jahr" type="NN" xml:id="NA_d1e136687">Jahren</w>
+<seg type="ws"> </seg>
+<w lemma="einwandern" type="VVPP" xml:id="NA_d1e136694">eingewandert</w>
+<seg type="ws"> </seg>
+<w lemma="sein" type="VAFIN" xml:id="NA_d1e136700">sind</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e136706">und</w>
+<seg type="ws"> </seg>
+<w lemma="sich" type="PRF" xml:id="NA_d1e136713">sich</w>
+<seg type="ws"> </seg>
+<w lemma="als" type="KOKOM" xml:id="NA_d1e136719">als</w>
+<seg type="ws"> </seg>
+<w lemma="geschickt" type="ADJA" xml:id="NA_d1e136725">geschickte</w><lb/>
+<w lemma="und" type="KON" xml:id="NA_d1e136730">und</w>
+<seg type="ws"> </seg>
+<w lemma="wohlfeilen" type="VVFIN" xml:id="NA_d1e136736">wohlfeile</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.04 t:Concept01.04.04 t:Concept4012600 t:Term4012600.1-de" type="occ"><w lemma="Arbeiter" type="NN" xml:id="NA_d1e136743">Arbeiter</w></rs>
+<seg type="ws"> </seg>
+<w lemma="nützlich" type="ADJD" xml:id="NA_d1e136750">nützlich</w>
+<pc type="comma" xml:id="NA_d1e136753">,</pc>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="NA_d1e136759">in</w>
+<seg type="ws"> </seg>
+<w lemma="manch" type="PIAT" xml:id="NA_d1e136766">manchen</w>
+<seg type="ws"> </seg>
+<w lemma="Tätigkeit" type="NN" xml:id="NA_d1e136772">Thätigkeiten</w>
+<pc type="comma" xml:id="NA_d1e136775">,</pc>
+<seg type="ws"> </seg>
+<w lemma="besonders" type="ADV" xml:id="NA_d1e136781">beson<lb break="no" type="s"/>ders</w>
+<seg type="ws"> </seg>
+<w lemma="als" type="KOKOM" xml:id="NA_d1e136790">als</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.04 t:Concept01.04.04 t:Concept4015300 t:Term4015300.1-de" type="occ"><w lemma="Wäscher" type="NN" xml:id="NA_d1e136797">Wäscher</w></rs>
+<pc type="comma" xml:id="NA_d1e136800">,</pc>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.04 t:Concept01.04.04 t:Concept4002400 t:Term4002400.2-de" type="occ"><w lemma="Dienstbote" type="NN" xml:id="NA_d1e136808">Dienstboten</w></rs>
+<pc type="comma" xml:id="NA_d1e136811">,</pc>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.04 t:Concept01.04.04 t:Concept4012600 t:Concept4065400 t:Term4065400.1-de" type="occ"><w lemma="Bergarbeiter" type="NN" xml:id="NA_d1e136818">Bergarbeiter</w></rs>
+<seg type="ws"> </seg>
+<w lemma="unentbehrlich" type="ADJD" xml:id="NA_d1e136824">unentbehrlich</w>
+<seg type="ws"> </seg>
+<w lemma="machen" type="VVPP" xml:id="NA_d1e136831">gemacht</w><lb/>
+<w lemma="haben" type="VAFIN" xml:id="NA_d1e136835">haben</w>
+<pc type="final" xml:id="NA_d1e136838">.</pc>
+<seg type="ws"> </seg>
+<w lemma="aber" type="KON" xml:id="NA_d1e136845">Aber</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e136851">die</w>
+<seg type="ws"> </seg>
+<w lemma="Furcht" type="NN" xml:id="NA_d1e136857">Furcht</w>
+<seg type="ws"> </seg>
+<w lemma="vor" type="APPR" xml:id="NA_d1e136864">vor</w>
+<seg type="ws"> </seg>
+<w lemma="ihr" type="PPOSAT" xml:id="NA_d1e136870">ihrer</w>
+<seg type="ws"> </seg>
+<w lemma="Konkurrenz" type="NN" xml:id="NA_d1e136876">Konkurrenz</w>
+<seg type="ws"> </seg>
+<w lemma="auf" type="APPR" xml:id="NA_d1e136883">auf</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e136889">dem</w>
+<seg type="ws"> </seg>
+<w lemma="Arbeitsmarkt" type="NN" xml:id="NA_d1e136895">Arbeits<lb break="no" type="s"/>markt</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e136904">und</w>
+<seg type="ws"> </seg>
+<w lemma="ihr" type="PPOSAT" xml:id="NA_d1e136910">ihre</w>
+<seg type="ws"> </seg>
+<w lemma="stolz-unterwürfig" type="ADJA" xml:id="NA_d1e136916">stolz-unterwürfige</w>
+<pc type="comma" xml:id="NA_d1e136919">,</pc>
+<seg type="ws"> </seg>
+<w lemma="unheimlich" type="ADJA" xml:id="NA_d1e136926">unheimliche</w>
+<seg type="ws"> </seg>
+<w lemma="Abschließung" type="NN" xml:id="NA_d1e136932">Abschließung</w>
+<seg type="ws"> </seg>
+<w lemma="gegen" type="APPR" xml:id="NA_d1e136938">gegen</w><lb/>
+<w lemma="jed" type="PIAT" xml:id="NA_d1e136943">jeden</w>
+<seg type="ws"> </seg>
+<w lemma="Einfluss" type="NN" xml:id="NA_d1e136949">Einfluß</w>
+<seg type="ws"> </seg>
+<w lemma="ihr" type="PPOSAT" xml:id="NA_d1e136955">ihrer</w>
+<seg type="ws"> </seg>
+<w lemma="Umgebung" type="NN" xml:id="NA_d1e136962">Umgebungen</w>
+<seg type="ws"> </seg>
+<w lemma="haben" type="VAFIN" xml:id="NA_d1e136968">hat</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="NA_d1e136974">in</w>
+<seg type="ws"> </seg>
+<w lemma="weit" type="ADJA" xml:id="NA_d1e136981">weiten</w>
+<seg type="ws"> </seg>
+<w lemma="Kreis" type="NN" xml:id="NA_d1e136987">Kreisen</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e136993">die</w>
+<seg type="ws"> </seg>
+<w lemma="Abneigung" type="NN" xml:id="NA_d1e137000">Abnei<lb break="no" type="s"/>gung</w>
+<seg type="ws"> </seg>
+<w lemma="gegen" type="APPR" xml:id="NA_d1e137008">gegen</w>
+<seg type="ws"> </seg>
+<w lemma="sie" type="PPER" xml:id="NA_d1e137014">sie</w>
+<seg type="ws"> </seg>
+<w lemma="soweit" type="ADV" xml:id="NA_d1e137021">soweit</w>
+<seg type="ws"> </seg>
+<w lemma="wachsen" type="VVINF" xml:id="NA_d1e137027">wachsen</w>
+<seg type="ws"> </seg>
+<w lemma="machen" type="VVINF" xml:id="NA_d1e137033">machen</w>
+<pc type="comma" xml:id="NA_d1e137037">,</pc>
+<seg type="ws"> </seg>
+<w lemma="dass" type="KOUS" xml:id="NA_d1e137043">daß</w>
+<seg type="ws"> </seg>
+<w lemma="nach" type="APPR" xml:id="NA_d1e137049">nach</w>
+<seg type="ws"> </seg>
+<w lemma="manch" type="PIAT" xml:id="NA_d1e137056">manchen</w>
+<seg type="ws"> </seg>
+<w lemma="roh" type="ADJA" xml:id="NA_d1e137062">rohen</w><lb/>
+<w lemma="Misshandlung" type="NN" xml:id="NA_d1e137066">Mißhandlungen</w>
+<seg type="ws"> </seg>
+<w lemma="einzeln" type="NN" xml:id="NA_d1e137073">Einzelner</w>
+<seg type="ws"> </seg>
+<w lemma="zuerst" type="ADV" xml:id="NA_d1e137079">zuerst</w>
+<seg type="ws"> </seg>
+<w lemma="sie" type="PPER" xml:id="NA_d1e137085">ihnen</w>
+<seg type="ws"> </seg>
+<w lemma="gegenüber" type="APPR" xml:id="NA_d1e137092">gegenüber</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e137098">das</w>
+<seg type="ws"> </seg>
+<w lemma="einst" type="ADV" xml:id="NA_d1e137104">einst</w>
+<seg type="ws"> </seg>
+<w lemma="hochhalten" type="ADJA" xml:id="NA_d1e137111">hoch<lb break="no" type="s"/>gehaltene</w>
+<seg type="ws"> </seg>
+<w lemma="Menschenrecht" type="NN" xml:id="NA_d1e137119">Menschenrecht</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e137125">der</w>
+<seg type="ws"> </seg>
+<w lemma="fehlerfrei" type="ADJA" xml:id="NA_d1e137132">freien</w>
+<seg type="ws"> </seg>
+<w lemma="Einwanderung" type="TRUNC" xml:id="NA_d1e137138">Ein-</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e137144">und</w>
+<seg type="ws"> </seg>
+<w lemma="Auswanderung" type="NN" xml:id="NA_d1e137151">Auswanderung</w>
+<seg type="ws"> </seg>
+<w lemma="widerrufen" type="VVPP" xml:id="NA_d1e137157">wider<lb break="no" type="s"/>rufen</w>
+<seg type="ws"> </seg>
+<w lemma="werden" type="VAPP" xml:id="NA_d1e137165">worden</w>
+<seg type="ws"> </seg>
+<w lemma="sein" type="VAFIN" xml:id="NA_d1e137172">ist</w>
+<pc type="final" xml:id="NA_d1e137175">.</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e137181">Das</w>
+<seg type="ws"> </seg>
+<w lemma="schwer" type="ADJA" xml:id="NA_d1e137187">schwerste</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e137194">der</w>
+<seg type="ws"> </seg>
+<w lemma="Rassenproblem" type="NN" xml:id="NA_d1e137200">Rassenprobleme</w>
+<seg type="ws"> </seg>
+<w lemma="sein" type="VAFIN" xml:id="NA_d1e137206">ist</w>
+<seg type="ws"> </seg>
+<w lemma="aber" type="ADV" xml:id="NA_d1e137213">aber</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="PDS" xml:id="NA_d1e137219">das</w><lb/>
+<w lemma="d" type="ART" xml:id="NA_d1e137223">der</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.01 t:Concept1001300 t:Concept1002700 t:Term1002700.1-de" type="gen"><w lemma="Neger" type="NN" xml:id="NA_d1e137231">Neger</w></rs>
+<pc type="comma" xml:id="NA_d1e137234">,</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="PRELS" xml:id="NA_d1e137240">die</w>
+<pc type="comma" xml:id="NA_d1e137243">,</pc>
+<seg type="ws"> </seg>
+<w lemma="trotzdem" type="PAV" xml:id="NA_d1e137250">trotzdem</w>
+<seg type="ws"> </seg>
+<w lemma="sie" type="PPER" xml:id="NA_d1e137256">sie</w>
+<seg type="ws"> </seg>
+<w lemma="kein" type="PIAT" xml:id="NA_d1e137262">keinen</w>
+<seg type="ws"> </seg>
+<w lemma="Zuzug" type="NN" xml:id="NA_d1e137269">Zuzug</w>
+<seg type="ws"> </seg>
+<w lemma="durch" type="APPR" xml:id="NA_d1e137275">durch</w>
+<seg type="ws"> </seg>
+<w lemma="Einwanderung" type="NN" xml:id="NA_d1e137281">Einwanderung</w>
+<seg type="ws"> </seg>
+<w lemma="erhalten" type="VVPP" xml:id="NA_d1e137288">er<lb break="no" type="s"/>halten</w>
+<pc type="comma" xml:id="NA_d1e137293">,</pc>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e137299">und</w>
+<seg type="ws"> </seg>
+<w lemma="trotz" type="APPR" xml:id="NA_d1e137306">trotz</w>
+<seg type="ws"> </seg>
+<w lemma="groß" type="ADJA" xml:id="NA_d1e137312">großer</w>
+<seg type="ws"> </seg>
+<w lemma="Sterblichkeit" type="NN" xml:id="NA_d1e137318">Sterblichkeit</w>
+<pc type="comma" xml:id="NA_d1e137321">,</pc>
+<seg type="ws"> </seg>
+<w lemma="sich" type="PRF" xml:id="NA_d1e137328">sich</w>
+<seg type="ws"> </seg>
+<w lemma="beständig" type="ADJD" xml:id="NA_d1e137334">beständig</w>
+<seg type="ws"> </seg>
+<w lemma="vermehren" type="VVINF" xml:id="NA_d1e137340">vermehren</w>
+<pc type="final" xml:id="NA_d1e137344">.</pc><lb/>
+<w lemma="ihr" type="PPOSAT" xml:id="NA_d1e137348">Ihre</w>
+<seg type="ws"> </seg>
+<w lemma="Fortschritt" type="NN" xml:id="NA_d1e137354">Fortschritte</w>
+<seg type="ws"> </seg>
+<w lemma="sein" type="VAFIN" xml:id="NA_d1e137361">sind</w>
+<seg type="ws"> </seg>
+<w lemma="seit" type="APPR" xml:id="NA_d1e137367">seit</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e137373">der</w>
+<seg type="ws"> </seg>
+<w lemma="Aufhebung" type="NN" xml:id="NA_d1e137380">Aufhebung</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e137386">der</w>
+<seg type="ws"> </seg>
+<w lemma="Sklaverei" type="NN" xml:id="NA_d1e137392">Sklaverei</w>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="NA_d1e137399">(</pc>
+<date><w lemma="1864" type="CARD" xml:id="NA_d1e137403">1864</w></date>
+<pc type="internal" xml:id="NA_d1e137406">)</pc><lb/>
+<w lemma="hinter" type="APPR" xml:id="NA_d1e137410">hinter</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e137417">den</w>
+<seg type="ws"> </seg>
+<w lemma="Erwartung" type="NN" xml:id="NA_d1e137423">Erwartungen</w>
+<seg type="ws"> </seg>
+<w lemma="ihr" type="PPOSAT" xml:id="NA_d1e137429">ihrer</w>
+<seg type="ws"> </seg>
+<w lemma="begehen" type="ADJA" xml:id="NA_d1e137436">begeistertsten</w>
+<seg type="ws"> </seg>
+<w lemma="Freund" type="NN" xml:id="NA_d1e137442">Freunde</w>
+<seg type="ws"> </seg>
+<w lemma="weit" type="ADJD" xml:id="NA_d1e137448">weit</w>
+<seg type="ws"> </seg>
+<w lemma="zurückbleiben" type="VVPP" xml:id="NA_d1e137455">zurück<lb break="no" type="s"/>geblieben</w>
+<pc type="final" xml:id="NA_d1e137460">.</pc>
+<seg type="ws"> </seg>
+<w lemma="bei" type="APPR" xml:id="NA_d1e137466">Bei</w>
+<seg type="ws"> </seg>
+<w lemma="einzeln" type="ADJA" xml:id="NA_d1e137472">einzelnen</w>
+<seg type="ws"> </seg>
+<w lemma="rühmlich" type="ADJA" xml:id="NA_d1e137479">rühmlichen</w>
+<seg type="ws"> </seg>
+<w lemma="Ausnahme" type="NN" xml:id="NA_d1e137485">Ausnahmen</w>
+<seg type="ws"> </seg>
+<w lemma="haben" type="VAFIN" xml:id="NA_d1e137491">haben</w>
+<seg type="ws"> </seg>
+<w lemma="sie" type="PPER" xml:id="NA_d1e137498">sie</w>
+<seg type="ws"> </seg>
+<w lemma="sich" type="PRF" xml:id="NA_d1e137504">sich</w>
+<seg type="ws"> </seg>
+<w lemma="als" type="KOKOM" xml:id="NA_d1e137510">als</w><lb/>
+<w lemma="Masse" type="NN" xml:id="NA_d1e137515">Masse</w>
+<seg type="ws"> </seg>
+<w lemma="unfähig" type="ADJD" xml:id="NA_d1e137521">unfähig</w>
+<seg type="ws"> </seg>
+<w lemma="zeigen" type="VVPP" xml:id="NA_d1e137527">gezeigt</w>
+<pc type="comma" xml:id="NA_d1e137531">,</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e137537">die</w>
+<seg type="ws"> </seg>
+<w lemma="politisch" type="ADJA" xml:id="NA_d1e137543">politischen</w>
+<seg type="ws"> </seg>
+<w lemma="Recht" type="NN" xml:id="NA_d1e137550">Rechte</w>
+<seg type="ws"> </seg>
+<w lemma="zu" type="PTKZU" xml:id="NA_d1e137556">zu</w>
+<seg type="ws"> </seg>
+<w lemma="gebrauchen" type="VVINF" xml:id="NA_d1e137562">gebrauchen</w>
+<pc type="comma" xml:id="NA_d1e137565">,</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="PRELS" xml:id="NA_d1e137572">die</w><lb/>
+<w lemma="sie" type="PPER" xml:id="NA_d1e137576">ihnen</w>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="NA_d1e137582">eine</w>
+<seg type="ws"> </seg>
+<w lemma="freigebig" type="ADJA" xml:id="NA_d1e137589">freigebige</w>
+<seg type="ws"> </seg>
+<w lemma="Gesetzgebung" type="NN" xml:id="NA_d1e137595">Gesetzgebung</w>
+<seg type="ws"> </seg>
+<w lemma="darbieten" type="VVFIN" xml:id="NA_d1e137601">darbot</w>
+<pc type="final" xml:id="NA_d1e137605">.</pc>
+<seg type="ws"> </seg>
+<w lemma="man" type="PIS" xml:id="NA_d1e137611">Man</w>
+<seg type="ws"> </seg>
+<w lemma="wissen" type="VVFIN" xml:id="NA_d1e137617">weiß</w>
+<seg type="ws"> </seg>
+<w lemma="sie" type="PPER" xml:id="NA_d1e137624">sie</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPRART" xml:id="NA_d1e137630">im</w>
+<seg type="ws"> </seg>
+<w lemma="Süden" type="NN" xml:id="NA_d1e137636">Süden</w><lb/>
+<w lemma="durch" type="APPR" xml:id="NA_d1e137641">durch</w>
+<seg type="ws"> </seg>
+<w lemma="scharfsinnig" type="ADJA" xml:id="NA_d1e137647">scharfsinnige</w>
+<seg type="ws"> </seg>
+<w lemma="Wahlbeschränkung" type="NN" xml:id="NA_d1e137653">Wahlbeschränkungen</w>
+<seg type="ws"> </seg>
+<w lemma="zu" type="PTKZU" xml:id="NA_d1e137660">zu</w>
+<seg type="ws"> </seg>
+<w lemma="umgehen" type="VVINF" xml:id="NA_d1e137666">umgehen</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e137672">und</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e137679">die</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.01 t:Concept1001300 t:Concept1002700 t:Term1002700.1-de" type="gen"><w lemma="Neger" type="NN" xml:id="NA_d1e137686">Neger</w></rs><lb/>
+<w lemma="auch" type="ADV" xml:id="NA_d1e137690">auch</w>
+<seg type="ws"> </seg>
+<w lemma="dort" type="ADV" xml:id="NA_d1e137697">dort</w>
+<seg type="ws"> </seg>
+<w lemma="politisch" type="ADJD" xml:id="NA_d1e137703">politisch</w>
+<seg type="ws"> </seg>
+<w lemma="niederhalten" type="VVIZU" xml:id="NA_d1e137709">niederzuhalten</w>
+<pc type="comma" xml:id="NA_d1e137712">,</pc>
+<seg type="ws"> </seg>
+<w lemma="wo" type="PWAV" xml:id="NA_d1e137719">wo</w>
+<seg type="ws"> </seg>
+<w lemma="sie" type="PPER" xml:id="NA_d1e137725">sie</w>
+<seg type="ws"> </seg>
+<w lemma="groß" type="ADJA" xml:id="NA_d1e137731">große</w>
+<seg type="ws"> </seg>
+<w lemma="Mehrheit" type="NN" xml:id="NA_d1e137738">Mehrheiten</w>
+<seg type="ws"> </seg>
+<w lemma="haben" type="VAINF" xml:id="NA_d1e137744">haben</w>
+<pc type="final" xml:id="NA_d1e137747">.</pc><lb/>
+<w lemma="sozial" type="ADJD" xml:id="NA_d1e137752">Social</w>
+<seg type="ws"> </seg>
+<w lemma="sein" type="VAFIN" xml:id="NA_d1e137758">ist</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e137764">die</w>
+<seg type="ws"> </seg>
+<w lemma="Übereinanderschichtung" type="NN" xml:id="NA_d1e137771">Übereinanderschichtung</w>
+<seg type="ws"> </seg>
+<w lemma="beide" type="PIAT" xml:id="NA_d1e137777">beider</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.01 t:Concept1002800 t:Term1002800.1-de" type="gen"><w lemma="Rasse" type="NN" xml:id="NA_d1e137784">Rassen</w></rs>
+<seg type="ws"> </seg>
+<w lemma="jetzt" type="ADV" xml:id="NA_d1e137791">jetzt</w>
+<seg type="ws"> </seg>
+<w lemma="scharf" type="ADJD" xml:id="NA_d1e137797">schärfer</w><lb/>
+<w lemma="aussprechen" type="VVPP" xml:id="NA_d1e137801">ausgesprochen</w>
+<seg type="ws"> </seg>
+<w lemma="als" type="KOKOM" xml:id="NA_d1e137808">als</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="NA_d1e137814">in</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e137820">der</w>
+<seg type="ws"> </seg>
+<w lemma="Zeit" type="NN" xml:id="NA_d1e137827">Zeit</w>
+<pc type="comma" xml:id="NA_d1e137830">,</pc>
+<seg type="ws"> </seg>
+<w lemma="wo" type="PWAV" xml:id="NA_d1e137836">wo</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e137842">die</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.01 t:Concept1001300 t:Concept1002700 t:Term1002700.1-de" type="gen"><w lemma="Neger" type="NN" xml:id="NA_d1e137850">Neger</w></rs>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.06 t:Concept6001700 t:Term6001700.1-de" type="soc"><w lemma="Sklave" type="NN" xml:id="NA_d1e137857">Sklaven</w></rs>
+<seg type="ws"> </seg>
+<w lemma="sein" type="VAFIN" xml:id="NA_d1e137863">waren</w>
+<pc type="final" xml:id="NA_d1e137867">.</pc>
+<seg type="ws"> </seg>
+<w lemma="geographisch" type="ADJD" xml:id="NA_d1e137873">Geo<lb break="no" type="s"/>graphisch</w>
+<seg type="ws"> </seg>
+<w lemma="ausprägen" type="VVFIN" xml:id="NA_d1e137881">prägt</w>
+<seg type="ws"> </seg>
+<w lemma="sie" type="PPER" xml:id="NA_d1e137888">sie</w>
+<seg type="ws"> </seg>
+<w lemma="sich" type="PRF" xml:id="NA_d1e137894">sich</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="NA_d1e137900">in</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e137907">dem</w>
+<seg type="ws"> </seg>
+<w lemma="Wachstum" type="NN" xml:id="NA_d1e137913">Wachstum</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e137919">des</w>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="NA_d1e137926">„</pc>
+<w lemma="black" type="FM" xml:id="NA_d1e137929">Black</w>
+<seg type="ws"> </seg>
+<w lemma="belt" type="FM" xml:id="NA_d1e137935">Belt</w>
+<pc type="internal" xml:id="NA_d1e137938">“</pc>
+<seg type="ws"> </seg>
+<w lemma="aus" type="PTKVZ" xml:id="NA_d1e137945">aus</w>
+<pc type="comma" xml:id="NA_d1e137948">,</pc>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="NA_d1e137954">in</w><lb/>
+
+</p></div></div></front></text></TEI>

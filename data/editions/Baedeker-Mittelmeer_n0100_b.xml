@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Mittelmeer 1909, Karte nach S. 100</title>
+            <title level="m">Das Mittelmeer. Handbuch für Reisende: Digitale Ausgabe</title>
+            <author>Karl Baedeker (company)</author>
+            <respStmt>
+               <resp xml:lang="en">compiled by</resp>
+               <name>Ulrike Czeitschner</name>
+            </respStmt>
+            <respStmt>
+               <resp xml:lang="en">in collaboration with</resp>
+               <name>Barbara Krautgartner</name>
+               <name>Victoria Eisenheld</name>
+               <name>Laura Lanig</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>full-text digital edition <date when="2017">2017</date></edition>
+            <funder>Austrian Academy of Sciences</funder>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+            <address>
+               <addrLine>Bäckerstraße 13</addrLine>
+               <addrLine>1010 Vienna</addrLine>
+            </address>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2017">2017</date>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="short">Karl Baedeker: Das Mittelmeer. Leipzig, 1909.</bibl>
+            <bibl type="transcript">Das Mittelmeer 
+            Hafenplätze und Seewege 
+            nebst 
+            Madeira, den Kanarischen Inseln, der Küste 
+            Marokkos, Algerien und Tunesien 
+            Handbuch für Reisende 
+            von 
+            Karl Bædeker 
+            Mit 38 Karten und 49 Plänen 
+            Leipzig 
+            Verlag von Karl Bædeker 
+            1909</bibl>
+            <biblStruct type="full">
+               <monogr>
+                  <author>Karl Baedeker</author>
+                  <title type="main">Das Mittelmeer</title>
+                  <title type="sub">Hafenplätze und Seewege 
+                    nebst 
+                    Madeira, den Kanarischen Inseln, der Küste 
+                    Marokkos, Algerien und Tunesien 
+                    Handbuch für Reisende 
+                    von 
+                    Karl Bædeker 
+                    Mit 38 Karten und 49 Plänen</title>
+                  <edition>first edition</edition>
+                  <imprint>
+                     <publisher>Verlag von Karl Bædeker</publisher>
+                     <pubPlace>Leipzig</pubPlace>
+                     <date when="1909">1909</date>
+                  </imprint>
+                  <extent>
+                     <measure type="pages">826 [XXXII, 635 p., maps not paged]</measure>
+                  </extent>
+               </monogr>
+            </biblStruct>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Vienna</settlement> 
+                  <institution>Austrian National Library</institution>
+                  <repository>Karten-Sammlung</repository>
+                  <idno type="signatory">583155-A</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Image creation, optical character recognition and basic XML annotation has been carried out within the framework of the AAC-Austrian Academy Corpus.</p>
+            <p>Transformation to TEI/P5, linguistic and semantic annotation has been applied within the the GO!DIGITAL 1.0 project "travel!digital. Exploring People and Monuments in Baedeker Guidebooks (1875-1914)", Project-Nr.: ÖAW0204.</p>
+         </projectDesc>
+         <listPrefixDef>
+            <prefixDef matchPattern="(person)" replacementPattern="persons.xml#$1" ident="person-prefix">
+               <p>Private URIs using the person  
+                  prefix are pointers to person
+                  elements in the personography.xml file.
+                  For example, psn:MDH
+                  dereferences to personography.xml#MDH</p>
+            </prefixDef>
+            <prefixDef matchPattern="(t)" replacementPattern="https://vocabs.acdh.oeaw.ac.at/traveldigital/$1" ident="thesaurus-prefix">
+               <p>Private URIs using the t  
+                  prefix are pointers to entries
+                  in the travel!digital thesaurus.
+                  For example, t:Concept6005600
+                  dereferences to https://vocabs.acdh.oeaw.ac.at/traveldigital/Concept6005600.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <editorialDecl>
+            <p>Annotation according to TEI/P5.</p>
+            <correction method="markup">
+               <p>Corrections have been represented using markup.</p>
+            </correction>
+            <normalization>
+               <p>Original orthography has been retained.</p>
+               <p>Original typography has been retained.</p>
+            </normalization>
+            <hyphenation eol="all">   
+               <p>All end-of-line hyphenation has been retained.</p>
+            </hyphenation>
+            <interpretation>
+               <p>personal names of historical, mythological/religious and literary figures (except occurences in street names and company names), dates, selected designations of groups and sights</p>
+               <p>tokenization, PoS-tagging (Stuttgart-Tübingen-TagSet, 54 part-of-speech tags for annotating German text corpora, Guidelines 1999), lemmatization, manually corrected</p>
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de" usage="98"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <list>
+                  <item>Baedeker guidebook</item>
+                  <item>Karl Baedeker</item>
+                  <item>historical travel guide</item>
+                  <item>Mediterranean Sea</item>
+                  <item>German language</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+<text type="book"><body><div n="IV. MAROKKO."><div n="14. Tanger." type="chapter"><p rend="indent" prev="true"><pb facs="https://id.acdh.oeaw.ac.at/traveldigital/Images/Baedeker-Mittelmeer_1909/Baedeker-Mittelmeer_n0100_b.tiff" n="Karte nach S. 100"/>
+<figure n="Tanger" type="map"><head><seg rend="spaced"><seg rend="bold"><w lemma="Tánger" type="NE" xml:id="MM_d1e422370">TÁNGER</w></seg></seg></head>
+<p><w lemma="1" type="CARD" xml:id="MM_d1e422374">1</w>
+<pc type="internal" xml:id="MM_d1e422377">:</pc>
+<w lemma="8.000" type="CARD" xml:id="MM_d1e422380">8.000</w><lb/>
+<w lemma="Metro" type="FM" xml:id="MM_d1e422385">Metros</w></p>
+<cb n="a" type="start"/>
+<p><seg rend="bold"><w lemma="1" type="CARD" xml:id="MM_d1e422392">1</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><seg><w lemma="Correo" type="NE" xml:id="MM_d1e422400">Correo</w></seg>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2003000-1 t:Term2003000-1.1-es" type="ethNat"><w lemma="alemán" type="NE" xml:id="MM_d1e422407">alemán</w></rs></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="D" type="XY" xml:id="MM_d1e422419">D</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="MM_d1e422425">2</w></seg></p>
+<p><seg rend="bold"><w lemma="2" type="CARD" xml:id="MM_d1e422430">2</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><seg copyOf="#ditto11"><pc type="internal" xml:id="MM_d1e422438">„</pc></seg>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2011600-1 t:Term2011600-1.1-es" type="ethNat"><w lemma="español" type="NE" xml:id="MM_d1e422445">español</w></rs></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="D" type="XY" xml:id="MM_d1e422457">D</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="MM_d1e422463">2</w></seg></p>
+<p><seg rend="bold"><w lemma="3" type="CARD" xml:id="MM_d1e422468">3</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><seg copyOf="#ditto11"><pc type="internal" xml:id="MM_d1e422476">„</pc></seg>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2003400-1 t:Term2003400-1.1-es" type="ethNat"><w lemma="inglés" type="NE" xml:id="MM_d1e422483">inglés</w></rs></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="D" type="XY" xml:id="MM_d1e422495">D</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="MM_d1e422501">2</w></seg></p>
+<p><seg rend="bold"><w lemma="4" type="CARD" xml:id="MM_d1e422507">4</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><seg copyOf="#ditto11"><pc type="internal" xml:id="MM_d1e422515">„</pc></seg>
+<seg type="ws"> </seg>
+<w lemma="y" type="NE" xml:id="MM_d1e422521">y</w>
+<seg type="ws"> </seg>
+<w lemma="telégrafo" type="NE_ABK" xml:id="MM_d1e422527">telégr.</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2004400-1 t:Term2004400-1.1-es" type="ethNat"><w lemma="francés" type="NE" xml:id="MM_d1e422535">francés</w></rs></seg>
+<seg type="ws"> </seg>
+<w lemma="D" type="XY" xml:id="MM_d1e422541">D</w>
+<w lemma="2" type="CARD" xml:id="MM_d1e422544">2</w>
+<pc type="final" xml:id="MM_d1e422548">.</pc>
+<w lemma="3" type="CARD" xml:id="MM_d1e422551">3</w></seg></p>
+<p><seg rend="bold"><w lemma="5" type="CARD" xml:id="MM_d1e422556">5</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><seg><w lemma="Telégrafo" type="NE" xml:id="MM_d1e422564">Telégrafo</w></seg>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2011600-1 t:Term2011600-1.1-es" type="ethNat"><w lemma="español" type="NE" xml:id="MM_d1e422571">español</w></rs></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="D" type="XY" xml:id="MM_d1e422583">D</w>
+<seg type="ws"> </seg>
+<w lemma="3" type="CARD" xml:id="MM_d1e422589">3</w></seg></p>
+<p><seg rend="bold"><w lemma="6" type="CARD" xml:id="MM_d1e422594">6</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><seg copyOf="#ditto12"><pc type="internal" xml:id="MM_d1e422602">„</pc></seg>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2003400-1 t:Term2003400-1.1-es" type="ethNat"><w lemma="inglés" type="NE" xml:id="MM_d1e422609">inglés</w></rs></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="B" type="XY" xml:id="MM_d1e422621">B</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="MM_d1e422627">2</w></seg></p>
+<cb n="a" type="end"/>
+<cb n="b" type="start"/>
+<p><seg rend="bold"><w lemma="7" type="CARD" xml:id="MM_d1e422636">7</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Casa" type="NE" xml:id="MM_d1e422643">Casa</w>
+<seg type="ws"> </seg>
+<w lemma="del" type="NE" xml:id="MM_d1e422649">del</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.04 t:Concept01.04.01 t:Concept4054900 t:Term4054900.1-de" type="occPol"><w lemma="Kadi" type="NE" xml:id="MM_d1e422655">Kadi</w></rs></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="D" type="XY" xml:id="MM_d1e422667">D</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="MM_d1e422673">2</w></seg></p>
+<p><seg rend="bold"><w lemma="8" type="CARD" xml:id="MM_d1e422679">8</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Los" type="NE" xml:id="MM_d1e422686">Los</w>
+<seg type="ws"> </seg>
+<w lemma="Herradores" type="NE" xml:id="MM_d1e422692">Herradores</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="C" type="XY" xml:id="MM_d1e422704">C</w>
+<seg type="ws"> </seg>
+<w lemma="3" type="CARD" xml:id="MM_d1e422710">3</w></seg></p>
+<p><seg rend="bold"><w lemma="9" type="CARD" xml:id="MM_d1e422715">9</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Mexuar" type="NE" xml:id="MM_d1e422722">Mexuar</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="C" type="XY" xml:id="MM_d1e422734">C</w>
+<seg type="ws"> </seg>
+<w lemma="1" type="CARD" xml:id="MM_d1e422740">1</w></seg></p>
+<p><seg rend="bold"><w lemma="10" type="CARD" xml:id="MM_d1e422745">10</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Tesoro" type="NE" xml:id="MM_d1e422752">Tesoro</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="C" type="XY" xml:id="MM_d1e422764">C</w>
+<seg type="ws"> </seg>
+<w lemma="1" type="CARD" xml:id="MM_d1e422770">1</w></seg></p>
+<p><seg rend="bold"><w lemma="11" type="CARD" xml:id="MM_d1e422775">11</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2003000-1 t:Term2003000-1.1-de" type="ethNat"><w lemma="deutsch" type="ADJA" xml:id="MM_d1e422783">Deutsche</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Orientbank" type="NN" xml:id="MM_d1e422789">Orientbank</w></seg>
+<seg type="ws"> </seg>
+<w lemma="D" type="XY" xml:id="MM_d1e422795">D</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="MM_d1e422802">2</w></seg></p>
+<p><seg rend="bold"><w lemma="12" type="CARD" xml:id="MM_d1e422807">12</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Banque" type="NE" xml:id="MM_d1e422814">Banque</w>
+<seg type="ws"> </seg>
+<w lemma="d’" type="NE" xml:id="MM_d1e422820">d’</w>
+<w lemma="Etat" type="NE" xml:id="MM_d1e422823">Etat</w>
+<seg type="ws"> </seg>
+<w lemma="du" type="NE" xml:id="MM_d1e422829">du</w>
+<seg type="ws"> </seg>
+<w lemma="Maroc" type="NE" xml:id="MM_d1e422836">Maroc</w></seg>
+<seg type="ws"> </seg>
+<w lemma="D" type="XY" xml:id="MM_d1e422842">D</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="MM_d1e422849">2</w></seg></p>
+<cb n="b" type="end"/></figure>
+<figure n="Umgebung von Tanger"><p><seg rend="bold"><w lemma="1" type="CARD" xml:id="MM_d1e422857">1</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><seg><w lemma="Legación" type="NE" xml:id="MM_d1e422865">Legación</w>
+<seg type="ws"> </seg>
+<w lemma="de" type="NE" xml:id="MM_d1e422871">de</w></seg>
+<seg type="ws"> </seg>
+<w lemma="Alemania" type="NE" xml:id="MM_d1e422877">Alemania</w></seg></seg></p>
+<p><seg rend="bold"><w lemma="2" type="CARD" xml:id="MM_d1e422882">2</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><seg copyOf="#ditto13"><pc type="internal" xml:id="MM_d1e422890">„</pc>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="MM_d1e422896">„</pc></seg>
+<seg type="ws"> </seg>
+<w lemma="Austria-Hungría" type="NE" xml:id="MM_d1e422902">Austria-Hungría</w></seg></seg></p>
+<p><seg rend="bold"><w lemma="3" type="CARD" xml:id="MM_d1e422907">3</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><seg copyOf="#ditto13"><pc type="internal" xml:id="MM_d1e422915">„</pc>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="MM_d1e422921">„</pc></seg>
+<seg type="ws"> </seg>
+<w lemma="Bélgica" type="NE" xml:id="MM_d1e422927">Bélgica</w></seg></seg></p>
+<p><seg rend="bold"><w lemma="4" type="CARD" xml:id="MM_d1e422932">4</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><seg copyOf="#ditto13"><pc type="internal" xml:id="MM_d1e422940">„</pc>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="MM_d1e422946">„</pc></seg>
+<seg type="ws"> </seg>
+<w lemma="Francia" type="NE" xml:id="MM_d1e422952">Francia</w></seg></seg></p>
+<p><seg rend="bold"><w lemma="5" type="CARD" xml:id="MM_d1e422957">5</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><seg copyOf="#ditto13"><pc type="internal" xml:id="MM_d1e422965">„</pc>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="MM_d1e422971">„</pc></seg>
+<seg type="ws"> </seg>
+<w lemma="Inglaterra" type="NE" xml:id="MM_d1e422977">Inglaterra</w></seg></seg></p>
+<p><seg rend="bold"><w lemma="6" type="CARD" xml:id="MM_d1e422982">6</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><seg copyOf="#ditto13"><pc type="internal" xml:id="MM_d1e422990">„</pc>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="MM_d1e422996">„</pc></seg>
+<seg type="ws"> </seg>
+<w lemma="Portugal" type="NE" xml:id="MM_d1e423002">Portugal</w></seg></seg></p>
+<p><seg rend="bold"><w lemma="7" type="CARD" xml:id="MM_d1e423008">7</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><seg copyOf="#ditto13"><pc type="internal" xml:id="MM_d1e423016">„</pc>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="MM_d1e423022">„</pc></seg>
+<seg type="ws"> </seg>
+<w lemma="Rusia" type="NE" xml:id="MM_d1e423028">Rusia</w></seg></seg></p>
+<p><w lemma="1" type="CARD" xml:id="MM_d1e423032">1</w>
+<pc type="internal" xml:id="MM_d1e423035">:</pc>
+<w lemma="40.000" type="CARD" xml:id="MM_d1e423038">40.000</w><lb/>
+<w lemma="Metro" type="FM" xml:id="MM_d1e423043">Metros</w></p>
+<p><w lemma="Wagner" type="NE" xml:id="MM_d1e423047">Wagner</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="MM_d1e423053">&amp;amp;</w>
+<seg type="ws"> </seg>
+<w lemma="Debes" type="NE" xml:id="MM_d1e423059">Debes</w>
+<pc type="comma" xml:id="MM_d1e423062">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Leipzig" type="NE" xml:id="MM_d1e423069">Leipzig</w></p></figure>
+
+</p></div></div></body></text></TEI>

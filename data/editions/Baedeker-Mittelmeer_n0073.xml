@@ -1,0 +1,957 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Mittelmeer 1909, S. 73</title>
+            <title level="m">Das Mittelmeer. Handbuch für Reisende: Digitale Ausgabe</title>
+            <author>Karl Baedeker (company)</author>
+            <respStmt>
+               <resp xml:lang="en">compiled by</resp>
+               <name>Ulrike Czeitschner</name>
+            </respStmt>
+            <respStmt>
+               <resp xml:lang="en">in collaboration with</resp>
+               <name>Barbara Krautgartner</name>
+               <name>Victoria Eisenheld</name>
+               <name>Laura Lanig</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>full-text digital edition <date when="2017">2017</date></edition>
+            <funder>Austrian Academy of Sciences</funder>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+            <address>
+               <addrLine>Bäckerstraße 13</addrLine>
+               <addrLine>1010 Vienna</addrLine>
+            </address>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2017">2017</date>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="short">Karl Baedeker: Das Mittelmeer. Leipzig, 1909.</bibl>
+            <bibl type="transcript">Das Mittelmeer 
+            Hafenplätze und Seewege 
+            nebst 
+            Madeira, den Kanarischen Inseln, der Küste 
+            Marokkos, Algerien und Tunesien 
+            Handbuch für Reisende 
+            von 
+            Karl Bædeker 
+            Mit 38 Karten und 49 Plänen 
+            Leipzig 
+            Verlag von Karl Bædeker 
+            1909</bibl>
+            <biblStruct type="full">
+               <monogr>
+                  <author>Karl Baedeker</author>
+                  <title type="main">Das Mittelmeer</title>
+                  <title type="sub">Hafenplätze und Seewege 
+                    nebst 
+                    Madeira, den Kanarischen Inseln, der Küste 
+                    Marokkos, Algerien und Tunesien 
+                    Handbuch für Reisende 
+                    von 
+                    Karl Bædeker 
+                    Mit 38 Karten und 49 Plänen</title>
+                  <edition>first edition</edition>
+                  <imprint>
+                     <publisher>Verlag von Karl Bædeker</publisher>
+                     <pubPlace>Leipzig</pubPlace>
+                     <date when="1909">1909</date>
+                  </imprint>
+                  <extent>
+                     <measure type="pages">826 [XXXII, 635 p., maps not paged]</measure>
+                  </extent>
+               </monogr>
+            </biblStruct>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Vienna</settlement> 
+                  <institution>Austrian National Library</institution>
+                  <repository>Karten-Sammlung</repository>
+                  <idno type="signatory">583155-A</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Image creation, optical character recognition and basic XML annotation has been carried out within the framework of the AAC-Austrian Academy Corpus.</p>
+            <p>Transformation to TEI/P5, linguistic and semantic annotation has been applied within the the GO!DIGITAL 1.0 project "travel!digital. Exploring People and Monuments in Baedeker Guidebooks (1875-1914)", Project-Nr.: ÖAW0204.</p>
+         </projectDesc>
+         <listPrefixDef>
+            <prefixDef matchPattern="(person)" replacementPattern="persons.xml#$1" ident="person-prefix">
+               <p>Private URIs using the person  
+                  prefix are pointers to person
+                  elements in the personography.xml file.
+                  For example, psn:MDH
+                  dereferences to personography.xml#MDH</p>
+            </prefixDef>
+            <prefixDef matchPattern="(t)" replacementPattern="https://vocabs.acdh.oeaw.ac.at/traveldigital/$1" ident="thesaurus-prefix">
+               <p>Private URIs using the t  
+                  prefix are pointers to entries
+                  in the travel!digital thesaurus.
+                  For example, t:Concept6005600
+                  dereferences to https://vocabs.acdh.oeaw.ac.at/traveldigital/Concept6005600.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <editorialDecl>
+            <p>Annotation according to TEI/P5.</p>
+            <correction method="markup">
+               <p>Corrections have been represented using markup.</p>
+            </correction>
+            <normalization>
+               <p>Original orthography has been retained.</p>
+               <p>Original typography has been retained.</p>
+            </normalization>
+            <hyphenation eol="all">   
+               <p>All end-of-line hyphenation has been retained.</p>
+            </hyphenation>
+            <interpretation>
+               <p>personal names of historical, mythological/religious and literary figures (except occurences in street names and company names), dates, selected designations of groups and sights</p>
+               <p>tokenization, PoS-tagging (Stuttgart-Tübingen-TagSet, 54 part-of-speech tags for annotating German text corpora, Guidelines 1999), lemmatization, manually corrected</p>
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de" usage="98"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <list>
+                  <item>Baedeker guidebook</item>
+                  <item>Karl Baedeker</item>
+                  <item>historical travel guide</item>
+                  <item>Mediterranean Sea</item>
+                  <item>German language</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+<text type="book"><body><div n="III. ANDALUSIEN." type="chapter"><div n="10. Von Sevilla nach Córdoba." type="chapter"><pb facs="https://id.acdh.oeaw.ac.at/traveldigital/Images/Baedeker-Mittelmeer_1909/Baedeker-Mittelmeer_n0073.tiff" n="S. 73"/>
+<fw type="header"><fw place="top_left"><seg rend="italicised">Kathedrale</seg>.</fw>
+<fw place="top_center">CORDOBA.</fw>
+<fw n="73" place="top_right" type="pageNum"><seg rend="italicised">10. Route</seg>. 73</fw></fw>
+<p rend="indent"><w lemma="d" type="ART" xml:id="MM_d1e328733">Das</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection02 t:Concept02.01 t:Concept02.01.09 t:Concept_1214 t:Concept_1229 t:Term1229.1-de" subtype="arcIntSacIsl" type="star"><w lemma="*" type="XY" xml:id="MM_d1e328740">*</w>
+<seg rend="smallCaps"><w lemma="Innere" type="NN" xml:id="MM_d1e328744">Innere</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e328750">der</w>
+<seg type="ws"> </seg>
+<w lemma="Kathedrale" type="NN" xml:id="MM_d1e328756">Kathedrale</w></seg></rs>
+<pc type="comma" xml:id="MM_d1e328759">,</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e328765">der</w>
+<seg type="ws"> </seg>
+<w lemma="alt" type="ADJA" xml:id="MM_d1e328772">alte</w>
+<seg type="ws"> </seg>
+<w lemma="Betsaal" type="NN" xml:id="MM_d1e328778">Betsaal</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e328784">der</w>
+<seg type="ws"> </seg>
+<w lemma="Moschee" type="NN" xml:id="MM_d1e328791">Moschee</w>
+<pc type="comma" xml:id="MM_d1e328794">,</pc><lb/>
+<w lemma="machen" type="VVFIN" xml:id="MM_d1e328799">macht</w>
+<seg type="ws"> </seg>
+<w lemma="trotz" type="APPR" xml:id="MM_d1e328806">trotz</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e328812">der</w>
+<seg type="ws"> </seg>
+<w lemma="gering" type="ADJA" xml:id="MM_d1e328818">geringen</w>
+<seg type="ws"> </seg>
+<w lemma="Höhe" type="NN" xml:id="MM_d1e328825">Höhe</w>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="MM_d1e328831">(</pc>
+<w lemma="11,5" type="CARD" xml:id="MM_d1e328834">11,5</w>
+<w lemma="Meter" type="NN_ABK" xml:id="MM_d1e328837">m</w>
+<pc type="internal" xml:id="MM_d1e328840">)</pc>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="MM_d1e328847">und</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e328853">der</w>
+<seg type="ws"> </seg>
+<w lemma="stören" type="ADJA" xml:id="MM_d1e328859">störenden</w>
+<seg type="ws"> </seg>
+<w lemma="Einbau" type="NN" xml:id="MM_d1e328866">Einbauten</w><lb/>
+<w lemma="ein" type="ART" xml:id="MM_d1e328871">einen</w>
+<seg type="ws"> </seg>
+<w lemma="wunderbar" type="ADJA" xml:id="MM_d1e328877">wunderbaren</w>
+<seg type="ws"> </seg>
+<w lemma="Eindruck" type="NN" xml:id="MM_d1e328884">Eindruck</w>
+<pc type="final" xml:id="MM_d1e328887">.</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e328893">Der</w>
+<seg type="ws"> </seg>
+<w lemma="Wald" type="NN" xml:id="MM_d1e328900">Wald</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPR" xml:id="MM_d1e328906">von</w>
+<seg type="ws"> </seg>
+<w lemma="Säule" type="NN" xml:id="MM_d1e328912">Säulen</w>
+<pc type="comma" xml:id="MM_d1e328915">,</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="PRELAT" xml:id="MM_d1e328922">deren</w>
+<seg type="ws"> </seg>
+<w lemma="Perspektive" type="NN" xml:id="MM_d1e328928">Per<lb break="no" type="s"/>spektive</w>
+<seg type="ws"> </seg>
+<w lemma="sich" type="PRF" xml:id="MM_d1e328936">sich</w>
+<seg type="ws"> </seg>
+<w lemma="bei" type="APPR" xml:id="MM_d1e328943">bei</w>
+<seg type="ws"> </seg>
+<w lemma="jed" type="PIAT" xml:id="MM_d1e328949">jedem</w>
+<seg type="ws"> </seg>
+<w lemma="Schritt" type="NN" xml:id="MM_d1e328955">Schritte</w>
+<seg type="ws"> </seg>
+<w lemma="verschieben" type="VVFIN" xml:id="MM_d1e328962">verschiebt</w>
+<pc type="comma" xml:id="MM_d1e328965">,</pc>
+<seg type="ws"> </seg>
+<w lemma="erscheinen" type="VVFIN" xml:id="MM_d1e328971">erscheint</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="MM_d1e328978">in</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e328984">dem</w>
+<seg type="ws"> </seg>
+<w lemma="Halbdunkel" type="NN" xml:id="MM_d1e328990">Halb<lb break="no" type="s"/>dunkel</w>
+<seg type="ws"> </seg>
+<w lemma="endlos" type="ADJD" xml:id="MM_d1e328999">endlos</w>
+<pc type="final" xml:id="MM_d1e329002">.</pc>
+<seg type="ws"> </seg>
+<w lemma="sie" type="PPER" xml:id="MM_d1e329008">Sie</w>
+<seg type="ws"> </seg>
+<w lemma="sein" type="VAFIN" xml:id="MM_d1e329014">sind</w>
+<seg type="ws"> </seg>
+<w lemma="durchschnittlich" type="ADJD" xml:id="MM_d1e329021">durchschnittlich</w>
+<seg type="ws"> </seg>
+<w lemma="nur" type="ADV" xml:id="MM_d1e329027">nur</w>
+<seg type="ws"> </seg>
+<w lemma="4" type="CARD" xml:id="MM_d1e329033">4</w><w lemma="Meter" type="NN_ABK" xml:id="MM_d1e329036">m</w>
+<seg type="ws"> </seg>
+<w lemma="lang" type="ADJD" xml:id="MM_d1e329042">lang</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="MM_d1e329048">und</w>
+<seg type="ws"> </seg>
+<w lemma="aus" type="APPR" xml:id="MM_d1e329055">aus</w><lb/>
+<w lemma="ungleich" type="ADJA" xml:id="MM_d1e329060">ungleichem</w>
+<seg type="ws"> </seg>
+<w lemma="Material" type="NN" xml:id="MM_d1e329066">Material</w>
+<pc type="comma" xml:id="MM_d1e329069">,</pc>
+<seg type="ws"> </seg>
+<w lemma="viel" type="PIS" xml:id="MM_d1e329076">viele</w>
+<seg type="ws"> </seg>
+<w lemma="stammen" type="VVFIN" xml:id="MM_d1e329082">stammen</w>
+<seg type="ws"> </seg>
+<w lemma="aus" type="APPR" xml:id="MM_d1e329088">aus</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2010800-1 t:Term2010800-1.2-de" type="ethNat"><w lemma="spätrömisch" type="ADJA" xml:id="MM_d1e329096">spätrömischen</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Gebäude" type="NN" xml:id="MM_d1e329102">Gebäuden</w><lb/>
+<w lemma="oder" type="KON" xml:id="MM_d1e329107">oder</w>
+<seg type="ws"> </seg>
+<w lemma="aus" type="APPR" xml:id="MM_d1e329114">aus</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.05 t:Concept01.05.01 t:Concept5002601-1 t:Term5002601-1.1-de" type="rel"><w lemma="christlich" type="ADJA" xml:id="MM_d1e329121">christlichen</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Kirche" type="NN" xml:id="MM_d1e329127">Kirchen</w>
+<pc type="final" xml:id="MM_d1e329131">.</pc>
+<seg type="ws"> </seg>
+<w lemma="erstaunlich" type="ADJD" xml:id="MM_d1e329137">Erstaunlich</w>
+<seg type="ws"> </seg>
+<w lemma="sein" type="VAFIN" xml:id="MM_d1e329143">ist</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e329150">der</w>
+<seg type="ws"> </seg>
+<w lemma="Reichtum" type="NN" xml:id="MM_d1e329156">Reichtum</w><lb/>
+<w lemma="verschiedenartig" type="ADJA" xml:id="MM_d1e329161">verschiedenartiger</w>
+<seg type="ws"> </seg>
+<w lemma="Kapitälform" type="NN" xml:id="MM_d1e329168">Kapitälformen</w>
+<pc type="final" xml:id="MM_d1e329171">;</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e329177">die</w>
+<seg type="ws"> </seg>
+<w lemma="Basis" type="NN" xml:id="MM_d1e329183">Basen</w>
+<seg type="ws"> </seg>
+<w lemma="sein" type="VAFIN" xml:id="MM_d1e329190">sind</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPRART" xml:id="MM_d1e329196">im</w>
+<seg type="ws"> </seg>
+<w lemma="Fußboden" type="NN" xml:id="MM_d1e329202">Fußboden</w><lb/>
+<w lemma="verstecken" type="VVPP" xml:id="MM_d1e329208">versteckt</w>
+<pc type="comma" xml:id="MM_d1e329211">,</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="PRELS" xml:id="MM_d1e329217">der</w>
+<seg type="ws"> </seg>
+<w lemma="sich" type="PRF" xml:id="MM_d1e329224">sich</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPRART" xml:id="MM_d1e329230">im</w>
+<seg type="ws"> </seg>
+<w lemma="Lauf" type="NN" xml:id="MM_d1e329236">Laufe</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e329243">der</w>
+<seg type="ws"> </seg>
+<w lemma="Zeit" type="NN" xml:id="MM_d1e329249">Zeit</w>
+<seg type="ws"> </seg>
+<w lemma="um" type="APPR" xml:id="MM_d1e329255">um</w>
+<seg type="ws"> </seg>
+<w lemma="30" type="CARD" xml:id="MM_d1e329262">30</w>
+<pc type="internal" xml:id="MM_d1e329265">-</pc>
+<w lemma="40" type="CARD" xml:id="MM_d1e329268">40</w><w lemma="Zentimeter" type="NN_ABK" xml:id="MM_d1e329270">cm</w>
+<seg type="ws"> </seg>
+<w lemma="erhöhen" type="VVPP" xml:id="MM_d1e329276">erhöht</w>
+<seg type="ws"> </seg>
+<w lemma="haben" type="VAFIN" xml:id="MM_d1e329283">hat</w>
+<pc type="final" xml:id="MM_d1e329286">.</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e329292">Die</w><lb/>
+<w lemma="unzählig" type="ADJA" xml:id="MM_d1e329298">unzähligen</w>
+<seg type="ws"> </seg>
+<w lemma="Hufeisenbogen" type="NN" xml:id="MM_d1e329304">Hufeisenbogen</w>
+<pc type="comma" xml:id="MM_d1e329307">,</pc>
+<seg type="ws"> </seg>
+<w lemma="welch" type="PRELS" xml:id="MM_d1e329313">welche</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e329320">die</w>
+<seg type="ws"> </seg>
+<w lemma="Säule" type="NN" xml:id="MM_d1e329326">Säulen</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="MM_d1e329332">in</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e329339">der</w>
+<seg type="ws"> </seg>
+<w lemma="Längsrichtung" type="NN" xml:id="MM_d1e329345">Längsrichtung</w><lb/>
+<w lemma="verbinden" type="VVFIN" xml:id="MM_d1e329350">verbinden</w>
+<pc type="comma" xml:id="MM_d1e329354">,</pc>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="MM_d1e329360">und</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e329366">die</w>
+<seg type="ws"> </seg>
+<w lemma="auf" type="APPR" xml:id="MM_d1e329373">auf</w>
+<seg type="ws"> </seg>
+<w lemma="vorkragen" type="ADJA" xml:id="MM_d1e329379">vorgekragten</w>
+<seg type="ws"> </seg>
+<w lemma="Pfeiler" type="NN" xml:id="MM_d1e329385">Pfeilern</w>
+<seg type="ws"> </seg>
+<w lemma="ruhen" type="ADJA" xml:id="MM_d1e329392">ruhenden</w>
+<seg type="ws"> </seg>
+<w lemma="halbrund" type="ADJA" xml:id="MM_d1e329398">halbrunden</w><lb/>
+<w lemma="ober" type="ADJA" xml:id="MM_d1e329403">oberen</w>
+<seg type="ws"> </seg>
+<w lemma="Bogen" type="NN" xml:id="MM_d1e329410">Bogen</w>
+<seg type="ws"> </seg>
+<w lemma="bringen" type="VVFIN" xml:id="MM_d1e329416">bringen</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="MM_d1e329422">in</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e329429">den</w>
+<seg type="ws"> </seg>
+<w lemma="Bau" type="NN" xml:id="MM_d1e329435">Bau</w>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="MM_d1e329441">ein</w>
+<seg type="ws"> </seg>
+<w lemma="seltsam" type="ADJA" xml:id="MM_d1e329448">seltsames</w>
+<seg type="ws"> </seg>
+<w lemma="Leben" type="NN" xml:id="MM_d1e329454">Leben</w>
+<pc type="final" xml:id="MM_d1e329457">.</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e329463">Das</w>
+<seg type="ws"> </seg>
+<w lemma="farbig" type="ADJA" xml:id="MM_d1e329470">farbige</w><lb/>
+<w lemma="Balkenwerk" type="NN" xml:id="MM_d1e329475">Balkenwerk</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e329481">der</w>
+<seg type="ws"> </seg>
+<w lemma="Dach" type="NN" xml:id="MM_d1e329488">Dächer</w>
+<seg type="ws"> </seg>
+<w lemma="sein" type="VAFIN" xml:id="MM_d1e329494">ist</w>
+<seg type="ws"> </seg>
+<w lemma="seit" type="APPR" xml:id="MM_d1e329500">seit</w>
+<seg type="ws"> </seg>
+<date><w lemma="1713" type="CARD" xml:id="MM_d1e329508">1713</w></date>
+<seg type="ws"> </seg>
+<w lemma="durch" type="APPR" xml:id="MM_d1e329514">durch</w>
+<seg type="ws"> </seg>
+<w lemma="charakterlos" type="ADJA" xml:id="MM_d1e329520">charakterlose</w>
+<seg type="ws"> </seg>
+<w lemma="Scheingewölbe" type="NN" xml:id="MM_d1e329527">Schein<lb break="no" type="s"/>gewölbe</w>
+<seg type="ws"> </seg>
+<w lemma="verdecken" type="VVPP" xml:id="MM_d1e329535">verdeckt</w>
+<pc type="final" xml:id="MM_d1e329538">.</pc>
+<seg type="ws"> </seg>
+<w lemma="wie" type="KOKOM" xml:id="MM_d1e329545">Wie</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e329551">das</w>
+<seg type="ws"> </seg>
+<w lemma="reich" type="ADJA" xml:id="MM_d1e329557">reiche</w>
+<seg type="ws"> </seg>
+<w lemma="Fußbodenmosaik" type="NN" xml:id="MM_d1e329564">Fußbodenmosaik</w>
+<seg type="ws"> </seg>
+<w lemma="sein" type="VAFIN" xml:id="MM_d1e329570">sind</w>
+<seg type="ws"> </seg>
+<w lemma="auch" type="ADV" xml:id="MM_d1e329576">auch</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e329583">die</w><lb/>
+<w lemma="zahllos" type="ADJA" xml:id="MM_d1e329588">zahllosen</w>
+<seg type="ws"> </seg>
+<w lemma="Kronleuchter" type="NN" xml:id="MM_d1e329594">Kronleuchter</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="MM_d1e329601">und</w>
+<seg type="ws"> </seg>
+<w lemma="Hängelampe" type="NN" xml:id="MM_d1e329607">Hängelampen</w>
+<seg type="ws"> </seg>
+<w lemma="verschwinden" type="VVPP" xml:id="MM_d1e329613">verschwunden</w>
+<pc type="comma" xml:id="MM_d1e329616">,</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="PRELS" xml:id="MM_d1e329623">die</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="MM_d1e329629">in</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e329635">der</w><lb/>
+<w lemma="Maurenzeit" type="NN" xml:id="MM_d1e329641">Maurenzeit</w>
+<seg type="ws"> </seg>
+<w lemma="ohne" type="APPR" xml:id="MM_d1e329647">ohne</w>
+<seg type="ws"> </seg>
+<w lemma="Unterlass" type="NN" xml:id="MM_d1e329653">Unterlaß</w>
+<seg type="ws"> </seg>
+<w lemma="brennen" type="VVFIN" xml:id="MM_d1e329660">brannten</w>
+<pc type="final" xml:id="MM_d1e329663">.</pc></p>
+<p rend="indent"><w lemma="d" type="ART" xml:id="MM_d1e329667">Den</w>
+<seg type="ws"> </seg>
+<w lemma="Höhepunkt" type="NN" xml:id="MM_d1e329673">Höhepunkt</w>
+<seg type="ws"> </seg>
+<w lemma="erreichen" type="VVFIN" xml:id="MM_d1e329679">erreicht</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e329686">die</w>
+<seg type="ws"> </seg>
+<w lemma="künstlerisch" type="ADJA" xml:id="MM_d1e329692">künstlerische</w>
+<seg type="ws"> </seg>
+<w lemma="Ausstattung" type="NN" xml:id="MM_d1e329698">Ausstattung</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="MM_d1e329705">in</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e329711">der</w><lb/>
+<w lemma="Gebetnische" type="NN" xml:id="MM_d1e329716">Gebetnische</w>
+<pc type="comma" xml:id="MM_d1e329719">,</pc>
+<seg type="ws"> </seg>
+<w lemma="zu" type="APPR" xml:id="MM_d1e329726">zu</w>
+<seg type="ws"> </seg>
+<w lemma="welch" type="PRELS" xml:id="MM_d1e329732">welcher</w>
+<seg type="ws"> </seg>
+<w lemma="bei" type="APPR" xml:id="MM_d1e329738">bei</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e329745">dem</w>
+<seg type="ws"> </seg>
+<w lemma="zweite" type="ADJA" xml:id="MM_d1e329751">zweiten</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="MM_d1e329757">und</w>
+<seg type="ws"> </seg>
+<w lemma="dritte" type="ADJA" xml:id="MM_d1e329764">dritten</w>
+<seg type="ws"> </seg>
+<w lemma="Mihrab" type="NN" xml:id="MM_d1e329770">Mihrâb</w>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="MM_d1e329776">eine</w><lb/>
+<w lemma="Vorhalle" type="NN" xml:id="MM_d1e329782">Vorhalle</w>
+<seg type="ws"> </seg>
+<w lemma="mit" type="APPR" xml:id="MM_d1e329788">mit</w>
+<seg type="ws"> </seg>
+<w lemma="zwei" type="CARD" xml:id="MM_d1e329794">zwei</w>
+<seg type="ws"> </seg>
+<w lemma="Seitenraum" type="NN" xml:id="MM_d1e329801">Seitenräumen</w>
+<seg type="ws"> </seg>
+<w lemma="gehören" type="VVFIN" xml:id="MM_d1e329807">gehörten</w>
+<pc type="comma" xml:id="MM_d1e329810">,</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="PRELS" xml:id="MM_d1e329817">die</w>
+<seg type="ws"> </seg>
+<w lemma="ehemals" type="ADV" xml:id="MM_d1e329823">ehemals</w>
+<seg type="ws"> </seg>
+<w lemma="zu" type="APPRART_ABK" xml:id="MM_d1e329829">z.</w>
+<seg type="ws"> </seg>
+<w lemma="Teil" type="NN_ABK" xml:id="MM_d1e329836">T.</w>
+<seg type="ws"> </seg>
+<w lemma="als" type="KOKOM" xml:id="MM_d1e329842">als</w><lb/>
+<w lemma="Hofloge" type="NN" xml:id="MM_d1e329847">Hofloge</w>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="MM_d1e329854">(</pc>
+<w lemma="Maksûra" type="NE" xml:id="MM_d1e329857">Maksûra</w>
+<pc type="internal" xml:id="MM_d1e329860">)</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e329866">des</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.04 t:Concept01.04.01 t:Concept4019400 t:Term4019400.1-de" type="occPol"><w lemma="Kalif" type="NN" xml:id="MM_d1e329874">Kalifen</w></rs>
+<seg type="ws"> </seg>
+<w lemma="abtrennen" type="VVPP" xml:id="MM_d1e329880">abgetrennt</w>
+<seg type="ws"> </seg>
+<w lemma="sein" type="VAFIN" xml:id="MM_d1e329886">waren</w>
+<pc type="final" xml:id="MM_d1e329889">.</pc>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPR" xml:id="MM_d1e329896">Von</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e329902">dem</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection02 t:Concept02.01 t:Concept02.01.09 t:Concept_1223 t:Term1223.1-ar" subtype="arcIntSacIsl" type="star"><w lemma="*" type="XY" xml:id="MM_d1e329909">*</w>
+<w lemma="zweite" type="ADJA" xml:id="MM_d1e329912">zweiten</w><lb/>
+<w lemma="Mihrab" type="NN" xml:id="MM_d1e329917">Mihrâb</w></rs>
+<seg type="ws"> </seg>
+<w lemma="sein" type="VAFIN" xml:id="MM_d1e329924">ist</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e329930">die</w>
+<seg type="ws"> </seg>
+<w lemma="Vorhalle" type="NN" xml:id="MM_d1e329936">Vorhalle</w>
+<pc type="comma" xml:id="MM_d1e329940">,</pc>
+<seg type="ws"> </seg>
+<w lemma="mit" type="APPR" xml:id="MM_d1e329946">mit</w>
+<seg type="ws"> </seg>
+<w lemma="prachtvoll" type="ADJA" xml:id="MM_d1e329952">prachtvollem</w>
+<seg type="ws"> </seg>
+<w lemma="Muschelgewölbe" type="NN" xml:id="MM_d1e329959">Muschelgewölbe</w>
+<pc type="comma" xml:id="MM_d1e329962">,</pc>
+<seg type="ws"> </seg>
+<w lemma="erhalten" type="VVPP" xml:id="MM_d1e329968">erhalten</w>
+<pc type="final" xml:id="MM_d1e329971">.</pc></p>
+<p rend="indent"><w lemma="d" type="ART" xml:id="MM_d1e329976">Der</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection02 t:Concept02.01 t:Concept02.01.09 t:Concept_1223 t:Term1223.1-ar" subtype="arcIntSacIsl" type="star"><w lemma="**" type="XY" xml:id="MM_d1e329983">**</w>
+<seg rend="spaced"><w lemma="dritte" type="ADJA" xml:id="MM_d1e329987">dritte</w>
+<seg type="ws"> </seg>
+<w lemma="Mihrab" type="NN" xml:id="MM_d1e329993">Mihrâb</w></seg></rs>
+<seg type="ws"> </seg>
+<w lemma="gelten" type="VVFIN" xml:id="MM_d1e329999">gilt</w>
+<seg type="ws"> </seg>
+<w lemma="als" type="KOKOM" xml:id="MM_d1e330006">als</w>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="MM_d1e330012">ein</w>
+<seg type="ws"> </seg>
+<w lemma="Wunder" type="NN" xml:id="MM_d1e330018">Wunder</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e330025">der</w>
+<seg type="ws"> </seg>
+<w lemma="Kunst" type="NN" xml:id="MM_d1e330031">Kunst</w>
+<pc type="final" xml:id="MM_d1e330034">.</pc>
+<seg type="ws"> </seg>
+<w lemma="sein" type="PPOSAT" xml:id="MM_d1e330040">Seine</w><lb/>
+<w lemma="Frontseite" type="NN" xml:id="MM_d1e330046">Frontseite</w>
+<seg type="ws"> </seg>
+<w lemma="sein" type="VAFIN" xml:id="MM_d1e330052">ist</w>
+<seg type="ws"> </seg>
+<w lemma="durch" type="APPR" xml:id="MM_d1e330058">durch</w>
+<seg type="ws"> </seg>
+<w lemma="zwei" type="CARD" xml:id="MM_d1e330065">zwei</w>
+<seg type="ws"> </seg>
+<w lemma="Säulenstellung" type="NN" xml:id="MM_d1e330071">Säulenstellungen</w>
+<seg type="ws"> </seg>
+<w lemma="übereinander" type="ADV" xml:id="MM_d1e330077">übereinander</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="MM_d1e330084">und</w>
+<seg type="ws"> </seg>
+<w lemma="durch" type="APPR" xml:id="MM_d1e330090">durch</w><lb/>
+<w lemma="doppelt" type="ADJA" xml:id="MM_d1e330095">doppelte</w>
+<seg type="ws"> </seg>
+<w lemma="Zackenbogen" type="NN" xml:id="MM_d1e330102">Zackenbogen</w>
+<seg type="ws"> </seg>
+<w lemma="gliedern" type="VVPP" xml:id="MM_d1e330108">gegliedert</w>
+<pc type="final" xml:id="MM_d1e330111">.</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e330118">Die</w>
+<seg type="ws"> </seg>
+<w lemma="Vorhalle" type="NN" xml:id="MM_d1e330124">Vorhalle</w>
+<pc type="comma" xml:id="MM_d1e330127">,</pc>
+<seg type="ws"> </seg>
+<w lemma="jetzt" type="ADV" xml:id="MM_d1e330133">jetzt</w>
+<seg type="ws"> </seg>
+<w lemma="Capilla" type="NE" xml:id="MM_d1e330140">Capilla</w>
+<seg type="ws"> </seg>
+<w lemma="de" type="NE" xml:id="MM_d1e330146">de</w><lb/>
+<w lemma="San" type="NE" xml:id="MM_d1e330151">San</w>
+<seg type="ws"> </seg>
+<w lemma="Pedro" type="NE" xml:id="MM_d1e330158">Pedro</w>
+<pc type="comma" xml:id="MM_d1e330161">,</pc>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="MM_d1e330167">und</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e330174">die</w>
+<seg type="ws"> </seg>
+<w lemma="eigentlich" type="ADJA" xml:id="MM_d1e330180">eigentliche</w>
+<seg type="ws"> </seg>
+<w lemma="Gebetnische" type="NN" xml:id="MM_d1e330186">Gebetnische</w>
+<pc type="comma" xml:id="MM_d1e330189">,</pc>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="MM_d1e330196">ein</w>
+<seg type="ws"> </seg>
+<w lemma="kapellenartig" type="ADJA" xml:id="MM_d1e330202">kapellenartiges</w><lb/>
+<w lemma="Siebeneck" type="NN" xml:id="MM_d1e330207">Siebeneck</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPR" xml:id="MM_d1e330214">von</w>
+<seg type="ws"> </seg>
+<w lemma="kaum" type="ADV" xml:id="MM_d1e330220">kaum</w>
+<seg type="ws"> </seg>
+<w lemma="4" type="CARD" xml:id="MM_d1e330226">4</w><w lemma="Meter" type="NN_ABK" xml:id="MM_d1e330229">m</w>
+<seg type="ws"> </seg>
+<w lemma="Durchmesser" type="NN" xml:id="MM_d1e330235">Durchmesser</w>
+<pc type="comma" xml:id="MM_d1e330238">,</pc>
+<seg type="ws"> </seg>
+<w lemma="zeigen" type="VVFIN" xml:id="MM_d1e330244">zeigen</w>
+<seg type="ws"> </seg>
+<w lemma="an" type="APPR" xml:id="MM_d1e330251">an</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e330257">dem</w>
+<seg type="ws"> </seg>
+<w lemma="reichverziert" type="ADJA" xml:id="MM_d1e330263">reichver<lb break="no" type="s"/>zierten</w>
+<seg type="ws"> </seg>
+<w lemma="Marmorsockel" type="NN" xml:id="MM_d1e330272">Marmorsockel</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="MM_d1e330278">und</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="MM_d1e330284">in</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e330291">den</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPR" xml:id="MM_d1e330297">von</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept3003500-1 t:Term3003500-1.1-de" type="ethNat"><w lemma="byzantinisch" type="ADJA" xml:id="MM_d1e330304">byzantinischen</w></rs>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.04 t:Concept01.04.04 t:Concept4008200 t:Term4008200.1-de" type="occ"><w lemma="Künstler" type="NN" xml:id="MM_d1e330312">Künstlern</w></rs><lb/>
+<w lemma="ausführen" type="ADJA" xml:id="MM_d1e330317">ausgeführten</w>
+<seg type="ws"> </seg>
+<w lemma="bunt" type="ADJA" xml:id="MM_d1e330323">bunten</w>
+<seg type="ws"> </seg>
+<w lemma="Glasmosaik" type="NN" xml:id="MM_d1e330330">Glasmosaiken</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e330336">die</w>
+<seg type="ws"> </seg>
+<w lemma="schön" type="ADJA" xml:id="MM_d1e330342">schönsten</w>
+<seg type="ws"> </seg>
+<w lemma="Detail" type="NN" xml:id="MM_d1e330349">Details</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.01 t:Concept1002100-1 t:Term1002100-1.3-de" type="gen"><w lemma="frühmaurisch" type="ADJA" xml:id="MM_d1e330356">früh<lb break="no" type="s"/>maurischer</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Dekorationsweise" type="NN" xml:id="MM_d1e330364">Dekorationsweise</w>
+<pc type="final" xml:id="MM_d1e330368">.</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e330374">Die</w>
+<seg type="ws"> </seg>
+<w lemma="Zackenbogen" type="NN" xml:id="MM_d1e330380">Zackenbogen</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e330387">der</w>
+<seg type="ws"> </seg>
+<w lemma="Fenster" type="NN" xml:id="MM_d1e330393">Fenster</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="MM_d1e330399">und</w><lb/>
+<w lemma="d" type="ART" xml:id="MM_d1e330405">die</w>
+<seg type="ws"> </seg>
+<w lemma="sich" type="PRF" xml:id="MM_d1e330411">sich</w>
+<seg type="ws"> </seg>
+<w lemma="kühn" type="ADJD" xml:id="MM_d1e330417">kühn</w>
+<seg type="ws"> </seg>
+<w lemma="überschneiden" type="ADJA" xml:id="MM_d1e330424">überschneidenden</w>
+<seg type="ws"> </seg>
+<w lemma="Bogen" type="NN" xml:id="MM_d1e330430">Bogen</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e330436">der</w>
+<seg type="ws"> </seg>
+<w lemma="prächtig" type="ADJA" xml:id="MM_d1e330443">prächtigen</w>
+<seg type="ws"> </seg>
+<w lemma="Kuppelgewölbe" type="NN" xml:id="MM_d1e330449">Kuppelge<lb break="no" type="s"/>wölbe</w>
+<seg type="ws"> </seg>
+<w lemma="hinweisen" type="VVFIN" xml:id="MM_d1e330457">weisen</w>
+<seg type="ws"> </seg>
+<w lemma="schon" type="ADV" xml:id="MM_d1e330464">schon</w>
+<seg type="ws"> </seg>
+<w lemma="auf" type="APPR" xml:id="MM_d1e330470">auf</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e330476">die</w>
+<seg type="ws"> </seg>
+<w lemma="spät" type="ADJA" xml:id="MM_d1e330483">spätere</w>
+<seg type="ws"> </seg>
+<w lemma="reich" type="ADJA" xml:id="MM_d1e330489">reiche</w>
+<seg type="ws"> </seg>
+<w lemma="Entwicklung" type="NN" xml:id="MM_d1e330495">Entwicklung</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e330502">der</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.01 t:Concept1002100-1 t:Term1002100-1.1-de" type="gen"><w lemma="maurisch" type="ADJA" xml:id="MM_d1e330509">mau<lb break="no" type="s"/>rischen</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Kunst" type="NN" xml:id="MM_d1e330517">Kunst</w>
+<seg type="ws"> </seg>
+<w lemma="hin" type="PTKVZ" xml:id="MM_d1e330524">hin</w>
+<pc type="final" xml:id="MM_d1e330527">.</pc></p>
+<p rend="indent"><w lemma="von" type="APPR" xml:id="MM_d1e330531">Von</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e330537">den</w>
+<seg type="ws"> </seg>
+<seg rend="spaced"><rs ref="t:Collection01 t:Concept01.05 t:Concept01.05.01 t:Concept5002601-1 t:Term5002601-1.1-de" type="rel"><w lemma="christlich" type="ADJA" xml:id="MM_d1e330545">christlichen</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Einbau" type="NN" xml:id="MM_d1e330551">Einbauten</w></seg>
+<seg type="ws"> </seg>
+<w lemma="verdienen" type="VVFIN" xml:id="MM_d1e330558">verdient</w>
+<seg type="ws"> </seg>
+<w lemma="zunächst" type="ADV" xml:id="MM_d1e330564">zunächst</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e330570">die</w><lb/>
+<w lemma="prächtig" type="ADJA" xml:id="MM_d1e330576">prächtige</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Capilla" type="NE" xml:id="MM_d1e330583">Capilla</w>
+<seg type="ws"> </seg>
+<w lemma="mudéjar" type="NE" xml:id="MM_d1e330589">mudéjar</w>
+<seg type="ws"> </seg>
+<w lemma="de" type="NE" xml:id="MM_d1e330595">de</w>
+<seg type="ws"> </seg>
+<w lemma="San" type="NE" xml:id="MM_d1e330602">San</w>
+<seg type="ws"> </seg>
+<w lemma="Fernando" type="NE" xml:id="MM_d1e330608">Fernando</w></seg>
+<pc type="comma" xml:id="MM_d1e330611">,</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e330617">die</w>
+<seg type="ws"> </seg>
+<w lemma="durch" type="APPR" xml:id="MM_d1e330624">durch</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.01 t:Concept1002100-1 t:Term1002100-1.1-de" type="gen"><w lemma="maurisch" type="ADJA" xml:id="MM_d1e330631">mau<lb break="no" type="s"/>rische</w></rs>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.04 t:Concept01.04.04 t:Concept4005600 t:Term4005600.2-de" type="occ"><w lemma="Werkleute" type="NN" xml:id="MM_d1e330639">Werkleute</w></rs>
+<seg type="ws"> </seg>
+<w lemma="links" type="ADV_ABK" xml:id="MM_d1e330646">l.</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPRART" xml:id="MM_d1e330652">vom</w>
+<seg type="ws"> </seg>
+<w lemma="zweite" type="ADJA" xml:id="MM_d1e330658">zweiten</w>
+<seg type="ws"> </seg>
+<w lemma="Mihrab" type="NN" xml:id="MM_d1e330665">Mihrâb</w>
+<pc type="comma" xml:id="MM_d1e330668">,</pc>
+<seg type="ws"> </seg>
+<w lemma="über" type="APPR" xml:id="MM_d1e330674">über</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e330681">der</w>
+<seg type="ws"> </seg>
+<w lemma="alt" type="ADJA" xml:id="MM_d1e330687">alten</w>
+<seg type="ws"> </seg>
+<w lemma="Königsgruft" type="NN" xml:id="MM_d1e330693">Königs<lb break="no" type="s"/>gruft</w>
+<pc type="comma" xml:id="MM_d1e330698">,</pc>
+<seg type="ws"> </seg>
+<w lemma="errichten" type="ADJA" xml:id="MM_d1e330705">errichtete</w>
+<seg type="ws"> </seg>
+<w lemma="Kapelle" type="NN" xml:id="MM_d1e330711">Kapelle</w>
+<pc type="comma" xml:id="MM_d1e330714">,</pc>
+<seg type="ws"> </seg>
+<w lemma="besonder" type="ADJA" xml:id="MM_d1e330721">besondere</w>
+<seg type="ws"> </seg>
+<w lemma="Beachtung" type="NN" xml:id="MM_d1e330727">Beachtung</w>
+<pc type="final" xml:id="MM_d1e330730">.</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e330736">Der</w>
+<seg type="ws"> </seg>
+<date><w lemma="1523" type="CARD" xml:id="MM_d1e330744">1523</w></date>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPR" xml:id="MM_d1e330750">von</w><lb/>
+<persName ref="person:hernanRuizdalt" type="hist"><seg rend="italicised"><w lemma="Hernán" type="NE" xml:id="MM_d1e330757">Hernán</w>
+<seg type="ws"> </seg>
+<w lemma="Ruiz" type="NE" xml:id="MM_d1e330763">Ruiz</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART_ABK" xml:id="MM_d1e330769">d.</w>
+<seg type="ws"> </seg>
+<w lemma="alt" type="NN_ABK" xml:id="MM_d1e330776">Ä.</w></seg></persName>
+<seg type="ws"> </seg>
+<w lemma="entwerfen" type="ADJA" xml:id="MM_d1e330783">entworfene</w>
+<pc type="comma" xml:id="MM_d1e330786">,</pc>
+<seg type="ws"> </seg>
+<w lemma="aber" type="KON" xml:id="MM_d1e330792">aber</w>
+<seg type="ws"> </seg>
+<w lemma="erst" type="ADV" xml:id="MM_d1e330799">erst</w>
+<seg type="ws"> </seg>
+<date><w lemma="1607" type="CARD" xml:id="MM_d1e330806">1607</w></date>
+<seg type="ws"> </seg>
+<w lemma="mit" type="APPR" xml:id="MM_d1e330812">mit</w>
+<seg type="ws"> </seg>
+<w lemma="mancherlei" type="PIAT" xml:id="MM_d1e330819">mancherlei</w><lb/>
+<w lemma="Abänderung" type="NN" xml:id="MM_d1e330824">Abänderungen</w>
+<seg type="ws"> </seg>
+<w lemma="vollenden" type="ADJA" xml:id="MM_d1e330830">vollendete</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection02 t:Concept02.01 t:Concept02.01.09 t:Concept_1217 t:Term1217.1-de" subtype="arcIntSacChr" type="star"><w lemma="*" type="XY" xml:id="MM_d1e330838">*</w>
+<seg rend="italicised"><w lemma="Renaissance-Chor" type="NN" xml:id="MM_d1e330842">Renaissance-Chor</w></seg></rs>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="MM_d1e330848">(</pc>
+<w lemma="Coro" type="NE" xml:id="MM_d1e330851">Coro</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="MM_d1e330857">und</w>
+<seg type="ws"> </seg>
+<w lemma="Capilla" type="NE" xml:id="MM_d1e330864">Capilla</w><lb/>
+<w lemma="Major" type="NE" xml:id="MM_d1e330869">Major</w>
+<pc type="internal" xml:id="MM_d1e330872">)</pc>
+<seg type="ws"> </seg>
+<w lemma="haben" type="VAFIN" xml:id="MM_d1e330879">hat</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="MM_d1e330885">in</w>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="MM_d1e330891">einer</w>
+<seg type="ws"> </seg>
+<w lemma="Länge" type="NN" xml:id="MM_d1e330898">Länge</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPR" xml:id="MM_d1e330904">von</w>
+<seg type="ws"> </seg>
+<w lemma="78" type="CARD" xml:id="MM_d1e330910">78</w><w lemma="Meter" type="NN_ABK" xml:id="MM_d1e330912">m</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="MM_d1e330919">und</w>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="MM_d1e330925">einer</w>
+<seg type="ws"> </seg>
+<w lemma="Breite" type="NN" xml:id="MM_d1e330931">Breite</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPR" xml:id="MM_d1e330938">von</w>
+<seg type="ws"> </seg>
+<w lemma="24,3" type="CARD" xml:id="MM_d1e330944">24,<seg rend="sub">3</seg></w>
+<w lemma="Meter" type="NN_ABK" xml:id="MM_d1e330949">m</w><lb/>
+<w lemma="nicht" type="PTKNEG" xml:id="MM_d1e330955">nicht</w>
+<seg type="ws"> </seg>
+<w lemma="wenig" type="PIS" xml:id="MM_d1e330961">weniger</w>
+<seg type="ws"> </seg>
+<w lemma="als" type="KOKOM" xml:id="MM_d1e330967">als</w>
+<seg type="ws"> </seg>
+<w lemma="63" type="CARD" xml:id="MM_d1e330974">63</w>
+<seg type="ws"> </seg>
+<w lemma="Säule" type="NN" xml:id="MM_d1e330980">Säulen</w>
+<seg type="ws"> </seg>
+<w lemma="verdrängen" type="VVPP" xml:id="MM_d1e330986">verdrängt</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="MM_d1e330993">und</w>
+<seg type="ws"> </seg>
+<w lemma="hinausreichen" type="VVFIN" xml:id="MM_d1e330999">reicht</w>
+<seg type="ws"> </seg>
+<w lemma="hoch" type="ADJD" xml:id="MM_d1e331005">hoch</w>
+<seg type="ws"> </seg>
+<w lemma="über" type="APPR" xml:id="MM_d1e331012">über</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e331018">das</w><lb/>
+<w lemma="Dach" type="NN" xml:id="MM_d1e331023">Dach</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e331030">der</w>
+<seg type="ws"> </seg>
+<w lemma="Moschee" type="NN" xml:id="MM_d1e331036">Moschee</w>
+<seg type="ws"> </seg>
+<w lemma="hinaus" type="PTKVZ" xml:id="MM_d1e331042">hinaus</w>
+<pc type="final" xml:id="MM_d1e331045">.</pc>
+<seg type="ws"> </seg>
+<w lemma="er" type="PPER" xml:id="MM_d1e331052">Er</w>
+<seg type="ws"> </seg>
+<w lemma="gelten" type="VVFIN" xml:id="MM_d1e331058">gilt</w>
+<seg type="ws"> </seg>
+<w lemma="als" type="KOKOM" xml:id="MM_d1e331064">als</w>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="MM_d1e331071">ein</w>
+<seg type="ws"> </seg>
+<w lemma="Meisterwerk" type="NN" xml:id="MM_d1e331077">Meisterwerk</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e331083">des</w>
+<seg type="ws"> </seg>
+<w lemma="plateresk" type="ADJA" xml:id="MM_d1e331090">pla<lb break="no" type="s"/>teresken</w>
+<seg type="ws"> </seg>
+<w lemma="Stil" type="NN" xml:id="MM_d1e331098">Stils</w>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="MM_d1e331104">(</pc>
+<w lemma="Seite" type="NN_ABK" xml:id="MM_d1e331108">S.</w>
+<seg type="ws"> </seg>
+<w lemma="53" type="CARD" xml:id="MM_d1e331114">53</w>
+<pc type="internal" xml:id="MM_d1e331117">)</pc>
+<pc type="comma" xml:id="MM_d1e331120">,</pc>
+<seg type="ws"> </seg>
+<w lemma="wirken" type="VVFIN" xml:id="MM_d1e331127">wirkt</w>
+<seg type="ws"> </seg>
+<w lemma="aber" type="ADV" xml:id="MM_d1e331133">aber</w>
+<seg type="ws"> </seg>
+<w lemma="an" type="APPR" xml:id="MM_d1e331139">an</w>
+<seg type="ws"> </seg>
+<w lemma="dies" type="PDAT" xml:id="MM_d1e331146">dieser</w>
+<seg type="ws"> </seg>
+<w lemma="Stelle" type="NN" xml:id="MM_d1e331152">Stelle</w>
+<seg type="ws"> </seg>
+<w lemma="befremdend" type="ADJD" xml:id="MM_d1e331158">befremdend</w>
+<pc type="final" xml:id="MM_d1e331161">.</pc></p>
+<p rend="indent"><w lemma="d" type="ART" xml:id="MM_d1e331165">Der</w>
+<seg type="ws"> </seg>
+<seg rend="bold"><w lemma="Alcázar" type="NN" xml:id="MM_d1e331172">Alcázar</w></seg>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="MM_d1e331178">(</pc>
+<w lemma="Plan" type="NN_ABK" xml:id="MM_d1e331181">Pl.</w>
+<seg type="ws"> </seg>
+<w lemma="C" type="XY" xml:id="MM_d1e331188">C</w>
+<seg type="ws"> </seg>
+<w lemma="4" type="CARD" xml:id="MM_d1e331194">4</w>
+<pc type="final" xml:id="MM_d1e331197">;</pc>
+<seg type="ws"> </seg>
+<w lemma="jetzt" type="ADV" xml:id="MM_d1e331204">jetzt</w>
+<seg type="ws"> </seg>
+<w lemma="Gefängnis" type="NN" xml:id="MM_d1e331210">Gefängnis</w>
+<pc type="internal" xml:id="MM_d1e331213">)</pc>
+<pc type="comma" xml:id="MM_d1e331216">,</pc>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="MM_d1e331223">ein</w>
+<seg type="ws"> </seg>
+<w lemma="Neubau" type="NN" xml:id="MM_d1e331229">Neubau</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPR" xml:id="MM_d1e331235">von</w>
+<seg type="ws"> </seg>
+<date><w lemma="1328" type="CARD" xml:id="MM_d1e331243">1328</w></date>
+<pc type="comma" xml:id="MM_d1e331246">,</pc><lb/>
+<w lemma="umschließen" type="VVFIN" xml:id="MM_d1e331251">umschließt</w>
+<seg type="ws"> </seg>
+<w lemma="nur" type="ADV" xml:id="MM_d1e331257">nur</w>
+<seg type="ws"> </seg>
+<w lemma="noch" type="ADV" xml:id="MM_d1e331264">noch</w>
+<seg type="ws"> </seg>
+<w lemma="dürftig" type="ADJA" xml:id="MM_d1e331270">dürftige</w>
+<seg type="ws"> </seg>
+<w lemma="Rest" type="NN" xml:id="MM_d1e331276">Reste</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e331283">der</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.01 t:Concept1002100-1 t:Term1002100-1.1-de" type="gen"><w lemma="maurisch" type="ADJA" xml:id="MM_d1e331290">maurischen</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Herrscherburg" type="NN" xml:id="MM_d1e331296">Herrscherburg</w>
+<pc type="final" xml:id="MM_d1e331300">.</pc></p>
+<p rend="indent"><w lemma="durch" type="APPR" xml:id="MM_d1e331304">Durch</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e331310">die</w>
+<seg type="ws"> </seg>
+<w lemma="Calle" type="NE" xml:id="MM_d1e331316">Calle</w>
+<seg type="ws"> </seg>
+<w lemma="Torrijos" type="NE" xml:id="MM_d1e331323">Torrijos</w>
+<pc type="comma" xml:id="MM_d1e331326">,</pc>
+<seg type="ws"> </seg>
+<w lemma="an" type="APPR" xml:id="MM_d1e331332">an</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e331338">der</w>
+<seg type="ws"> </seg>
+<w lemma="Westseite" type="NN" xml:id="MM_d1e331345">Westseite</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e331351">der</w>
+<seg type="ws"> </seg>
+<w lemma="Kathedrale" type="NN" xml:id="MM_d1e331357">Kathedrale</w>
+<pc type="comma" xml:id="MM_d1e331361">,</pc><lb/>
+<w lemma="hinabsteigen" type="VVFIN" xml:id="MM_d1e331366">steigen</w>
+<seg type="ws"> </seg>
+<w lemma="wir" type="PPER" xml:id="MM_d1e331372">wir</w>
+<seg type="ws"> </seg>
+<w lemma="zu" type="APPRART" xml:id="MM_d1e331379">zur</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Puerta" type="NE" xml:id="MM_d1e331386">Puerta</w>
+<seg type="ws"> </seg>
+<w lemma="del" type="NE" xml:id="MM_d1e331392">del</w>
+<seg type="ws"> </seg>
+<w lemma="Puente" type="NE" xml:id="MM_d1e331398">Puente</w></seg>
+<pc type="comma" xml:id="MM_d1e331401">,</pc>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="MM_d1e331407">einem</w>
+<seg type="ws"> </seg>
+<w lemma="Triumphbogen" type="NN" xml:id="MM_d1e331414">Triumphbogen</w>
+<seg type="ws"> </seg>
+<w lemma="aus" type="APPR" xml:id="MM_d1e331420">aus</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e331426">der</w><lb/>
+
+</p></div></div></body></text></TEI>

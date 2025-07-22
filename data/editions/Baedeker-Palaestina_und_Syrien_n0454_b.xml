@@ -1,0 +1,974 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title level="a">Palaestina und Syrien 1875, Karte nach S. 454</title>
+            <title level="m">Palaestina und Syrien. Handbuch für Reisende: Digitale Ausgabe</title>
+            <author>Karl Baedeker (company)</author>
+            <respStmt>
+                <resp xml:lang="en">compiled by</resp>
+                <name>Ulrike Czeitschner</name>
+            </respStmt>
+            <respStmt>
+                <resp xml:lang="en">in collaboration with</resp>
+                <name>Barbara Krautgartner</name>
+                <name>Victoria Eisenheld</name>
+            </respStmt>
+        </titleStmt>
+        <editionStmt>
+            <edition>full-text digital edition <date when="2017">2017</date>
+            </edition>
+            <funder>Austrian Academy of Sciences</funder>
+        </editionStmt>
+        <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+            <address>
+                <addrLine>Bäckerstraße 13</addrLine>
+                <addrLine>1010 Vienna</addrLine>
+            </address>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2017">2017</date>
+            <availability>
+                <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+            </availability>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl type="short">Karl Baedeker: Palaestina und Syrien. Leipzig, 1875.</bibl>
+            <bibl type="transcript">Palaestina 
+    und
+    Syrien.
+    herausgegeben von 
+    K. Bædeker 
+    Mit 17 Karten, 41 Plänen, 1 Panorama von Jerusalem 
+    und 8 Ansichten. 
+    Leipzig: Verlag Karl Bædeker 
+    1875.
+   Recht zu Uebersetzungen vorbehalten.</bibl>
+            <biblStruct type="full">
+                <monogr>
+                    <author>Karl Baedeker</author>
+                    <title type="main">Palaestina 
+     und 
+     Syrien.</title>
+                    <title type="sub">Handbuch für Reisende 
+      von 
+      K. Bædeker 
+      Mit 17 Karten, 41 Plänen, 1 Panorama von Jerusalem 
+      und 8 Ansichten.</title>
+                    <edition>first edition</edition>
+                    <imprint>
+                        <publisher>Karl Bædeker</publisher>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date when="1875">1875</date>
+                    </imprint>
+                    <extent>
+                        <measure type="pages">682 [XIV, 586 p., maps not paged]</measure>
+                    </extent>
+                </monogr>
+            </biblStruct>
+            <msDesc>
+                <msIdentifier>
+                    <settlement>Neuburg a. d. Donau</settlement>
+                    <institution>Staatliche Bibliothek Neuburg a. d. Donau</institution>
+                    <idno type="signatory">01/8 Geogr.93</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <projectDesc>
+            <p>Image creation, optical character recognition and basic XML annotation has been carried out within the framework of the AAC-Austrian Academy Corpus.</p>
+            <p>Transformation to TEI/P5, linguistic and semantic annotation has been applied within the the GO!DIGITAL 1.0 project "travel!digital. Exploring People and Monuments in Baedeker Guidebooks (1875-1914)", Project-Nr.: ÖAW0204.</p>
+        </projectDesc>
+        <listPrefixDef>
+            <prefixDef matchPattern="(person)" replacementPattern="persons.xml#$1" ident="person-prefix">
+                <p>Private URIs using the person
+             prefix are pointers to person
+             elements in the personography.xml file.
+             For example, psn:MDH
+             dereferences to personography.xml#MDH</p>
+            </prefixDef>
+            <prefixDef matchPattern="(t)" replacementPattern="https://vocabs.acdh.oeaw.ac.at/traveldigital/$1" ident="thesaurus-prefix">
+                <p>Private URIs using the t
+            prefix are pointers to entries
+            in the travel!digital thesaurus.
+            For example, t:Concept6005600
+            dereferences to https://vocabs.acdh.oeaw.ac.at/traveldigital/Concept6005600.</p>
+            </prefixDef>
+        </listPrefixDef>
+        <editorialDecl>
+            <p>Annotation according to TEI/P5.</p>
+            <correction method="markup">
+                <p>Corrections have been represented using markup.</p>
+            </correction>
+            <normalization>
+                <p>Original orthography has been retained.</p>
+                <p>Original typography has been retained.</p>
+            </normalization>
+            <hyphenation eol="all">
+                <p>All end-of-line hyphenation has been retained.</p>
+            </hyphenation>
+            <interpretation>
+                <p>personal names of historical, mythological/religious and literary figures (except occurences in street names and company names), dates, selected designations of groups and sights</p>
+                <p>tokenization, PoS-tagging (Stuttgart-Tübingen-TagSet, 54 part-of-speech tags for annotating German text corpora, Guidelines 1999), lemmatization, manually corrected</p>
+            </interpretation>
+        </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+        <langUsage>
+            <language ident="de" usage="98"/>
+        </langUsage>
+        <textClass>
+            <keywords>
+                <list>
+                    <item>Baedeker guidebook</item>
+                    <item>Karl Baedeker</item>
+                    <item>historical travel guide</item>
+                    <item>Palestine</item>
+                    <item>Syria</item>
+                    <item>German language</item>
+                </list>
+            </keywords>
+        </textClass>
+    </profileDesc>
+</teiHeader>
+<text type="book"><body><pb facs="https://id.acdh.oeaw.ac.at/traveldigital/Images/Baedeker-Palaestina_und_Syrien_1875/Baedeker-Palaestina_und_Syrien_n0454_b.tiff" n="Karte nach S. 454"/>
+<figure n="Beirût" type="map"><head><seg rend="spaced"><w lemma="Bêrût" type="NE" xml:id="PS_d1e1462719">BÊRÛT</w>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="PS_d1e1462725">(</pc>
+<w lemma="Berytus" type="NE" xml:id="PS_d1e1462728">BERYTUS</w>
+<pc type="internal" xml:id="PS_d1e1462731">)</pc>
+<pc type="final" xml:id="PS_d1e1462734">.</pc></seg></head>
+<p><w lemma="nach" type="APPR" xml:id="PS_d1e1462738">Nach</w>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="PS_d1e1462744">einer</w>
+<seg type="ws"> </seg>
+<w lemma="Originalaufnahme" type="NN" xml:id="PS_d1e1462750">Originalaufnahme</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPR" xml:id="PS_d1e1462757">von</w>
+<seg type="ws"> </seg>
+<seg rend="bold"><persName type="hist" ref="person:julLoytved"><w lemma="Jul." type="NE_ABK" xml:id="PS_d1e1462765">Jul.</w>
+<seg type="ws"> </seg>
+<w lemma="Loytved" type="NE" xml:id="PS_d1e1462771">Loytved</w></persName></seg><lb/>
+<w lemma="und" type="KON" xml:id="PS_d1e1462775">und</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="PS_d1e1462782">der</w>
+<seg type="ws"> </seg>
+<w lemma="Karte" type="NN" xml:id="PS_d1e1462788">Karte</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPR" xml:id="PS_d1e1462794">von</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.04 t:Concept01.04.01 t:Concept4016800 t:Concept4037000 t:Term4037000.1-en" type="occPol"><w lemma="Commander" type="NE_ABK" xml:id="PS_d1e1462802">Comm.<seg rend="sup">r</seg></w></rs>
+<seg type="ws"> </seg>
+<persName type="hist" ref="person:aLMansell"><w lemma="A." type="NE_ABK" xml:id="PS_d1e1462811">A.</w>
+<seg type="ws"> </seg>
+<w lemma="L." type="NE_ABK" xml:id="PS_d1e1462817">L.</w>
+<seg type="ws"> </seg>
+<w lemma="Mansell" type="NE" xml:id="PS_d1e1462823">Mansell</w></persName>
+<pc type="final" xml:id="PS_d1e1462826">.</pc></p>
+<p><w lemma="1" type="CARD" xml:id="PS_d1e1462830">1</w>
+<pc type="internal" xml:id="PS_d1e1462833">:</pc>
+<w lemma="20.000" type="CARD" xml:id="PS_d1e1462836">20.000</w><lb/>
+<w lemma="Meter" type="NN" xml:id="PS_d1e1462840">Meter</w><lb/>
+<w lemma="Schritt" type="NN" xml:id="PS_d1e1462844">Schritt</w></p>
+<p><g type="undetermined"/>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.05 t:Concept01.05.01 t:Concept5002601-1 t:Term5002601-1.1-de" type="rel"><w lemma="christlich" type="ADJA_ABK" xml:id="PS_d1e1462855">Christl.</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Kirche" type="NN" xml:id="PS_d1e1462861">Kirchen</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="PS_d1e1462867">&amp;amp;</w>
+<seg type="ws"> </seg>
+<w lemma="Kapelle" type="NN" xml:id="PS_d1e1462874">Kapellen</w></seg>
+<seg type="ws"> </seg>
+<g type="undetermined"/>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Moschee" type="NN" xml:id="PS_d1e1462887">Moscheen</w>
+<pc type="final" xml:id="PS_d1e1462890">.</pc></seg></p>
+<p><w lemma="Hotel" type="NN" xml:id="PS_d1e1462894">Hôtels</w>
+<pc type="final" xml:id="PS_d1e1462897">.</pc></p>
+<p><w lemma="a." type="ADV" xml:id="PS_d1e1462901">a.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Hôtel" type="NE" xml:id="PS_d1e1462908">Hôtel</w>
+<seg type="ws"> </seg>
+<w lemma="d’" type="NE" xml:id="PS_d1e1462914">d’</w>
+<w lemma="Orient" type="NE" xml:id="PS_d1e1462917">Orient</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="E." type="XY" xml:id="PS_d1e1462929">E.</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="PS_d1e1462935">2</w>
+<pc type="final" xml:id="PS_d1e1462938">.</pc></p>
+<p><w lemma="b." type="ADV" xml:id="PS_d1e1462943">b.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Hôtel" type="NE" xml:id="PS_d1e1462950">Hôtel</w>
+<seg type="ws"> </seg>
+<w lemma="Bellevue" type="NE" xml:id="PS_d1e1462956">Bellevue</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="E." type="XY" xml:id="PS_d1e1462968">E.</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="PS_d1e1462974">2</w>
+<pc type="final" xml:id="PS_d1e1462977">.</pc></p>
+<p><w lemma="c." type="ADV" xml:id="PS_d1e1462981">c.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Grand" type="NE" xml:id="PS_d1e1462988">Grand</w>
+<seg type="ws"> </seg>
+<w lemma="Hôtel" type="NE" xml:id="PS_d1e1462994">Hôtel</w>
+<seg type="ws"> </seg>
+<w lemma="d’" type="NE" xml:id="PS_d1e1463000">d’</w>
+<w lemma="Europe" type="NE" xml:id="PS_d1e1463003">Europe</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="E." type="XY" xml:id="PS_d1e1463015">E.</w>
+<seg type="ws"> </seg>
+<w lemma="F." type="XY" xml:id="PS_d1e1463021">F.</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="PS_d1e1463027">2</w>
+<pc type="final" xml:id="PS_d1e1463030">.</pc></p>
+<p><w lemma="d." type="ADV" xml:id="PS_d1e1463034">d.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Hôtel" type="NE" xml:id="PS_d1e1463041">Hôtel</w>
+<seg type="ws"> </seg>
+<w lemma="National" type="NE" xml:id="PS_d1e1463047">National</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="E." type="XY" xml:id="PS_d1e1463059">E.</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="PS_d1e1463065">2</w>
+<pc type="final" xml:id="PS_d1e1463068">.</pc></p>
+<p><w lemma="1." type="ADV" xml:id="PS_d1e1463072">1.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Apotheke" type="NN" xml:id="PS_d1e1463079">Apotheke</w>
+<pc type="comma" xml:id="PS_d1e1463082">,</pc>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="PS_d1e1463088">(</pc>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2003000-1 t:Term2003000-1.1-de" type="ethNat"><w lemma="deutsch" type="ADJA" xml:id="PS_d1e1463091">deutsche</w></rs>
+<pc type="internal" xml:id="PS_d1e1463094">)</pc>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="PS_d1e1463101">&amp;amp;</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2012700-1 t:Term2012700-1.1-de" type="ethNat"><w lemma="türkisch" type="ADJA_ABK" xml:id="PS_d1e1463108">türk.</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Militärhospital" type="NN" xml:id="PS_d1e1463114">Militärhospital</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="E." type="XY" xml:id="PS_d1e1463126">E.</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="PS_d1e1463132">2</w>
+<pc type="final" xml:id="PS_d1e1463135">.</pc></p>
+<p><w lemma="Bad" type="NN" xml:id="PS_d1e1463139">Bäder</w>
+<pc type="final" xml:id="PS_d1e1463142">.</pc></p>
+<p><w lemma="2." type="ADV" xml:id="PS_d1e1463146">2.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="groß" type="ADJA_ABK" xml:id="PS_d1e1463153">Gross.</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2012700-1 t:Term2012700-1.1-de" type="ethNat"><w lemma="türkisch" type="ADJA" xml:id="PS_d1e1463160">türkisches</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Bad" type="NN" xml:id="PS_d1e1463166">Bad</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="F." type="XY" xml:id="PS_d1e1463178">F.</w>
+<seg type="ws"> </seg>
+<w lemma="3" type="CARD" xml:id="PS_d1e1463184">3</w>
+<pc type="final" xml:id="PS_d1e1463187">.</pc></p>
+<p><w lemma="3." type="ADV" xml:id="PS_d1e1463192">3.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Serai-Bad" type="NN" xml:id="PS_d1e1463199">Serai-Bad</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="F." type="XY" xml:id="PS_d1e1463211">F.</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="PS_d1e1463217">2</w>
+<pc type="final" xml:id="PS_d1e1463220">.</pc></p>
+<p><w lemma="4." type="ADV" xml:id="PS_d1e1463224">4.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Banque" type="NE" xml:id="PS_d1e1463231">Banque</w>
+<seg type="ws"> </seg>
+<w lemma="Impériale" type="NE" xml:id="PS_d1e1463237">Impériale</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2014400-1 t:Term2014400-1.1-fr" type="ethNat"><w lemma="Ottomane" type="NE" xml:id="PS_d1e1463244">Ottomane</w></rs>
+<pc type="comma" xml:id="PS_d1e1463247">,</pc><lb/>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2004400-1 t:Term2004400-1.1-de" type="ethNat"><w lemma="französisch" type="ADJA_ABK" xml:id="PS_d1e1463253">Französ.</w></rs>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="PS_d1e1463259">&amp;amp;</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2003400-1 t:Term2003400-1.1-de" type="ethNat"><w lemma="englisch" type="ADJA_ABK" xml:id="PS_d1e1463266">Engl.</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Konsulat" type="NN" xml:id="PS_d1e1463273">Consulat</w>
+<pc type="comma" xml:id="PS_d1e1463276">,</pc>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2004400-1 t:Term2004400-1.1-de" type="ethNat"><w lemma="französisch" type="ADJA_ABK" xml:id="PS_d1e1463283">Französ.</w></rs>
+<pc type="comma" xml:id="PS_d1e1463286">,</pc>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2003400-1 t:Term2003400-1.1-de" type="ethNat"><w lemma="englisch" type="ADJA_ABK" xml:id="PS_d1e1463294">Engl.</w></rs><lb/>
+<w lemma="und" type="KON" xml:id="PS_d1e1463298">&amp;amp;</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2010900-1 t:Term2010900-1.1-de" type="ethNat"><w lemma="russisch" type="ADJA_ABK" xml:id="PS_d1e1463305">Russ.</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Post" type="NN" xml:id="PS_d1e1463312">Post</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="PS_d1e1463318">&amp;amp;</w>
+<seg type="ws"> </seg>
+<w lemma="Agentie" type="NN" xml:id="PS_d1e1463324">Agenzie</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="PS_d1e1463331">und</w>
+<seg type="ws"> </seg>
+<w lemma="Direktion" type="NN" xml:id="PS_d1e1463337">Direction</w><lb/>
+<w lemma="d" type="ART" xml:id="PS_d1e1463341">der</w>
+<seg type="ws"> </seg>
+<w lemma="Douane" type="NN" xml:id="PS_d1e1463348">Douane</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="F." type="XY" xml:id="PS_d1e1463360">F.</w>
+<seg type="ws"> </seg>
+<w lemma="1" type="CARD" xml:id="PS_d1e1463366">1</w>
+<pc type="final" xml:id="PS_d1e1463369">.</pc></p>
+<p><w lemma="collège" type="FM" xml:id="PS_d1e1463373">Collèges</w>
+<pc type="final" xml:id="PS_d1e1463376">.</pc></p>
+<p><w lemma="5." type="ADV" xml:id="PS_d1e1463380">5.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2000500-1 t:Term2000500-1.1-de" type="ethNat"><w lemma="amerikanisch" type="ADJA" xml:id="PS_d1e1463388">Amerikanisches</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Kolleg" type="NN" xml:id="PS_d1e1463394">Colleg</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="A." type="XY" xml:id="PS_d1e1463406">A.</w>
+<seg type="ws"> </seg>
+<w lemma="3" type="CARD" xml:id="PS_d1e1463412">3</w>
+<pc type="final" xml:id="PS_d1e1463415">.</pc></p>
+<p><w lemma="6." type="ADV" xml:id="PS_d1e1463419">6.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Collège" type="NE" xml:id="PS_d1e1463426">Collège</w>
+<seg type="ws"> </seg>
+<w lemma="national" type="NE" xml:id="PS_d1e1463432">national</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="E." type="XY" xml:id="PS_d1e1463444">E.</w>
+<seg type="ws"> </seg>
+<w lemma="4" type="CARD" xml:id="PS_d1e1463450">4</w>
+<pc type="final" xml:id="PS_d1e1463453">.</pc></p>
+<p><w lemma="7." type="ADV" xml:id="PS_d1e1463457">7.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2005100-1 t:Term20050100-1.1-de" type="ethNat"><w lemma="griechisch" type="ADJA" xml:id="PS_d1e1463465">Griechisches</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Kolleg" type="NN" xml:id="PS_d1e1463471">Colleg</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="D." type="XY" xml:id="PS_d1e1463483">D.</w>
+<seg type="ws"> </seg>
+<w lemma="4" type="CARD" xml:id="PS_d1e1463489">4</w>
+<pc type="final" xml:id="PS_d1e1463492">.</pc>
+<seg type="ws"> </seg>
+<w lemma="5" type="CARD" xml:id="PS_d1e1463498">5</w>
+<pc type="final" xml:id="PS_d1e1463502">.</pc></p>
+<p><w lemma="8." type="ADV" xml:id="PS_d1e1463507">8.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Jesuiten-Kolleg" type="NN" xml:id="PS_d1e1463514">Jesuiten-Colleg</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="G." type="XY" xml:id="PS_d1e1463526">G.</w>
+<seg type="ws"> </seg>
+<w lemma="4" type="CARD" xml:id="PS_d1e1463532">4</w>
+<pc type="final" xml:id="PS_d1e1463535">.</pc></p>
+<p><w lemma="9." type="ADV" xml:id="PS_d1e1463539">9.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2012700-1 t:Term2012700-1.1-de" type="ethNat"><w lemma="türkisch" type="ADJA" xml:id="PS_d1e1463547">Türkisches</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Kolleg" type="NN" xml:id="PS_d1e1463553">Colleg</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="E." type="XY" xml:id="PS_d1e1463565">E.</w>
+<seg type="ws"> </seg>
+<w lemma="4" type="CARD" xml:id="PS_d1e1463571">4</w>
+<pc type="final" xml:id="PS_d1e1463574">.</pc></p>
+<p><w lemma="10." type="ADV" xml:id="PS_d1e1463578">10.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Compagnie" type="NE" xml:id="PS_d1e1463585">Compagnie</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2014400-1 t:Term2014400-1.2-fr" type="ethNat"><w lemma="Impériale-Ottomane" type="NE" xml:id="PS_d1e1463592">Impériale-Ottomane</w></rs></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="F." type="XY" xml:id="PS_d1e1463604">F.</w>
+<seg type="ws"> </seg>
+<w lemma="3" type="CARD" xml:id="PS_d1e1463610">3</w>
+<pc type="final" xml:id="PS_d1e1463613">.</pc></p>
+<p><w lemma="Konsulat" type="NN" xml:id="PS_d1e1463617">Consulate</w>
+<pc type="final" xml:id="PS_d1e1463620">.</pc></p>
+<p><w lemma="11." type="ADV" xml:id="PS_d1e1463624">11.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2000500-1 t:Term2000500-1.1-de" type="ethNat"><w lemma="amerikanisch" type="ADJA" xml:id="PS_d1e1463632">Amerikanisches</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Konsulat" type="NN" xml:id="PS_d1e1463638">Consulat</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="D." type="XY" xml:id="PS_d1e1463650">D.</w>
+<seg type="ws"> </seg>
+<w lemma="E." type="XY" xml:id="PS_d1e1463656">E.</w>
+<seg type="ws"> </seg>
+<w lemma="3" type="CARD" xml:id="PS_d1e1463662">3</w>
+<pc type="final" xml:id="PS_d1e1463665">.</pc></p>
+<p><w lemma="12." type="ADV" xml:id="PS_d1e1463669">12.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2001500-1 t:Term2001500-1.1-de" type="ethNat"><w lemma="belgisch" type="ADJA" xml:id="PS_d1e1463677">Belgisches</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Konsulat" type="NN" xml:id="PS_d1e1463683">Consulat</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="E." type="XY" xml:id="PS_d1e1463695">E.</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="PS_d1e1463701">2</w>
+<pc type="final" xml:id="PS_d1e1463704">.</pc></p>
+<p><w lemma="13." type="ADV" xml:id="PS_d1e1463709">13.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2002900-1 t:Term2002900-1.1-de" type="ethNat"><w lemma="dänisch" type="ADJA" xml:id="PS_d1e1463717">Dänisches</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Konsulat" type="NN" xml:id="PS_d1e1463723">Consulat</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="F." type="XY" xml:id="PS_d1e1463735">F.</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="PS_d1e1463741">2</w>
+<pc type="final" xml:id="PS_d1e1463744">.</pc></p>
+<p><w lemma="14." type="ADV" xml:id="PS_d1e1463748">14.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2003000-1 t:Term2003000-1.1-de" type="ethNat"><w lemma="deutsch" type="ADJA" xml:id="PS_d1e1463756">Deutsches</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Konsulat" type="NN" xml:id="PS_d1e1463762">Consulat</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="E." type="XY" xml:id="PS_d1e1463774">E.</w>
+<seg type="ws"> </seg>
+<w lemma="F." type="XY" xml:id="PS_d1e1463780">F.</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="PS_d1e1463786">2</w>
+<pc type="final" xml:id="PS_d1e1463789">.</pc></p>
+<p><w lemma="15." type="ADV" xml:id="PS_d1e1463793">15.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2003400-1 t:Term2003400-1.1-de" type="ethNat"><w lemma="englisch" type="ADJA_ABK" xml:id="PS_d1e1463801">Engl.</w></rs>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="PS_d1e1463807">&amp;amp;</w></seg>
+<seg type="ws"> </seg>
+<w lemma="16." type="ADV" xml:id="PS_d1e1463813">16.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2004400-1 t:Term2004400-1.1-de" type="ethNat"><w lemma="französisch" type="ADJA" xml:id="PS_d1e1463822">Französisches</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Konsulat" type="NN" xml:id="PS_d1e1463828">Consulat</w>
+<seg type="ws"> </seg>
+<w lemma="sehen" type="VVIMP_ABK" xml:id="PS_d1e1463834">s.</w></seg>
+<seg type="ws"> </seg>
+<w lemma="4" type="CARD" xml:id="PS_d1e1463840">4</w>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="F." type="XY" xml:id="PS_d1e1463852">F.</w>
+<seg type="ws"> </seg>
+<w lemma="1" type="CARD" xml:id="PS_d1e1463858">1</w>
+<pc type="final" xml:id="PS_d1e1463861">.</pc></p>
+<p><w lemma="17." type="ADV" xml:id="PS_d1e1463865">17.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2005100-1 t:Term20050100-1.1-de" type="ethNat"><w lemma="griechisch" type="ADJA" xml:id="PS_d1e1463873">Griechisches</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Konsulat" type="NN" xml:id="PS_d1e1463879">Consulat</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="E." type="XY" xml:id="PS_d1e1463891">E.</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="PS_d1e1463897">2</w>
+<pc type="final" xml:id="PS_d1e1463900">.</pc></p>
+<p><w lemma="18." type="ADV" xml:id="PS_d1e1463904">18.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2005500-1 t:Term2005500-1.1-de" type="ethNat"><w lemma="holländisch" type="ADJA" xml:id="PS_d1e1463912">Holländisches</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Konsulat" type="NN" xml:id="PS_d1e1463918">Consulat</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="E." type="XY" xml:id="PS_d1e1463930">E.</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="PS_d1e1463936">2</w>
+<pc type="final" xml:id="PS_d1e1463939">.</pc></p>
+<p><w lemma="19." type="ADV" xml:id="PS_d1e1463943">19.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2006900-1 t:Term2006900-1.1-de" type="ethNat"><w lemma="italienisch" type="ADJA" xml:id="PS_d1e1463951">Italienisches</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Konsulat" type="NN" xml:id="PS_d1e1463957">Consulat</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="D." type="XY" xml:id="PS_d1e1463969">D.</w>
+<seg type="ws"> </seg>
+<w lemma="3" type="CARD" xml:id="PS_d1e1463975">3</w>
+<pc type="final" xml:id="PS_d1e1463978">.</pc></p>
+<p><w lemma="20." type="ADV" xml:id="PS_d1e1463983">20.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2001300-1 t:Term2001300-1.1-de" type="ethNat"><w lemma="österreichisch" type="ADJA" xml:id="PS_d1e1463991">Österreichisches</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Konsulat" type="NN" xml:id="PS_d1e1463997">Consulat</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="E." type="XY" xml:id="PS_d1e1464009">E.</w>
+<seg type="ws"> </seg>
+<w lemma="3" type="CARD" xml:id="PS_d1e1464015">3</w>
+<pc type="final" xml:id="PS_d1e1464018">.</pc></p>
+<p><w lemma="21." type="ADV" xml:id="PS_d1e1464022">21.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2010300-1 t:Term2010300-1.1-de" type="ethNat"><w lemma="persisch" type="ADJA" xml:id="PS_d1e1464030">Persisches</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Konsulat" type="NN" xml:id="PS_d1e1464036">Consulat</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="G." type="XY" xml:id="PS_d1e1464048">G.</w>
+<seg type="ws"> </seg>
+<w lemma="3" type="CARD" xml:id="PS_d1e1464054">3</w>
+<pc type="final" xml:id="PS_d1e1464057">.</pc></p>
+<p><w lemma="22." type="ADV" xml:id="PS_d1e1464061">22.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2010900-1 t:Term2010900-1.1-de" type="ethNat"><w lemma="russisch" type="ADJA" xml:id="PS_d1e1464069">Russisches</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Konsulat" type="NN" xml:id="PS_d1e1464075">Consulat</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="D." type="XY" xml:id="PS_d1e1464087">D.</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="PS_d1e1464093">2</w>
+<pc type="final" xml:id="PS_d1e1464096">.</pc></p>
+<p><w lemma="23." type="ADV" xml:id="PS_d1e1464100">23.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2017900-1 t:Term2017900-1.1-de" type="ethNat"><w lemma="schwedisch" type="ADJA" xml:id="PS_d1e1464108">Schwedisches</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Konsulat" type="NN" xml:id="PS_d1e1464114">Consulat</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="F." type="XY" xml:id="PS_d1e1464126">F.</w>
+<seg type="ws"> </seg>
+<w lemma="1" type="CARD" xml:id="PS_d1e1464132">1</w>
+<pc type="final" xml:id="PS_d1e1464135">.</pc>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="PS_d1e1464141">2</w>
+<pc type="final" xml:id="PS_d1e1464145">.</pc></p>
+<p><w lemma="24." type="ADV" xml:id="PS_d1e1464149">24.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2011600-1 t:Term2011600-1.1-de" type="ethNat"><w lemma="spanisch" type="ADJA" xml:id="PS_d1e1464157">Spanisches</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Konsulat" type="NN" xml:id="PS_d1e1464163">Consulat</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="D." type="XY" xml:id="PS_d1e1464175">D.</w>
+<seg type="ws"> </seg>
+<w lemma="5" type="CARD" xml:id="PS_d1e1464181">5</w>
+<pc type="final" xml:id="PS_d1e1464184">.</pc></p>
+<p><w lemma="25." type="ADV" xml:id="PS_d1e1464188">25.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2003000-1 t:Term2003000-1.1-de" type="ethNat"><w lemma="deutsch" type="ADJA" xml:id="PS_d1e1464196">Deutscher</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Verein" type="NN" xml:id="PS_d1e1464202">Verein</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="F." type="XY" xml:id="PS_d1e1464214">F.</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="PS_d1e1464220">2</w>
+<pc type="final" xml:id="PS_d1e1464223">.</pc></p>
+<p><w lemma="26." type="ADV" xml:id="PS_d1e1464228">26.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Douane" type="NN" xml:id="PS_d1e1464235">Douane</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="F." type="XY" xml:id="PS_d1e1464247">F.</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="PS_d1e1464253">2</w>
+<pc type="final" xml:id="PS_d1e1464256">.</pc></p>
+<p><w lemma="27." type="ADV" xml:id="PS_d1e1464260">27.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Douanen-Direktion" type="NN" xml:id="PS_d1e1464267">Douanen-Direction</w>
+<seg type="ws"> </seg>
+<w lemma="sehen" type="VVIMP_ABK" xml:id="PS_d1e1464273">s.</w></seg>
+<seg type="ws"> </seg>
+<w lemma="4" type="CARD" xml:id="PS_d1e1464279">4</w>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="F." type="XY" xml:id="PS_d1e1464291">F.</w>
+<seg type="ws"> </seg>
+<w lemma="1" type="CARD" xml:id="PS_d1e1464297">1</w>
+<pc type="final" xml:id="PS_d1e1464300">.</pc></p>
+<p><w lemma="28." type="ADV" xml:id="PS_d1e1464304">28.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Dragoner-Kaserne" type="NN" xml:id="PS_d1e1464311">Dragoner-Kaserne</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="F." type="XY" xml:id="PS_d1e1464323">F.</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="PS_d1e1464329">2</w>
+<pc type="final" xml:id="PS_d1e1464332">.</pc>
+<seg type="ws"> </seg>
+<w lemma="3" type="CARD" xml:id="PS_d1e1464338">3</w>
+<pc type="final" xml:id="PS_d1e1464342">.</pc></p>
+<p><w lemma="Friedhof" type="NN" xml:id="PS_d1e1464346">Friedhöfe</w>
+<pc type="final" xml:id="PS_d1e1464349">.</pc></p>
+<p><w lemma="29." type="ADV" xml:id="PS_d1e1464353">29.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.05 t:Concept01.05.01 t:Concept5002601-1 t:Concept5002900-1 t:Term5002900-1.2-de" type="rel"><w lemma="evangelisch" type="ADJA" xml:id="PS_d1e1464360">Evangelischer</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Friedhof" type="NN_ABK" xml:id="PS_d1e1464366">Fr.</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="G." type="XY" xml:id="PS_d1e1464378">G.</w>
+<seg type="ws"> </seg>
+<w lemma="6" type="CARD" xml:id="PS_d1e1464384">6</w>
+<pc type="final" xml:id="PS_d1e1464387">.</pc></p>
+<p><w lemma="30." type="ADV" xml:id="PS_d1e1464391">30.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2004400-1 t:Term2004400-1.1-de" type="ethNat"><w lemma="französisch" type="ADJA" xml:id="PS_d1e1464399">Französischer</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Friedhof" type="NN_ABK" xml:id="PS_d1e1464405">Fr.</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="D." type="XY" xml:id="PS_d1e1464417">D.</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="PS_d1e1464423">2</w>
+<pc type="final" xml:id="PS_d1e1464426">.</pc></p>
+<p><w lemma="31." type="ADV" xml:id="PS_d1e1464431">31.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2005100-1 t:Concept01.05 t:Concept01.05.01 t:Concept5002601-1 t:Concept5002700-1 t:Concept5007800-1 t:Term5007800-1.1-de" type="rel"><w lemma="griechisch-katholisch" type="ADJA_ABK" xml:id="PS_d1e1464439">Griech.-katholischer</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Friedhof" type="NN_ABK" xml:id="PS_d1e1464445">Fr.</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="D." type="XY" xml:id="PS_d1e1464457">D.</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="PS_d1e1464463">2</w>
+<pc type="final" xml:id="PS_d1e1464466">.</pc></p>
+<p><w lemma="32." type="ADV" xml:id="PS_d1e1464470">32.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2047700-1 t:Term2047700-1.1-de" type="ethNat"><w lemma="israelitisch" type="ADJA" xml:id="PS_d1e1464478">Israelitischer</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Friedhof" type="NN_ABK" xml:id="PS_d1e1464484">Fr.</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="G." type="XY" xml:id="PS_d1e1464496">G.</w>
+<seg type="ws"> </seg>
+<w lemma="6" type="CARD" xml:id="PS_d1e1464502">6</w>
+<pc type="final" xml:id="PS_d1e1464505">.</pc></p>
+<p><w lemma="33." type="ADV" xml:id="PS_d1e1464509">33.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.05 t:Concept01.05.01 t:Concept5002601-1 t:Concept5011800-1 t:Term5011800-1.1-de" type="rel"><w lemma="maronitisch" type="ADJA" xml:id="PS_d1e1464517">Maronitischer</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Friedhof" type="NN_ABK" xml:id="PS_d1e1464523">Fr.</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="H." type="XY" xml:id="PS_d1e1464535">H.</w>
+<seg type="ws"> </seg>
+<w lemma="3" type="CARD" xml:id="PS_d1e1464541">3</w>
+<pc type="final" xml:id="PS_d1e1464544">.</pc></p>
+<p><w lemma="34." type="ADV" xml:id="PS_d1e1464548">34.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.05 t:Concept01.05.01 t:Concept5004701-1 t:Term5004701-1.4-de" type="rel"><w lemma="mohammedanisch" type="ADJA" xml:id="PS_d1e1464556">Muhammedanischer</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Friedhof" type="NN_ABK" xml:id="PS_d1e1464562">Fr.</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="F." type="XY" xml:id="PS_d1e1464574">F.</w>
+<seg type="ws"> </seg>
+<w lemma="G." type="XY" xml:id="PS_d1e1464580">G.</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="PS_d1e1464586">2</w>
+<pc type="final" xml:id="PS_d1e1464589">.</pc></p>
+<p><w lemma="Hospital" type="NN" xml:id="PS_d1e1464593">Hospitäler</w>
+<pc type="final" xml:id="PS_d1e1464596">.</pc></p>
+<p><w lemma="35." type="ADV" xml:id="PS_d1e1464600">35.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2004400-1 t:Term2004400-1.1-de" type="ethNat"><w lemma="französisch" type="ADJA_ABK" xml:id="PS_d1e1464608">Französ.</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Lazaristen-Hospital" type="NN_ABK" xml:id="PS_d1e1464614">Lazaristen-Hosp.</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="PS_d1e1464620">&amp;amp;</w>
+<seg type="ws"> </seg>
+<w lemma="Schule" type="NN" xml:id="PS_d1e1464627">Schule</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="F." type="XY" xml:id="PS_d1e1464639">F.</w>
+<seg type="ws"> </seg>
+<w lemma="3" type="CARD" xml:id="PS_d1e1464645">3</w>
+<pc type="final" xml:id="PS_d1e1464648">.</pc></p>
+<p><w lemma="36." type="ADV" xml:id="PS_d1e1464653">36.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2020000-1 t:Term2020000-1.2-de" type="ethNat"><w lemma="preußisch" type="ADJA_ABK" xml:id="PS_d1e1464661">Preuss.</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Hospital" type="NN_ABK" xml:id="PS_d1e1464667">Hosp.</w>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="PS_d1e1464673">(</pc>
+<rs ref="t:Collection01 t:Concept01.04 t:Concept01.04.02 t:Concept4028100 t:Concept4026801 t:Concept4078700 t:Term4078700.2-de" type="occRel"><w lemma="Diakonissin" type="NN" xml:id="PS_d1e1464676">Diaconissinnen</w></rs>
+<pc type="internal" xml:id="PS_d1e1464680">)</pc></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="C." type="XY" xml:id="PS_d1e1464692">C.</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="PS_d1e1464698">2</w>
+<pc type="final" xml:id="PS_d1e1464701">.</pc></p>
+<p><w lemma="37." type="ADV" xml:id="PS_d1e1464705">37.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2012700-1 t:Term2012700-1.1-de" type="ethNat"><w lemma="türkisch" type="ADJA_ABK" xml:id="PS_d1e1464713">Türk.</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Militärhospital" type="NN" xml:id="PS_d1e1464719">Militärhospital</w>
+<seg type="ws"> </seg>
+<w lemma="sehen" type="VVIMP_ABK" xml:id="PS_d1e1464725">s.</w></seg>
+<seg type="ws"> </seg>
+<w lemma="1" type="CARD" xml:id="PS_d1e1464731">1</w>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="E." type="XY" xml:id="PS_d1e1464743">E.</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="PS_d1e1464749">2</w>
+<pc type="final" xml:id="PS_d1e1464752">.</pc></p>
+<p><w lemma="Kirche" type="NN" xml:id="PS_d1e1464756">Kirchen</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="PS_d1e1464762">&amp;amp;</w>
+<seg type="ws"> </seg>
+<w lemma="Kloster" type="NN" xml:id="PS_d1e1464768">Klöster</w>
+<pc type="final" xml:id="PS_d1e1464771">.</pc></p>
+<p><w lemma="38." type="ADV" xml:id="PS_d1e1464775">38.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Kapuziner-Kloster" type="NN" xml:id="PS_d1e1464782">Capuziner-Kloster</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="PS_d1e1464788">&amp;amp;</w>
+<seg type="ws"> </seg>
+<w lemma="Kirche" type="NN" xml:id="PS_d1e1464794">Kirche</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="E." type="XY" xml:id="PS_d1e1464806">E.</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="PS_d1e1464812">2</w>
+<pc type="final" xml:id="PS_d1e1464815">.</pc></p>
+<p><w lemma="39." type="ADV" xml:id="PS_d1e1464819">39.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2003000-1 t:Term2003000-1.1-de" type="ethNat"><w lemma="deutsch" type="ADJA" xml:id="PS_d1e1464827">Deutsche</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Kirche" type="NN" xml:id="PS_d1e1464833">Kirche</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="PS_d1e1464839">&amp;amp;</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.04 t:Concept01.04.02 t:Concept4028100 t:Concept4026801 t:Concept4078700 t:Term4078700.2-de" type="occRel"><w lemma="Diakonissin" type="NN" xml:id="PS_d1e1464846">Diaconissinnen</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Anstalt" type="NN_ABK" xml:id="PS_d1e1464852">Anst.</w><lb/>
+<w lemma="und" type="KON" xml:id="PS_d1e1464856">&amp;amp;</w>
+<seg type="ws"> </seg>
+<w lemma="Schule" type="NN" xml:id="PS_d1e1464863">Schule</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="E." type="XY" xml:id="PS_d1e1464875">E.</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="PS_d1e1464881">2</w>
+<pc type="final" xml:id="PS_d1e1464884">.</pc></p>
+<p><w lemma="40." type="ADV" xml:id="PS_d1e1464888">40.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2003400-1 t:Term2003400-1.1-de" type="ethNat"><w lemma="englisch" type="ADJA_ABK" xml:id="PS_d1e1464896">Engl.</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Kirche" type="NN" xml:id="PS_d1e1464902">Kirche</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="PS_d1e1464908">&amp;amp;</w>
+<seg type="ws"> </seg>
+<w lemma="Buchdruckerei" type="NN" xml:id="PS_d1e1464915">Buchdruckerei</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="E." type="XY" xml:id="PS_d1e1464927">E.</w>
+<seg type="ws"> </seg>
+<w lemma="3" type="CARD" xml:id="PS_d1e1464933">3</w>
+<pc type="final" xml:id="PS_d1e1464936">.</pc></p>
+<p><w lemma="41." type="ADV" xml:id="PS_d1e1464941">41.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Franziskaner-Kloster" type="NN" xml:id="PS_d1e1464948">Franziskaner-Kloster</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="PS_d1e1464954">&amp;amp;</w>
+<seg type="ws"> </seg>
+<w lemma="Kirche" type="NN" xml:id="PS_d1e1464960">Kirche</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="F." type="XY" xml:id="PS_d1e1464972">F.</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="PS_d1e1464978">2</w>
+<pc type="final" xml:id="PS_d1e1464981">.</pc></p>
+<p><w lemma="42." type="ADV" xml:id="PS_d1e1464985">42.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2005100-1 t:Concept01.05 t:Concept01.05.01 t:Concept5002601-1 t:Concept5002700-1 t:Concept5007800-1 t:Term5007800-1.1-de" type="rel"><w lemma="griechisch-katholisch" type="ADJA_ABK" xml:id="PS_d1e1464993">Griech.-katholische</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Kirche" type="NN" xml:id="PS_d1e1464999">Kirche</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="F." type="XY" xml:id="PS_d1e1465011">F.</w>
+<seg type="ws"> </seg>
+<w lemma="3" type="CARD" xml:id="PS_d1e1465017">3</w>
+<pc type="final" xml:id="PS_d1e1465020">.</pc></p>
+<p><w lemma="43." type="ADV" xml:id="PS_d1e1465024">43.</w>
+<seg type="ws"> </seg> 
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2005100-1 t:Concept01.05 t:Concept01.05.01 t:Concept5002601-1 t:Concept5002700-1 t:Concept5016800-1 t:Term5016800-1.1-de" type="rel"><w lemma="griechisch-uniert" type="ADJA_ABK" xml:id="PS_d1e1465032">Griech.-uniirte</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Kirche" type="NN" xml:id="PS_d1e1465038">Kirche</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="F." type="XY" xml:id="PS_d1e1465050">F.</w>
+<seg type="ws"> </seg>
+<w lemma="3" type="CARD" xml:id="PS_d1e1465056">3</w>
+<pc type="final" xml:id="PS_d1e1465059">.</pc></p>
+<p><w lemma="44." type="ADV" xml:id="PS_d1e1465063">44.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Jesuiten-Kloster" type="NN" xml:id="PS_d1e1465070">Jesuiten-Kloster</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="PS_d1e1465076">&amp;amp;</w>
+<seg type="ws"> </seg>
+<w lemma="Kirche" type="NN" xml:id="PS_d1e1465082">Kirche</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="G." type="XY" xml:id="PS_d1e1465094">G.</w>
+<seg type="ws"> </seg>
+<w lemma="3" type="CARD" xml:id="PS_d1e1465100">3</w>
+<pc type="final" xml:id="PS_d1e1465103">.</pc></p>
+<p><w lemma="45." type="ADV" xml:id="PS_d1e1465107">45.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.05 t:Concept01.05.01 t:Concept5002601-1 t:Concept5011800-1 t:Term5011800-1.1-de" type="rel"><w lemma="maronitisch" type="ADJA" xml:id="PS_d1e1465115">Maronitische</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Kirche" type="NN" xml:id="PS_d1e1465121">Kirche</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="F." type="XY" xml:id="PS_d1e1465133">F.</w>
+<seg type="ws"> </seg>
+<w lemma="3" type="CARD" xml:id="PS_d1e1465139">3</w>
+<pc type="final" xml:id="PS_d1e1465142">.</pc></p>
+<p><w lemma="46." type="ADV" xml:id="PS_d1e1465146">46.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2010900-1 t:Term2010900-1.1-de" type="ethNat"><w lemma="russisch" type="ADJA" xml:id="PS_d1e1465154">Russische</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Kirche" type="NN" xml:id="PS_d1e1465160">Kirche</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="F." type="XY" xml:id="PS_d1e1465172">F.</w>
+<seg type="ws"> </seg>
+<w lemma="3" type="CARD" xml:id="PS_d1e1465178">3</w>
+<pc type="final" xml:id="PS_d1e1465181">.</pc></p>
+<p><w lemma="Post" type="NN" xml:id="PS_d1e1465186">Posten</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="PS_d1e1465192">&amp;amp;</w>
+<seg type="ws"> </seg>
+<w lemma="Agentie" type="NN" xml:id="PS_d1e1465198">Agenzien</w>
+<pc type="final" xml:id="PS_d1e1465201">.</pc></p>
+<p><w lemma="47." type="ADV" xml:id="PS_d1e1465205">47.</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2003400-1 t:Term2003400-1.1-de" type="ethNat"><seg rend="italicised"><w lemma="englisch" type="ADJA_ABK" xml:id="PS_d1e1465213">Engl.</w></seg></rs>
+<seg type="ws"> </seg>
+<w lemma="48." type="ADV" xml:id="PS_d1e1465219">48.</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2004400-1 t:Term2004400-1.1-de" type="ethNat"><seg rend="italicised"><w lemma="französisch" type="ADJA_ABK" xml:id="PS_d1e1465228">Französ.</w></seg></rs>
+<seg type="ws"> </seg>
+<w lemma="49." type="ADV" xml:id="PS_d1e1465234">49.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2010900-1 t:Term2010900-1.1-de" type="ethNat"><w lemma="russisch" type="ADJA" xml:id="PS_d1e1465242">Russische</w></rs>
+<seg type="ws"> </seg>
+<w lemma="sehen" type="VVIMP_ABK" xml:id="PS_d1e1465248">s.</w></seg>
+<seg type="ws"> </seg>
+<w lemma="4" type="CARD" xml:id="PS_d1e1465255">4</w>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="F." type="XY" xml:id="PS_d1e1465266">F.</w>
+<seg type="ws"> </seg>
+<w lemma="1" type="CARD" xml:id="PS_d1e1465273">1</w>
+<pc type="final" xml:id="PS_d1e1465276">.</pc></p>
+<p><w lemma="50." type="ADV" xml:id="PS_d1e1465280">50.</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2001300-1 t:Term2001300-1.1-de" type="ethNat"><seg rend="italicised"><w lemma="österreichisch" type="ADJA" xml:id="PS_d1e1465288">Österreichische</w></seg></rs>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="F." type="XY" xml:id="PS_d1e1465300">F.</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="PS_d1e1465306">2</w>
+<pc type="final" xml:id="PS_d1e1465309">.</pc></p>
+<p><w lemma="51." type="ADV" xml:id="PS_d1e1465313">51.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><rs ref="t:Collection01 t:Concept01.02 t:Concept2012700-1 t:Term2012700-1.1-de" type="ethNat"><w lemma="türkisch" type="ADJA_ABK" xml:id="PS_d1e1465321">Türk.</w></rs>
+<seg type="ws"> </seg>
+<w lemma="Post" type="NN" xml:id="PS_d1e1465327">Post</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="PS_d1e1465333">&amp;amp;</w>
+<seg type="ws"> </seg>
+<w lemma="Telegraph" type="NN" xml:id="PS_d1e1465340">Telegraph</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="F." type="XY" xml:id="PS_d1e1465352">F.</w>
+<seg type="ws"> </seg>
+<w lemma="3" type="CARD" xml:id="PS_d1e1465358">3</w>
+<pc type="final" xml:id="PS_d1e1465361">.</pc></p>
+<p><w lemma="52." type="ADV" xml:id="PS_d1e1465365">52.</w>
+<seg type="ws"> </seg>
+<seg rend="italicised"><w lemma="Sanitäts-Bureau" type="NN" xml:id="PS_d1e1465372">Sanitäts-Bureau</w></seg>
+<seg type="ws"> </seg>
+<space dim="horizontal"/>
+<seg type="ws"> </seg>
+<w lemma="F." type="XY" xml:id="PS_d1e1465384">F.</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="PS_d1e1465390">2</w>
+<pc type="final" xml:id="PS_d1e1465393">.</pc></p>
+<p><w lemma="geographisch" type="ADJA_ABK" xml:id="PS_d1e1465397">Geograph.</w>
+<seg type="ws"> </seg>
+<w lemma="Anstalt" type="NN" xml:id="PS_d1e1465403">Anstalt</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPR" xml:id="PS_d1e1465409">von</w>
+<seg type="ws"> </seg>
+<w lemma="Wagner" type="NE" xml:id="PS_d1e1465416">Wagner</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="PS_d1e1465422">&amp;amp;</w>
+<seg type="ws"> </seg>
+<w lemma="Debes" type="NE" xml:id="PS_d1e1465428">Debes</w>
+<pc type="comma" xml:id="PS_d1e1465431">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Leipzig" type="NE" xml:id="PS_d1e1465438">Leipzig</w>
+<pc type="final" xml:id="PS_d1e1465441">.</pc></p></figure>
+
+</body></text></TEI>

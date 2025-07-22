@@ -1,0 +1,982 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title level="a">Nordamerika 1893, S. XLIII</title>
+            <title>Nordamerika. Handbuch für Reisende: Digitale Ausgabe</title>
+            <author>Karl Baedeker (company)</author>
+            <respStmt>
+                <resp xml:lang="en">compiled by</resp>
+                <name>Ulrike Czeitschner</name>
+            </respStmt>
+            <respStmt>
+                <resp xml:lang="en">in collaboration with</resp>
+                <name>Barbara Krautgartner</name>
+                <name>Victoria Eisenheld</name>
+            </respStmt>
+        </titleStmt>
+        <editionStmt>
+            <edition>full-text digital edition <date when="2017">2017</date>
+            </edition>
+            <funder>Austrian Academy of Sciences</funder>
+        </editionStmt>
+        <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+            <address>
+                <addrLine>Bäckerstraße 13</addrLine>
+                <addrLine>1010 Vienna</addrLine>
+            </address>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2017">2017</date>
+            <availability>
+                <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+            </availability>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl type="short">Karl Baedeker: Nordamerika. Leipzig, 1893.</bibl>
+            <bibl type="transcript">Nordamerika 
+     Die
+     Vereinigten Staaten
+     nebst einem Ausflug nach
+     Mexiko
+     Handbuch für Reisende
+     von 
+     K. Bædeker 
+     Mit 17 Karten, 22 Plänen und 2 Grundrissen 
+     Leipzig 
+     Verlag von Karl Bædeker 
+     1893</bibl>
+            <biblStruct type="full">
+                <monogr>
+                    <author>Karl Baedeker</author>
+                    <title type="main">Nordamerika
+      Die
+      Vereinigten Staaten
+      nebst einem Ausglug nach
+      Mexiko</title>
+                    <title type="sub">Handbuch für Reisende 
+       von 
+       K. Bædeker 
+       Mit 17 Karten, 22 Plänen und 2 Grundrissen</title>
+                    <edition>first edition</edition>
+                    <imprint>
+                        <publisher>Verlag von Karl Bædeker</publisher>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date when="1893">1893</date>
+                    </imprint>
+                    <extent>
+                        <measure type="pages">658 [LVIII, 488 p., maps not paged]</measure>
+                    </extent>
+                </monogr>
+            </biblStruct>
+            <msDesc>
+                <msIdentifier>
+                    <settlement>Basel</settlement>
+                    <institution>Universitätsbibliothek Basel</institution>
+                    <repository>UB Hauptbibliothek</repository>
+                    <idno type="signatory">Et 647</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <projectDesc>
+            <p>Image creation, optical character recognition and basic XML annotation has been carried out within the framework of the AAC-Austrian Academy Corpus.</p>
+            <p>Transformation to TEI/P5, linguistic and semantic annotation has been applied within the the GO!DIGITAL 1.0 project "travel!digital. Exploring People and Monuments in Baedeker Guidebooks (1875-1914)", Project-Nr.: ÖAW0204.</p>
+        </projectDesc>
+        <listPrefixDef>
+            <prefixDef matchPattern="(person)" replacementPattern="persons.xml#$1" ident="person-prefix">
+                <p>Private URIs using the person  
+                  prefix are pointers to person
+                  elements in the personography.xml file.
+                  For example, psn:MDH
+                  dereferences to personography.xml#MDH</p>
+            </prefixDef>
+            <prefixDef matchPattern="(t)" replacementPattern="https://vocabs.acdh.oeaw.ac.at/traveldigital/$1" ident="thesaurus-prefix">
+                <p>Private URIs using the t  
+                  prefix are pointers to entries
+                  in the travel!digital thesaurus.
+                  For example, t:Concept6005600
+                  dereferences to https://vocabs.acdh.oeaw.ac.at/traveldigital/Concept6005600.</p>
+            </prefixDef>
+        </listPrefixDef>
+        <editorialDecl>
+            <p>Annotation according to TEI/P5.</p>
+            <correction method="markup">
+                <p>Corrections have been represented using markup.</p>
+            </correction>
+            <normalization>
+                <p>Original orthography has been retained.</p>
+                <p>Original typography has been retained.</p>
+            </normalization>
+            <hyphenation eol="all">
+                <p>All end-of-line hyphenation has been retained.</p>
+            </hyphenation>
+            <interpretation>
+                <p>personal names of historical, mythological/religious and literary figures (except occurences in street names and company names), dates, selected designations of groups and sights</p>
+                <p>tokenization, PoS-tagging (Stuttgart-Tübingen-TagSet, 54 part-of-speech tags for annotating German text corpora, Guidelines 1999), lemmatization, manually corrected</p>
+            </interpretation>
+        </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+        <langUsage>
+            <language ident="de" usage="98"/>
+        </langUsage>
+        <textClass>
+            <keywords>
+                <list>
+                    <item>Baedeker guidebook</item>
+                    <item>Karl Baedeker</item>
+                    <item>historical travel guide</item>
+                    <item>North America</item>
+                    <item>Mexico</item>
+                    <item>German language</item>
+                </list>
+            </keywords>
+        </textClass>
+    </profileDesc>
+</teiHeader>
+<text type="book"><front><div n="EINLEITUNG."><div n="IX. Ein geographischer Blick auf Nordamerika." type="chapter"><p rend="indent" prev="true"><w lemma="besuchen" type="VVPP" xml:id="NA_d1e115227"><pb facs="https://id.acdh.oeaw.ac.at/traveldigital/Images/Baedeker-Nordamerika_1893/Baedeker-Nordamerika_i0043.tiff" n="S. XLIII"/><fw type="header"><fw place="top_center">IX. ZUR GEOGRAPHIE.</fw><fw n="43" place="top_right" type="pageNum">XLIII</fw></fw>sucht</w>
+<pc type="comma" xml:id="NA_d1e115240">,</pc>
+<seg type="ws"> </seg>
+<w lemma="machen" type="VVFIN" xml:id="NA_d1e115246">mache</w>
+<seg type="ws"> </seg>
+<w lemma="sich" type="PRF" xml:id="NA_d1e115252">sich</w>
+<seg type="ws"> </seg>
+<w lemma="auch" type="ADV" xml:id="NA_d1e115259">auch</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="NA_d1e115265">in</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e115271">den</w>
+<seg type="ws"> </seg>
+<w lemma="mittler" type="ADJA" xml:id="NA_d1e115278">mittleren</w>
+<seg type="ws"> </seg>
+<w lemma="Gebiet" type="NN" xml:id="NA_d1e115284">Gebieten</w>
+<pc type="comma" xml:id="NA_d1e115287">,</pc>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="NA_d1e115293">in</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="PRELS" xml:id="NA_d1e115300">denen</w>
+<seg type="ws"> </seg>
+<w lemma="New" type="NE" xml:id="NA_d1e115306">New</w><lb/>
+<w lemma="York" type="NE" xml:id="NA_d1e115310">York</w>
+<pc type="comma" xml:id="NA_d1e115314">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Philadelphia" type="NE" xml:id="NA_d1e115320">Philadelphia</w>
+<pc type="comma" xml:id="NA_d1e115323">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Chicago" type="NE" xml:id="NA_d1e115329">Chicago</w>
+<seg type="ws"> </seg>
+<w lemma="liegen" type="VVPP" xml:id="NA_d1e115336">gelegen</w>
+<seg type="ws"> </seg>
+<w lemma="sein" type="VAFIN" xml:id="NA_d1e115342">sind</w>
+<pc type="comma" xml:id="NA_d1e115345">,</pc>
+<seg type="ws"> </seg>
+<w lemma="gefasst" type="ADJD" xml:id="NA_d1e115352">gefaßt</w>
+<pc type="comma" xml:id="NA_d1e115355">,</pc>
+<seg type="ws"> </seg>
+<w lemma="dass" type="KOUS" xml:id="NA_d1e115361">daß</w>
+<seg type="ws"> </seg>
+<w lemma="auf" type="APPR" xml:id="NA_d1e115367">auf</w>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="NA_d1e115374">einen</w><lb/>
+<w lemma="kühl" type="ADJA" xml:id="NA_d1e115378">kühlen</w>
+<seg type="ws"> </seg>
+<w lemma="Frühling" type="NN" xml:id="NA_d1e115384">Frühling</w>
+<pc type="comma" xml:id="NA_d1e115388">,</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="PRELS" xml:id="NA_d1e115394">der</w>
+<seg type="ws"> </seg>
+<w lemma="sich" type="PRF" xml:id="NA_d1e115400">sich</w>
+<seg type="ws"> </seg>
+<w lemma="bis" type="APPR" xml:id="NA_d1e115407">bis</w>
+<seg type="ws"> </seg>
+<w lemma="tief" type="ADJD" xml:id="NA_d1e115413">tief</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="NA_d1e115419">in</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e115426">den</w>
+<seg type="ws"> </seg>
+<w lemma="Mai" type="NN" xml:id="NA_d1e115432">Mai</w>
+<seg type="ws"> </seg>
+<w lemma="ausdehnen" type="VVFIN" xml:id="NA_d1e115438">ausdehnt</w>
+<pc type="comma" xml:id="NA_d1e115441">,</pc>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="NA_d1e115448">ein</w>
+<seg type="ws"> </seg>
+<w lemma="viel" type="ADV" xml:id="NA_d1e115454">viel</w><lb/>
+<w lemma="heiß" type="ADJA" xml:id="NA_d1e115458">heißerer</w>
+<seg type="ws"> </seg>
+<w lemma="Sommer" type="NN" xml:id="NA_d1e115465">Sommer</w>
+<seg type="ws"> </seg>
+<w lemma="folgen" type="VVFIN" xml:id="NA_d1e115471">folgt</w>
+<seg type="ws"> </seg>
+<w lemma="als" type="KOKOM" xml:id="NA_d1e115477">als</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="NA_d1e115484">in</w>
+<seg type="ws"> </seg>
+<w lemma="Westeuropa" type="TRUNC" xml:id="NA_d1e115490">West-</w>
+<seg type="ws"> </seg>
+<w lemma="oder" type="KON" xml:id="NA_d1e115496">oder</w>
+<seg type="ws"> </seg>
+<w lemma="Mitteleuropa" type="NE" xml:id="NA_d1e115503">Mitteleuropa</w>
+<pc type="comma" xml:id="NA_d1e115506">,</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e115512">der</w>
+<seg type="ws"> </seg>
+<w lemma="aber" type="ADV" xml:id="NA_d1e115519">aber</w><lb/>
+<w lemma="schwer" type="ADJA" xml:id="NA_d1e115523">schwere</w>
+<seg type="ws"> </seg>
+<w lemma="Rückfall" type="NN" xml:id="NA_d1e115529">Rückfälle</w>
+<seg type="ws"> </seg>
+<w lemma="nicht" type="PTKNEG" xml:id="NA_d1e115536">nicht</w>
+<seg type="ws"> </seg>
+<w lemma="ausschließen" type="VVFIN" xml:id="NA_d1e115542">ausschließt</w>
+<pc type="comma" xml:id="NA_d1e115545">,</pc>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e115551">und</w>
+<seg type="ws"> </seg>
+<w lemma="dass" type="KOUS" xml:id="NA_d1e115558">daß</w>
+<seg type="ws"> </seg>
+<w lemma="auf" type="APPR" xml:id="NA_d1e115564">auf</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e115570">den</w>
+<seg type="ws"> </seg>
+<w lemma="durch" type="APPR" xml:id="NA_d1e115577">durch</w>
+<seg type="ws"> </seg>
+<w lemma="sein" type="PPOSAT" xml:id="NA_d1e115583">seine</w><lb/>
+<w lemma="warm" type="ADJA" xml:id="NA_d1e115587">warmen</w>
+<pc type="comma" xml:id="NA_d1e115591">,</pc>
+<seg type="ws"> </seg>
+<w lemma="klar" type="ADJA" xml:id="NA_d1e115597">klaren</w>
+<seg type="ws"> </seg>
+<w lemma="Tag" type="NN" xml:id="NA_d1e115603">Tage</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e115610">und</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e115616">die</w>
+<seg type="ws"> </seg>
+<w lemma="herrlich" type="ADJA" xml:id="NA_d1e115622">herrlichen</w>
+<seg type="ws"> </seg>
+<w lemma="Herbstfärbung" type="NN" xml:id="NA_d1e115629">Herbstfärbungen</w>
+<seg type="ws"> </seg>
+<w lemma="ausgezeichnet" type="ADJA" xml:id="NA_d1e115635">ausge<lb break="no" type="s"/>zeichneten</w>
+<seg type="ws"> </seg>
+<w lemma="Herbst" type="NN" xml:id="NA_d1e115643">Herbst</w>
+<seg type="ws"> </seg>
+<w lemma="unvermittelt" type="ADJD" xml:id="NA_d1e115650">unvermittelt</w>
+<seg type="ws"> </seg>
+<w lemma="mit" type="APPR" xml:id="NA_d1e115656">mit</w>
+<seg type="ws"> </seg>
+<w lemma="Schneesturm" type="NN" xml:id="NA_d1e115662">Schneestürmen</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e115669">und</w>
+<seg type="ws"> </seg>
+<w lemma="tief" type="ADJA" xml:id="NA_d1e115675">tiefen</w>
+<seg type="ws"> </seg>
+<w lemma="Kältegrad" type="NN" xml:id="NA_d1e115681">Kälte<lb break="no" type="s"/>graden</w>
+<seg type="ws"> </seg>
+<w lemma="Anfang" type="NN" xml:id="NA_d1e115690">Anfangs</w>
+<seg type="ws"> </seg>
+<w lemma="oder" type="KON" xml:id="NA_d1e115696">oder</w>
+<seg type="ws"> </seg>
+<w lemma="Mitte" type="NN" xml:id="NA_d1e115702">Mitte</w>
+<seg type="ws"> </seg>
+<w lemma="November" type="NN" xml:id="NA_d1e115709">November</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e115715">der</w>
+<seg type="ws"> </seg>
+<w lemma="Winter" type="NN" xml:id="NA_d1e115721">Winter</w>
+<seg type="ws"> </seg>
+<w lemma="einsetzen" type="VVFIN" xml:id="NA_d1e115728">einsetzt</w>
+<pc type="final" xml:id="NA_d1e115731">.</pc>
+<seg type="ws"> </seg>
+<c xml:id="NA_d1e115737">—</c>
+<seg type="ws"> </seg>
+<w lemma="Nordamerika" type="NE" xml:id="NA_d1e115743">Nord<lb break="no" type="s"/>amerika</w>
+<seg type="ws"> </seg>
+<w lemma="haben" type="VAFIN" xml:id="NA_d1e115752">hat</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPRART" xml:id="NA_d1e115758">im</w>
+<seg type="ws"> </seg>
+<w lemma="Osten" type="NN" xml:id="NA_d1e115764">Osten</w>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="NA_d1e115771">ein</w>
+<seg type="ws"> </seg>
+<w lemma="feucht" type="ADJA" xml:id="NA_d1e115777">feuchtes</w>
+<seg type="ws"> </seg>
+<w lemma="Klima" type="NN" xml:id="NA_d1e115783">Klima</w>
+<pc type="comma" xml:id="NA_d1e115787">,</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="PRELAT" xml:id="NA_d1e115793">dessen</w>
+<seg type="ws"> </seg>
+<seg rend="spaced"><w lemma="Niederschlagsmenge" type="NN" xml:id="NA_d1e115800">Niederschlags<lb break="no" type="s"/>mengen</w></seg>
+<seg type="ws"> </seg>
+<w lemma="zu" type="APPRART" xml:id="NA_d1e115809">zum</w>
+<seg type="ws"> </seg>
+<w lemma="doppelt" type="NN" xml:id="NA_d1e115815">Doppelten</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e115821">der</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.03 t:Concept3000500-1 t:Concept3001000-1 t:Term3001000-1.1-de" type="geo"><w lemma="mitteleuropäisch" type="ADJA" xml:id="NA_d1e115829">mitteleuropäischen</w></rs>
+<seg type="ws"> </seg>
+<w lemma="sich" type="PRF" xml:id="NA_d1e115835">sich</w>
+<seg type="ws"> </seg>
+<w lemma="erheben" type="VVINF" xml:id="NA_d1e115841">erheben</w>
+<pc type="final" xml:id="NA_d1e115844">;</pc><lb/>
+<w lemma="gegen" type="APPR" xml:id="NA_d1e115849">gegen</w>
+<seg type="ws"> </seg>
+<w lemma="Westen" type="NN_ABK" xml:id="NA_d1e115855">W.</w>
+<seg type="ws"> </seg>
+<w lemma="abnehmen" type="VVFIN" xml:id="NA_d1e115861">nehmen</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e115868">die</w>
+<seg type="ws"> </seg>
+<w lemma="Niederschlag" type="NN" xml:id="NA_d1e115874">Niederschläge</w>
+<seg type="ws"> </seg>
+<w lemma="ab" type="PTKVZ" xml:id="NA_d1e115880">ab</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e115887">und</w>
+<seg type="ws"> </seg>
+<w lemma="sein" type="VAFIN" xml:id="NA_d1e115893">sind</w>
+<seg type="ws"> </seg>
+<w lemma="westlich" type="ADJD" xml:id="NA_d1e115899">westlich</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPRART" xml:id="NA_d1e115906">vom</w>
+<seg type="ws"> </seg>
+<w lemma="98" type="CARD" xml:id="NA_d1e115912">98</w>
+<w lemma="Grad" type="NN" xml:id="NA_d1e115915">°</w><lb/>
+<w lemma="westlich" type="ADJA_ABK" xml:id="NA_d1e115920">W.</w>
+<seg type="ws"> </seg>
+<w lemma="Länge" type="NN_ABK" xml:id="NA_d1e115926">L.</w>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="NA_d1e115932">(</pc>
+<w lemma="Greenwich" type="NE_ABK" xml:id="NA_d1e115935">Greenw.</w>
+<pc type="internal" xml:id="NA_d1e115939">)</pc>
+<seg type="ws"> </seg>
+<w lemma="bereits" type="ADV" xml:id="NA_d1e115945">bereits</w>
+<seg type="ws"> </seg>
+<w lemma="nicht" type="PTKNEG" xml:id="NA_d1e115951">nicht</w>
+<seg type="ws"> </seg>
+<w lemma="mehr" type="ADV" xml:id="NA_d1e115958">mehr</w>
+<seg type="ws"> </seg>
+<w lemma="reichlich" type="PIS" xml:id="NA_d1e115964">reichlich</w>
+<seg type="ws"> </seg>
+<w lemma="genug" type="ADV" xml:id="NA_d1e115970">genug</w>
+<seg type="ws"> </seg>
+<w lemma="für" type="APPR" xml:id="NA_d1e115977">für</w>
+<seg type="ws"> </seg>
+<w lemma="Ackerbau" type="NN" xml:id="NA_d1e115983">Ackerbau</w><lb/>
+<w lemma="ohne" type="APPR" xml:id="NA_d1e115987">ohne</w>
+<seg type="ws"> </seg>
+<w lemma="künstlich" type="ADJA" xml:id="NA_d1e115994">künstliche</w>
+<seg type="ws"> </seg>
+<w lemma="Bewässerung" type="NN" xml:id="NA_d1e116000">Bewässerung</w>
+<pc type="final" xml:id="NA_d1e116003">.</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e116009">Die</w>
+<seg type="ws"> </seg>
+<w lemma="hoch" type="ADJA" xml:id="NA_d1e116016">höheren</w>
+<seg type="ws"> </seg>
+<w lemma="Gebirge" type="NN" xml:id="NA_d1e116022">Gebirge</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e116028">des</w>
+<seg type="ws"> </seg>
+<w lemma="Cordillerengebiet" type="NN" xml:id="NA_d1e116035">Cordille<lb break="no" type="s"/>rengebietes</w>
+<seg type="ws"> </seg>
+<w lemma="bilden" type="VVFIN" xml:id="NA_d1e116043">bilden</w>
+<seg type="ws"> </seg>
+<w lemma="weit" type="ADJD" xml:id="NA_d1e116049">weiter</w>
+<seg type="ws"> </seg>
+<w lemma="westlich" type="ADJD_ABK" xml:id="NA_d1e116056">w.</w>
+<seg type="ws"> </seg>
+<w lemma="noch" type="ADV" xml:id="NA_d1e116062">noch</w>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="NA_d1e116068">eine</w>
+<seg type="ws"> </seg>
+<w lemma="Anzahl" type="NN" xml:id="NA_d1e116075">Anzahl</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPR" xml:id="NA_d1e116081">von</w>
+<seg type="ws"> </seg>
+<w lemma="regenreich" type="ADJA" xml:id="NA_d1e116087">regenreicheren</w><lb/>
+<w lemma="Oase" type="NN" xml:id="NA_d1e116092">Oasen</w>
+<pc type="comma" xml:id="NA_d1e116095">,</pc>
+<seg type="ws"> </seg>
+<w lemma="an" type="APPRART" xml:id="NA_d1e116101">am</w>
+<seg type="ws"> </seg>
+<w lemma="meiste" type="PIS" xml:id="NA_d1e116108">meisten</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="NA_d1e116114">in</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e116120">den</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPR" xml:id="NA_d1e116127">von</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e116133">der</w>
+<seg type="ws"> </seg>
+<w lemma="Nordpazifikbahn" type="NN" xml:id="NA_d1e116139">Nordpacifikbahn</w>
+<seg type="ws"> </seg>
+<w lemma="durchziehen" type="ADJA" xml:id="NA_d1e116146">durchzogenen</w><lb/>
+<w lemma="nördlich" type="ADJA" xml:id="NA_d1e116150">nördlichen</w>
+<seg type="ws"> </seg>
+<w lemma="Landschaft" type="NN" xml:id="NA_d1e116156">Landschaften</w>
+<pc type="comma" xml:id="NA_d1e116159">,</pc>
+<seg type="ws"> </seg>
+<w lemma="aber" type="KON" xml:id="NA_d1e116166">aber</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPRART" xml:id="NA_d1e116172">im</w>
+<seg type="ws"> </seg>
+<w lemma="allgemein" type="ADJA" xml:id="NA_d1e116178">allgemeinen</w>
+<seg type="ws"> </seg>
+<w lemma="sein" type="VAFIN" xml:id="NA_d1e116185">sind</w>
+<seg type="ws"> </seg>
+<w lemma="all" type="PIAT" xml:id="NA_d1e116191">alle</w>
+<seg type="ws"> </seg>
+<w lemma="Staat" type="NN" xml:id="NA_d1e116197">Staaten</w>
+<seg type="ws"> </seg>
+<w lemma="westlich" type="ADJD_ABK" xml:id="NA_d1e116204">w.</w><lb/>
+<w lemma="von" type="APPR" xml:id="NA_d1e116208">von</w>
+<seg type="ws"> </seg>
+<w lemma="jen" type="PDAT" xml:id="NA_d1e116214">jener</w>
+<seg type="ws"> </seg>
+<w lemma="durch" type="APPR" xml:id="NA_d1e116221">durch</w>
+<seg type="ws"> </seg>
+<w lemma="Kansas" type="NE" xml:id="NA_d1e116227">Kansas</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e116233">und</w>
+<seg type="ws"> </seg>
+<w lemma="Nebraska" type="NE" xml:id="NA_d1e116240">Nebraska</w>
+<seg type="ws"> </seg>
+<w lemma="schneiden" type="ADJA" xml:id="NA_d1e116246">schneidenden</w>
+<seg type="ws"> </seg>
+<w lemma="Linie" type="NN" xml:id="NA_d1e116252">Linie</w>
+<seg type="ws"> </seg>
+<w lemma="durch" type="APPR" xml:id="NA_d1e116259">durch</w><lb/>
+<w lemma="Regenarmut" type="NN" xml:id="NA_d1e116263">Regenarmut</w>
+<seg type="ws"> </seg>
+<w lemma="auszeichnen" type="VVPP" xml:id="NA_d1e116269">ausgezeichnet</w>
+<pc type="final" xml:id="NA_d1e116273">.</pc>
+<seg type="ws"> </seg>
+<w lemma="erst" type="ADV" xml:id="NA_d1e116279">Erst</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="NA_d1e116285">in</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e116292">der</w>
+<seg type="ws"> </seg>
+<w lemma="nordwestlich" type="ADJA" xml:id="NA_d1e116298">nordwestlichen</w>
+<seg type="ws"> </seg>
+<w lemma="Ecke" type="NN" xml:id="NA_d1e116304">Ecke</w>
+<seg type="ws"> </seg>
+<w lemma="an" type="APPRART" xml:id="NA_d1e116311">am</w><lb/>
+<w lemma="still" type="ADJA" xml:id="NA_d1e116315">Stillen</w>
+<seg type="ws"> </seg>
+<w lemma="Ozean" type="NN" xml:id="NA_d1e116321">Ocean</w>
+<pc type="comma" xml:id="NA_d1e116324">,</pc>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="NA_d1e116331">in</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="PRELS" xml:id="NA_d1e116337">die</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e116343">die</w>
+<seg type="ws"> </seg>
+<w lemma="westlich" type="ADJA" xml:id="NA_d1e116350">westlichen</w>
+<seg type="ws"> </seg>
+<w lemma="Teil" type="NN" xml:id="NA_d1e116356">Teile</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPR" xml:id="NA_d1e116362">von</w>
+<seg type="ws"> </seg>
+<w lemma="Oregon" type="NE" xml:id="NA_d1e116369">Oregon</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e116375">und</w>
+<seg type="ws"> </seg>
+<w lemma="Washington" type="NE" xml:id="NA_d1e116381">Wash<lb break="no" type="s"/>ington</w>
+<seg type="ws"> </seg>
+<w lemma="fallen" type="VVFIN" xml:id="NA_d1e116390">fallen</w>
+<pc type="comma" xml:id="NA_d1e116393">,</pc>
+<seg type="ws"> </seg>
+<w lemma="werden" type="VAFIN" xml:id="NA_d1e116399">werden</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e116406">die</w>
+<seg type="ws"> </seg>
+<w lemma="Niederschlag" type="NN" xml:id="NA_d1e116412">Niederschläge</w>
+<seg type="ws"> </seg>
+<w lemma="wieder" type="ADV" xml:id="NA_d1e116418">wieder</w>
+<seg type="ws"> </seg>
+<w lemma="reichlich" type="PIS" xml:id="NA_d1e116425">reichlich</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e116431">und</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e116437">die</w><lb/>
+<w lemma="Umgebung" type="NN" xml:id="NA_d1e116442">Umgebungen</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e116448">des</w>
+<seg type="ws"> </seg>
+<w lemma="Puget-Sund" type="NN" xml:id="NA_d1e116454">Puget-Sundes</w>
+<pc type="comma" xml:id="NA_d1e116457">,</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="PRELS" xml:id="NA_d1e116464">die</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="NA_d1e116470">in</w>
+<seg type="ws"> </seg>
+<w lemma="viel" type="PIAT" xml:id="NA_d1e116476">vielen</w>
+<seg type="ws"> </seg>
+<w lemma="Beziehung" type="NN" xml:id="NA_d1e116483">Beziehungen</w>
+<seg type="ws"> </seg>
+<w lemma="zu" type="APPR" xml:id="NA_d1e116489">zu</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e116495">den</w><lb/>
+<w lemma="begünstigen" type="ADJA" xml:id="NA_d1e116500">begünstigsten</w>
+<seg type="ws"> </seg>
+<w lemma="Strich" type="NN" xml:id="NA_d1e116506">Strichen</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e116512">der</w>
+<seg type="ws"> </seg>
+<w lemma="neu" type="ADJA" xml:id="NA_d1e116519">Neuen</w>
+<seg type="ws"> </seg>
+<w lemma="Welt" type="NN" xml:id="NA_d1e116525">Welt</w>
+<seg type="ws"> </seg>
+<w lemma="gehören" type="VVFIN" xml:id="NA_d1e116531">gehören</w>
+<pc type="comma" xml:id="NA_d1e116535">,</pc>
+<seg type="ws"> </seg>
+<w lemma="haben" type="VAFIN" xml:id="NA_d1e116541">haben</w>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="NA_d1e116547">ein</w>
+<seg type="ws"> </seg>
+<w lemma="an" type="APPR" xml:id="NA_d1e116554">an</w><lb/>
+<w lemma="Nordwesteuropa" type="NE" xml:id="NA_d1e116558">Nordwesteuropa</w>
+<seg type="ws"> </seg>
+<w lemma="erinnern" type="ADJA" xml:id="NA_d1e116564">erinnerndes</w>
+<seg type="ws"> </seg>
+<w lemma="Seeklima" type="NN" xml:id="NA_d1e116571">Seeklima</w>
+<pc type="final" xml:id="NA_d1e116574">.</pc>
+<seg type="ws"> </seg>
+<w lemma="aber" type="KON" xml:id="NA_d1e116580">Aber</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPRART" xml:id="NA_d1e116586">im</w>
+<seg type="ws"> </seg>
+<w lemma="übrig" type="ADJA" xml:id="NA_d1e116593">übrigen</w>
+<seg type="ws"> </seg>
+<pc type="internal" xml:id="NA_d1e116599">„</pc>
+<w lemma="far" type="FM" xml:id="NA_d1e116602">Far</w>
+<seg type="ws"> </seg>
+<w lemma="west" type="FM" xml:id="NA_d1e116609">West</w>
+<pc type="internal" xml:id="NA_d1e116612">“</pc><lb/>
+<w lemma="sein" type="VAFIN" xml:id="NA_d1e116616">sind</w>
+<seg type="ws"> </seg>
+<w lemma="auf" type="APPR" xml:id="NA_d1e116622">auf</w>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="NA_d1e116629">einem</w>
+<seg type="ws"> </seg>
+<w lemma="Raum" type="NN" xml:id="NA_d1e116635">Raum</w>
+<pc type="comma" xml:id="NA_d1e116638">,</pc>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="NA_d1e116645">in</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e116651">den</w>
+<seg type="ws"> </seg>
+<w lemma="Deutschland" type="NE" xml:id="NA_d1e116657">Deutschland</w>
+<seg type="ws"> </seg>
+<w lemma="sechsmal" type="ADV" xml:id="NA_d1e116664">sechsmal</w>
+<seg type="ws"> </seg>
+<w lemma="gehen" type="VVINF" xml:id="NA_d1e116670">gehen</w>
+<seg type="ws"> </seg>
+<w lemma="werden" type="VAFIN" xml:id="NA_d1e116676">würde</w>
+<pc type="comma" xml:id="NA_d1e116679">,</pc><lb/>
+<w lemma="d" type="ART" xml:id="NA_d1e116684">die</w>
+<seg type="ws"> </seg>
+<w lemma="Niederschlag" type="NN" xml:id="NA_d1e116690">Niederschläge</w>
+<seg type="ws"> </seg>
+<w lemma="zu" type="PTKA" xml:id="NA_d1e116696">zu</w>
+<seg type="ws"> </seg>
+<w lemma="gering" type="ADJD" xml:id="NA_d1e116703">gering</w>
+<seg type="ws"> </seg>
+<w lemma="für" type="APPR" xml:id="NA_d1e116709">für</w>
+<seg type="ws"> </seg>
+<w lemma="Waldwuchs" type="NN" xml:id="NA_d1e116715">Waldwuchs</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e116722">und</w>
+<seg type="ws"> </seg>
+<w lemma="Ackerbau" type="NN" xml:id="NA_d1e116728">Ackerbau</w>
+<pc type="final" xml:id="NA_d1e116731">.</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e116738">Die</w><lb/>
+<w lemma="entscheidend" type="ADJA" xml:id="NA_d1e116742">entscheidende</w>
+<seg type="ws"> </seg>
+<w lemma="Frage" type="NN" xml:id="NA_d1e116748">Frage</w>
+<seg type="ws"> </seg>
+<w lemma="sein" type="VAFIN" xml:id="NA_d1e116755">ist</w>
+<seg type="ws"> </seg>
+<w lemma="hier" type="ADV" xml:id="NA_d1e116761">hier</w>
+<seg type="ws"> </seg>
+<w lemma="immer" type="ADV" xml:id="NA_d1e116767">immer</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e116774">die</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e116780">des</w>
+<seg type="ws"> </seg>
+<w lemma="Wasservorrat" type="NN" xml:id="NA_d1e116786">Wasservorrates</w>
+<seg type="ws"> </seg>
+<w lemma="für" type="APPR" xml:id="NA_d1e116793">für</w><lb/>
+<w lemma="künstlich" type="ADJA" xml:id="NA_d1e116797">künstliche</w>
+<seg type="ws"> </seg>
+<w lemma="Bewässerung" type="NN" xml:id="NA_d1e116803">Bewässerung</w>
+<pc type="final" xml:id="NA_d1e116806">.</pc>
+<seg type="ws"> </seg>
+<w lemma="man" type="PIS" xml:id="NA_d1e116813">Man</w>
+<seg type="ws"> </seg>
+<w lemma="planen" type="VVFIN" xml:id="NA_d1e116819">plant</w>
+<seg type="ws"> </seg>
+<w lemma="groß" type="ADJA" xml:id="NA_d1e116825">große</w>
+<seg type="ws"> </seg>
+<w lemma="Stausee" type="NN" xml:id="NA_d1e116832">Stauseen</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e116838">und</w>
+<seg type="ws"> </seg>
+<w lemma="Hebewerk" type="NN" xml:id="NA_d1e116844">Hebe<lb break="no" type="s"/>werke</w>
+<pc type="comma" xml:id="NA_d1e116850">,</pc>
+<seg type="ws"> </seg>
+<w lemma="aber" type="KON" xml:id="NA_d1e116856">aber</w>
+<seg type="ws"> </seg>
+<w lemma="weit" type="ADJA" xml:id="NA_d1e116862">weite</w>
+<seg type="ws"> </seg>
+<w lemma="Gebiet" type="NN" xml:id="NA_d1e116869">Gebiete</w>
+<seg type="ws"> </seg>
+<w lemma="werden" type="VAFIN" xml:id="NA_d1e116875">werden</w>
+<seg type="ws"> </seg>
+<w lemma="immer" type="ADV" xml:id="NA_d1e116881">immer</w>
+<seg type="ws"> </seg>
+<w lemma="Wüste" type="NN" xml:id="NA_d1e116888">Wüste</w>
+<seg type="ws"> </seg>
+<w lemma="bleiben" type="VVINF" xml:id="NA_d1e116894">bleiben</w>
+<seg type="ws"> </seg>
+<w lemma="müssen" type="VMINF" xml:id="NA_d1e116900">müssen</w>
+<pc type="comma" xml:id="NA_d1e116903">,</pc><lb/>
+<w lemma="besonders" type="ADV" xml:id="NA_d1e116908">besonders</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="NA_d1e116914">in</w>
+<seg type="ws"> </seg>
+<w lemma="Nevada" type="NE" xml:id="NA_d1e116920">Nevada</w>
+<pc type="comma" xml:id="NA_d1e116924">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Utah" type="NE" xml:id="NA_d1e116930">Utah</w>
+<pc type="comma" xml:id="NA_d1e116933">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Arizona" type="NE" xml:id="NA_d1e116939">Arizona</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e116946">und</w>
+<seg type="ws"> </seg>
+<w lemma="Südkalifornien" type="NE" xml:id="NA_d1e116952">Südkalifornien</w>
+<pc type="final" xml:id="NA_d1e116955">.</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e116962">Die</w>
+<seg type="ws"> </seg>
+<w lemma="Frage" type="NN" xml:id="NA_d1e116968">Frage</w><lb/>
+<w lemma="d" type="ART" xml:id="NA_d1e116972">der</w>
+<seg type="ws"> </seg>
+<w lemma="Erhöhung" type="NN" xml:id="NA_d1e116979">Erhöhung</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e116985">der</w>
+<seg type="ws"> </seg>
+<w lemma="Leistungsfähigkeit" type="NN" xml:id="NA_d1e116991">Leistungsfähigkeit</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e116998">des</w>
+<seg type="ws"> </seg>
+<w lemma="Boden" type="NN" xml:id="NA_d1e117004">Bodens</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e117010">der</w>
+<seg type="ws"> </seg>
+<w lemma="vereinigen" type="ADJA_ABK" xml:id="NA_d1e117017">V.</w>
+<seg type="ws"> </seg>
+<w lemma="Staat" type="NN_ABK" xml:id="NA_d1e117023">St.</w>
+<seg type="ws"> </seg>
+<w lemma="werden" type="VAFIN" xml:id="NA_d1e117029">wird</w><lb/>
+<w lemma="immer" type="ADV" xml:id="NA_d1e117034">immer</w>
+<seg type="ws"> </seg>
+<w lemma="mehr" type="ADV" xml:id="NA_d1e117040">mehr</w>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="NA_d1e117046">eine</w>
+<seg type="ws"> </seg>
+<w lemma="Frage" type="NN" xml:id="NA_d1e117053">Frage</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e117059">der</w>
+<seg type="ws"> </seg>
+<w lemma="Bewässerung" type="NN" xml:id="NA_d1e117065">Bewässerung</w>
+<pc type="final" xml:id="NA_d1e117068">.</pc>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="NA_d1e117075">In</w>
+<seg type="ws"> </seg>
+<w lemma="dies" type="PDAT" xml:id="NA_d1e117081">diesem</w>
+<seg type="ws"> </seg>
+<w lemma="trocken" type="ADJA" xml:id="NA_d1e117087">trockenen</w><lb/>
+<w lemma="Innere" type="NN" xml:id="NA_d1e117092">Innern</w>
+<seg type="ws"> </seg>
+<w lemma="hervortreten" type="VVFIN" xml:id="NA_d1e117098">treten</w>
+<seg type="ws"> </seg>
+<w lemma="auch" type="ADV" xml:id="NA_d1e117104">auch</w>
+<seg type="ws"> </seg>
+<w lemma="ander" type="ADJA" xml:id="NA_d1e117111">andere</w>
+<seg type="ws"> </seg>
+<w lemma="kontinental" type="ADJA" xml:id="NA_d1e117117">kontinentale</w>
+<seg type="ws"> </seg>
+<w lemma="Merkmal" type="NN" xml:id="NA_d1e117123">Merkmale</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="NA_d1e117130">in</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e117136">den</w>
+<seg type="ws"> </seg>
+<w lemma="schroff" type="ADJA" xml:id="NA_d1e117142">schroffen</w><lb/>
+<w lemma="Gegensatz" type="NN" xml:id="NA_d1e117147">Gegensätzen</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPR" xml:id="NA_d1e117153">von</w>
+<seg type="ws"> </seg>
+<w lemma="Winterkälte" type="NN" xml:id="NA_d1e117159">Winterkälte</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e117166">und</w>
+<seg type="ws"> </seg>
+<w lemma="Sommerhitze" type="NN" xml:id="NA_d1e117172">Sommerhitze</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e117178">und</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="NA_d1e117185">in</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e117191">den</w>
+<seg type="ws"> </seg>
+<w lemma="rasch" type="ADJA" xml:id="NA_d1e117197">raschen</w><lb/>
+<w lemma="Umschlag" type="NN" xml:id="NA_d1e117202">Umschlägen</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e117208">der</w>
+<seg type="ws"> </seg>
+<w lemma="Witterung" type="NN" xml:id="NA_d1e117214">Witterung</w>
+<seg type="ws"> </seg>
+<w lemma="hervor" type="PTKVZ" xml:id="NA_d1e117221">hervor</w>
+<pc type="final" xml:id="NA_d1e117224">.</pc>
+<seg type="ws"> </seg>
+<w lemma="auf" type="APPR" xml:id="NA_d1e117230">Auf</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e117237">den</w>
+<seg type="ws"> </seg>
+<w lemma="waldlos" type="ADJA" xml:id="NA_d1e117243">waldlosen</w>
+<seg type="ws"> </seg>
+<w lemma="Ebene" type="NN" xml:id="NA_d1e117249">Ebenen</w><lb/>
+<w lemma="zwischen" type="APPR" xml:id="NA_d1e117254">zwischen</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e117260">dem</w>
+<seg type="ws"> </seg>
+<w lemma="Mississippi" type="NE" xml:id="NA_d1e117266">Mississippi</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e117273">und</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e117279">den</w>
+<seg type="ws"> </seg>
+<w lemma="Westgebirge" type="NN" xml:id="NA_d1e117285">Westgebirgen</w>
+<seg type="ws"> </seg>
+<w lemma="sein" type="VAFIN" xml:id="NA_d1e117292">sind</w>
+<seg type="ws"> </seg>
+<w lemma="außerdem" type="ADV" xml:id="NA_d1e117298">außerdem</w><lb/>
+<w lemma="heftig" type="ADJA" xml:id="NA_d1e117302">heftige</w>
+<seg type="ws"> </seg>
+<w lemma="Wirbelsturm" type="NN" xml:id="NA_d1e117309">Wirbelstürme</w>
+<seg type="ws"> </seg>
+<w lemma="häufig" type="ADJD" xml:id="NA_d1e117315">häufig</w>
+<pc type="final" xml:id="NA_d1e117318">;</pc>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="NA_d1e117324">ein</w>
+<seg type="ws"> </seg>
+<w lemma="zweite" type="ADJA" xml:id="NA_d1e117331">zweites</w>
+<seg type="ws"> </seg>
+<w lemma="Gebiet" type="NN" xml:id="NA_d1e117337">Gebiet</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e117343">der</w>
+<seg type="ws"> </seg>
+<w lemma="Wirbelsturm" type="NN" xml:id="NA_d1e117350">Wirbelstürme</w><lb/>
+<w lemma="befinden" type="VVFIN" xml:id="NA_d1e117354">befindet</w>
+<seg type="ws"> </seg>
+<w lemma="sich" type="PRF" xml:id="NA_d1e117360">sich</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="NA_d1e117367">in</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e117373">den</w>
+<seg type="ws"> </seg>
+<w lemma="südlich" type="ADJA" xml:id="NA_d1e117379">südlichen</w>
+<seg type="ws"> </seg>
+<w lemma="atlantisch" type="ADJA" xml:id="NA_d1e117386">atlantischen</w>
+<seg type="ws"> </seg>
+<w lemma="Staat" type="NN" xml:id="NA_d1e117392">Staaten</w>
+<pc type="comma" xml:id="NA_d1e117395">,</pc>
+<seg type="ws"> </seg>
+<w lemma="wohin" type="PWAV" xml:id="NA_d1e117402">wohin</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e117408">die</w>
+<seg type="ws"> </seg>
+<w lemma="Tornado" type="NN" xml:id="NA_d1e117414">Tor<lb break="no" type="s"/>nados</w>
+<seg type="ws"> </seg>
+<w lemma="oder" type="KON" xml:id="NA_d1e117423">oder</w>
+<seg type="ws"> </seg>
+<w lemma="Hurrikan" type="NN" xml:id="NA_d1e117429">Hurricane</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e117435">der</w>
+<seg type="ws"> </seg>
+<w lemma="Antillen" type="NN" xml:id="NA_d1e117442">Antillen</w>
+<seg type="ws"> </seg>
+<w lemma="übergreifen" type="VVINF" xml:id="NA_d1e117448">übergreifen</w>
+<pc type="final" xml:id="NA_d1e117451">.</pc>
+<seg type="ws"> </seg>
+<c xml:id="NA_d1e117457">—</c>
+<seg type="ws"> </seg>
+<w lemma="ganz" type="ADV" xml:id="NA_d1e117464">Ganz</w>
+<seg type="ws"> </seg>
+<w lemma="eigenartig" type="ADJA" xml:id="NA_d1e117470">eigen<lb break="no" type="s"/>artige</w>
+<seg type="ws"> </seg>
+<w lemma="Klima" type="NN" xml:id="NA_d1e117478">Klimate</w>
+<seg type="ws"> </seg>
+<w lemma="herrschen" type="VVFIN" xml:id="NA_d1e117485">herrschen</w>
+<seg type="ws"> </seg>
+<w lemma="an" type="APPRART" xml:id="NA_d1e117491">am</w>
+<seg type="ws"> </seg>
+<w lemma="still" type="ADJA" xml:id="NA_d1e117497">Stillen</w>
+<seg type="ws"> </seg>
+<w lemma="Ozean" type="NN" xml:id="NA_d1e117504">Ocean</w>
+<pc type="internal" xml:id="NA_d1e117507">:</pc>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="NA_d1e117513">in</w>
+<seg type="ws"> </seg>
+<w lemma="Washington" type="NE" xml:id="NA_d1e117520">Washington</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e117526">und</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPRART" xml:id="NA_d1e117532">im</w><lb/>
+<w lemma="nördlich" type="ADJA" xml:id="NA_d1e117537">nördlichen</w>
+<seg type="ws"> </seg>
+<w lemma="Oregon" type="NE" xml:id="NA_d1e117543">Oregon</w>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="NA_d1e117549">ein</w>
+<seg type="ws"> </seg>
+<w lemma="mild" type="ADJA" xml:id="NA_d1e117556">mildes</w>
+<pc type="comma" xml:id="NA_d1e117559">,</pc>
+<seg type="ws"> </seg>
+<w lemma="regenreich" type="ADJA" xml:id="NA_d1e117565">regenreiches</w>
+<seg type="ws"> </seg>
+<w lemma="Seeklima" type="NN" xml:id="NA_d1e117571">Seeklima</w>
+<pc type="comma" xml:id="NA_d1e117575">,</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="PRELS" xml:id="NA_d1e117581">das</w>
+<seg type="ws"> </seg>
+<w lemma="nach" type="APPR" xml:id="NA_d1e117587">nach</w>
+<seg type="ws"> </seg>
+<w lemma="Süden" type="NN_ABK" xml:id="NA_d1e117594">S.</w><lb/>
+<w lemma="als" type="KOKOM" xml:id="NA_d1e117598">als</w>
+<seg type="ws"> </seg>
+<w lemma="schmal" type="ADJA" xml:id="NA_d1e117604">schmaler</w>
+<seg type="ws"> </seg>
+<w lemma="Streif" type="NN" xml:id="NA_d1e117611">Streif</w>
+<seg type="ws"> </seg>
+<w lemma="an" type="APPR" xml:id="NA_d1e117617">an</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e117623">der</w>
+<seg type="ws"> </seg>
+<w lemma="Küste" type="NN" xml:id="NA_d1e117630">Küste</w>
+<seg type="ws"> </seg>
+<w lemma="hinziehen" type="VVFIN" xml:id="NA_d1e117636">hinzieht</w>
+<pc type="comma" xml:id="NA_d1e117639">,</pc>
+<seg type="ws"> </seg>
+<w lemma="wo" type="PWAV" xml:id="NA_d1e117645">wo</w>
+<seg type="ws"> </seg>
+<w lemma="noch" type="ADV" xml:id="NA_d1e117652">noch</w>
+<seg type="ws"> </seg>
+<w lemma="San" type="NE" xml:id="NA_d1e117658">San</w>
+<seg type="ws"> </seg>
+<w lemma="Francisco" type="NE" xml:id="NA_d1e117664">Francisco</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="NA_d1e117671">in</w><lb/>
+<w lemma="sein" type="PPOSAT" xml:id="NA_d1e117675">seinen</w>
+<seg type="ws"> </seg>
+<w lemma="Bereich" type="NN" xml:id="NA_d1e117681">Bereich</w>
+<seg type="ws"> </seg>
+<w lemma="fallen" type="VVFIN" xml:id="NA_d1e117688">fällt</w>
+<pc type="comma" xml:id="NA_d1e117691">,</pc>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPRART" xml:id="NA_d1e117697">im</w>
+<seg type="ws"> </seg>
+<w lemma="Innere" type="NN" xml:id="NA_d1e117704">Innern</w>
+<seg type="ws"> </seg>
+<w lemma="Kalifornien" type="NE" xml:id="NA_d1e117710">Kaliforniens</w>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="NA_d1e117716">ein</w>
+<seg type="ws"> </seg>
+<w lemma="Wechsel" type="NN" xml:id="NA_d1e117723">Wechsel</w>
+<seg type="ws"> </seg>
+<w lemma="trocken" type="ADJA" xml:id="NA_d1e117729">trockener</w>
+<pc type="comma" xml:id="NA_d1e117732">,</pc><lb/>
+<w lemma="sonnig" type="ADJA" xml:id="NA_d1e117736">sonniger</w>
+<seg type="ws"> </seg>
+<w lemma="Sommer" type="NN" xml:id="NA_d1e117743">Sommer</w>
+<seg type="ws"> </seg>
+<w lemma="mit" type="APPR" xml:id="NA_d1e117749">mit</w>
+<seg type="ws"> </seg>
+<w lemma="winterlich" type="ADJA" xml:id="NA_d1e117755">winterlicher</w>
+<seg type="ws"> </seg>
+<w lemma="Regenzeit" type="NN" xml:id="NA_d1e117762">Regenzeit</w>
+<pc type="comma" xml:id="NA_d1e117765">,</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="PRELS" xml:id="NA_d1e117771">der</w>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="NA_d1e117778">dem</w>
+<seg type="ws"> </seg>
+<w lemma="Mittelmeerklima" type="NN" xml:id="NA_d1e117784">Mittelmeer<lb break="no" type="s"/>klima</w>
+<seg type="ws"> </seg>
+<w lemma="ähnlich" type="ADJD" xml:id="NA_d1e117792">ähnlich</w>
+<seg type="ws"> </seg>
+<w lemma="sein" type="VAFIN" xml:id="NA_d1e117799">ist</w>
+<pc type="final" xml:id="NA_d1e117802">.</pc></p>
+<p rend="indent"><w lemma="kaum" type="ADV" xml:id="NA_d1e117806">Kaum</w>
+<seg type="ws"> </seg>
+<w lemma="irgendwo" type="ADV" xml:id="NA_d1e117812">irgendwo</w>
+<seg type="ws"> </seg>
+<w lemma="werden" type="VAFIN" xml:id="NA_d1e117818">wird</w>
+<seg type="ws"> </seg>
+<w lemma="soviel" type="PIS" xml:id="NA_d1e117825">soviel</w>
+<seg type="ws"> </seg>
+<w lemma="über" type="APPR" xml:id="NA_d1e117831">über</w>
+<seg type="ws"> </seg>
+<w lemma="Klima" type="NN" xml:id="NA_d1e117837">Klima</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e117844">und</w>
+<seg type="ws"> </seg>
+<w lemma="Wetter" type="NN" xml:id="NA_d1e117850">Wetter</w>
+<seg type="ws"> </seg>
+<w lemma="sprechen" type="VVPP" xml:id="NA_d1e117856">gesprochen</w><lb/>
+<w lemma="wie" type="KOKOM" xml:id="NA_d1e117861">wie</w>
+<seg type="ws"> </seg>
+<w lemma="in" type="APPR" xml:id="NA_d1e117867">in</w>
+<seg type="ws"> </seg>
+<w lemma="Nordamerika" type="NE" xml:id="NA_d1e117873">Nordamerika</w>
+<pc type="final" xml:id="NA_d1e117876">.</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="PDS" xml:id="NA_d1e117883">Das</w>
+<seg type="ws"> </seg>
+<w lemma="sein" type="VAFIN" xml:id="NA_d1e117889">ist</w>
+<seg type="ws"> </seg>
+<w lemma="natürlich" type="ADV" xml:id="NA_d1e117895">natürlich</w>
+<pc type="final" xml:id="NA_d1e117899">.</pc>
+<seg type="ws"> </seg>
+<w lemma="dies" type="PDAT" xml:id="NA_d1e117905">Diese</w>
+<seg type="ws"> </seg>
+<rs ref="t:Collection01 t:Concept01.02 t:Concept2000500-1 t:Concept2043900-1 t:Concept01.03 t:Term2043900-1.1-de" type="ethNat"><w lemma="nordamerikanisch" type="ADJA" xml:id="NA_d1e117912">nordamerikanischen</w></rs><lb/>
+<w lemma="Klima" type="NN" xml:id="NA_d1e117917">Klimate</w>
+<seg type="ws"> </seg>
+<w lemma="eindringen" type="VVFIN" xml:id="NA_d1e117923">dringen</w>
+<seg type="ws"> </seg>
+<w lemma="mit" type="APPR" xml:id="NA_d1e117929">mit</w>
+<seg type="ws"> </seg>
+<w lemma="ihr" type="PPOSAT" xml:id="NA_d1e117936">ihren</w>
+<seg type="ws"> </seg>
+<w lemma="scharf" type="ADJD" xml:id="NA_d1e117942">scharf</w>
+<seg type="ws"> </seg>
+<w lemma="ausgeprägt" type="ADJA" xml:id="NA_d1e117948">ausgeprägten</w>
+<seg type="ws"> </seg>
+<w lemma="Merkmal" type="NN" xml:id="NA_d1e117955">Merkmalen</w>
+<seg type="ws"> </seg>
+<w lemma="ganz" type="ADV" xml:id="NA_d1e117961">ganz</w><lb/>
+
+</p></div></div></front></text></TEI>

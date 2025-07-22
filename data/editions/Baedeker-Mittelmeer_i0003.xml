@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Mittelmeer 1909, Titel recto [S. III]</title>
+            <title level="m">Das Mittelmeer. Handbuch für Reisende: Digitale Ausgabe</title>
+            <author>Karl Baedeker (company)</author>
+            <respStmt>
+               <resp xml:lang="en">compiled by</resp>
+               <name>Ulrike Czeitschner</name>
+            </respStmt>
+            <respStmt>
+               <resp xml:lang="en">in collaboration with</resp>
+               <name>Barbara Krautgartner</name>
+               <name>Victoria Eisenheld</name>
+               <name>Laura Lanig</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>full-text digital edition <date when="2017">2017</date></edition>
+            <funder>Austrian Academy of Sciences</funder>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+            <address>
+               <addrLine>Bäckerstraße 13</addrLine>
+               <addrLine>1010 Vienna</addrLine>
+            </address>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2017">2017</date>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="short">Karl Baedeker: Das Mittelmeer. Leipzig, 1909.</bibl>
+            <bibl type="transcript">Das Mittelmeer 
+            Hafenplätze und Seewege 
+            nebst 
+            Madeira, den Kanarischen Inseln, der Küste 
+            Marokkos, Algerien und Tunesien 
+            Handbuch für Reisende 
+            von 
+            Karl Bædeker 
+            Mit 38 Karten und 49 Plänen 
+            Leipzig 
+            Verlag von Karl Bædeker 
+            1909</bibl>
+            <biblStruct type="full">
+               <monogr>
+                  <author>Karl Baedeker</author>
+                  <title type="main">Das Mittelmeer</title>
+                  <title type="sub">Hafenplätze und Seewege 
+                    nebst 
+                    Madeira, den Kanarischen Inseln, der Küste 
+                    Marokkos, Algerien und Tunesien 
+                    Handbuch für Reisende 
+                    von 
+                    Karl Bædeker 
+                    Mit 38 Karten und 49 Plänen</title>
+                  <edition>first edition</edition>
+                  <imprint>
+                     <publisher>Verlag von Karl Bædeker</publisher>
+                     <pubPlace>Leipzig</pubPlace>
+                     <date when="1909">1909</date>
+                  </imprint>
+                  <extent>
+                     <measure type="pages">826 [XXXII, 635 p., maps not paged]</measure>
+                  </extent>
+               </monogr>
+            </biblStruct>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Vienna</settlement> 
+                  <institution>Austrian National Library</institution>
+                  <repository>Karten-Sammlung</repository>
+                  <idno type="signatory">583155-A</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Image creation, optical character recognition and basic XML annotation has been carried out within the framework of the AAC-Austrian Academy Corpus.</p>
+            <p>Transformation to TEI/P5, linguistic and semantic annotation has been applied within the the GO!DIGITAL 1.0 project "travel!digital. Exploring People and Monuments in Baedeker Guidebooks (1875-1914)", Project-Nr.: ÖAW0204.</p>
+         </projectDesc>
+         <listPrefixDef>
+            <prefixDef matchPattern="(person)" replacementPattern="persons.xml#$1" ident="person-prefix">
+               <p>Private URIs using the person  
+                  prefix are pointers to person
+                  elements in the personography.xml file.
+                  For example, psn:MDH
+                  dereferences to personography.xml#MDH</p>
+            </prefixDef>
+            <prefixDef matchPattern="(t)" replacementPattern="https://vocabs.acdh.oeaw.ac.at/traveldigital/$1" ident="thesaurus-prefix">
+               <p>Private URIs using the t  
+                  prefix are pointers to entries
+                  in the travel!digital thesaurus.
+                  For example, t:Concept6005600
+                  dereferences to https://vocabs.acdh.oeaw.ac.at/traveldigital/Concept6005600.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <editorialDecl>
+            <p>Annotation according to TEI/P5.</p>
+            <correction method="markup">
+               <p>Corrections have been represented using markup.</p>
+            </correction>
+            <normalization>
+               <p>Original orthography has been retained.</p>
+               <p>Original typography has been retained.</p>
+            </normalization>
+            <hyphenation eol="all">   
+               <p>All end-of-line hyphenation has been retained.</p>
+            </hyphenation>
+            <interpretation>
+               <p>personal names of historical, mythological/religious and literary figures (except occurences in street names and company names), dates, selected designations of groups and sights</p>
+               <p>tokenization, PoS-tagging (Stuttgart-Tübingen-TagSet, 54 part-of-speech tags for annotating German text corpora, Guidelines 1999), lemmatization, manually corrected</p>
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de" usage="98"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <list>
+                  <item>Baedeker guidebook</item>
+                  <item>Karl Baedeker</item>
+                  <item>historical travel guide</item>
+                  <item>Mediterranean Sea</item>
+                  <item>German language</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+<text type="book"><front><pb facs="https://id.acdh.oeaw.ac.at/traveldigital/Images/Baedeker-Mittelmeer_1909/Baedeker-Mittelmeer_i0003.tiff" n="Titel recto [S. III]"/>
+<titlePage><docTitle><titlePart type="main"><seg rend="bold"><w lemma="d" type="ART" xml:id="MM_d1e6280">DAS</w>
+<seg type="ws"> </seg>
+<w lemma="Mittelmeer" type="NE" xml:id="MM_d1e6286">MITTELMEER</w></seg></titlePart>
+<milestone rend="hr" type="separator" unit="undetermined"/>
+<titlePart type="sub"><seg rend="bold"><w lemma="Hafenplatz" type="NN" xml:id="MM_d1e6293">Hafenplätze</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="MM_d1e6299">und</w>
+<seg type="ws"> </seg>
+<w lemma="Seeweg" type="NN" xml:id="MM_d1e6305">Seewege</w></seg><lb/>
+<w lemma="nebst" type="APPR" xml:id="MM_d1e6310">nebst</w><lb/>
+<seg rend="bold"><w lemma="Madeira" type="NE" xml:id="MM_d1e6316">Madeira</w>
+<pc type="comma" xml:id="MM_d1e6319">,</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e6325">den</w>
+<seg type="ws"> </seg>
+<w lemma="kanarisch" type="ADJA" xml:id="MM_d1e6331">Kanarischen</w>
+<seg type="ws"> </seg>
+<w lemma="Insel" type="NN" xml:id="MM_d1e6338">Inseln</w>
+<pc type="comma" xml:id="MM_d1e6341">,</pc>
+<seg type="ws"> </seg>
+<w lemma="d" type="ART" xml:id="MM_d1e6347">der</w>
+<seg type="ws"> </seg>
+<w lemma="Küste" type="NN" xml:id="MM_d1e6354">Küste</w><lb/>
+<w lemma="Marokko" type="NE" xml:id="MM_d1e6359">Marokkos</w>
+<pc type="comma" xml:id="MM_d1e6362">,</pc>
+<seg type="ws"> </seg>
+<w lemma="Algerien" type="NE" xml:id="MM_d1e6368">Algerien</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="MM_d1e6375">und</w>
+<seg type="ws"> </seg>
+<w lemma="Tunesien" type="NE" xml:id="MM_d1e6381">Tunesien</w></seg></titlePart>
+<milestone rend="hr" type="separator" unit="undetermined"/>
+<titlePart type="desc"><seg rend="spaced"><w lemma="Handbuch" type="NN" xml:id="MM_d1e6388">Handbuch</w>
+<seg type="ws"> </seg>
+<w lemma="für" type="APPR" xml:id="MM_d1e6394">für</w>
+<seg type="ws"> </seg>
+<w lemma="Reisende" type="NN" xml:id="MM_d1e6400">Reisende</w></seg></titlePart></docTitle>
+<byline><w lemma="von" type="APPR" xml:id="MM_d1e6404">von</w><lb/>
+<docAuthor><seg rend="bold"><w lemma="Karl" type="NE" xml:id="MM_d1e6411">Karl</w>
+<seg type="ws"> </seg>
+<w lemma="Baedeker" type="NE" xml:id="MM_d1e6417">Bædeker</w></seg></docAuthor></byline>
+<milestone rend="hr" type="separator" unit="undetermined"/>
+<titlePart><w lemma="mit" type="APPR" xml:id="MM_d1e6423">Mit</w>
+<seg type="ws"> </seg>
+<w lemma="38" type="CARD" xml:id="MM_d1e6429">38</w>
+<seg type="ws"> </seg>
+<w lemma="Karte" type="NN" xml:id="MM_d1e6435">Karten</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="MM_d1e6442">und</w>
+<seg type="ws"> </seg>
+<w lemma="49" type="CARD" xml:id="MM_d1e6448">49</w>
+<seg type="ws"> </seg>
+<w lemma="Plan" type="NN" xml:id="MM_d1e6454">Plänen</w></titlePart>
+<milestone rend="hr" type="separator" unit="undetermined"/>
+<docImprint><pubPlace><w lemma="Leipzig" type="NE" xml:id="MM_d1e6461">LEIPZIG</w></pubPlace><lb/>
+<w lemma="Verlag" type="NN" xml:id="MM_d1e6466">VERLAG</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPR" xml:id="MM_d1e6472">VON</w>
+<seg type="ws"> </seg>
+<publisher><w lemma="Karl" type="NE" xml:id="MM_d1e6480">KARL</w>
+<seg type="ws"> </seg>
+<w lemma="Baedeker" type="NE" xml:id="MM_d1e6486">BÆDEKER</w></publisher><lb/>
+<docDate><w lemma="1909" type="CARD" xml:id="MM_d1e6492">1909</w></docDate></docImprint></titlePage>
+
+</front></text></TEI>

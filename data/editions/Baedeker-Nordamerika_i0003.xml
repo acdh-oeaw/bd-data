@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title level="a">Nordamerika 1893, Titel recto [S. III]</title>
+            <title>Nordamerika. Handbuch für Reisende: Digitale Ausgabe</title>
+            <author>Karl Baedeker (company)</author>
+            <respStmt>
+                <resp xml:lang="en">compiled by</resp>
+                <name>Ulrike Czeitschner</name>
+            </respStmt>
+            <respStmt>
+                <resp xml:lang="en">in collaboration with</resp>
+                <name>Barbara Krautgartner</name>
+                <name>Victoria Eisenheld</name>
+            </respStmt>
+        </titleStmt>
+        <editionStmt>
+            <edition>full-text digital edition <date when="2017">2017</date>
+            </edition>
+            <funder>Austrian Academy of Sciences</funder>
+        </editionStmt>
+        <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+            <address>
+                <addrLine>Bäckerstraße 13</addrLine>
+                <addrLine>1010 Vienna</addrLine>
+            </address>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2017">2017</date>
+            <availability>
+                <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+            </availability>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl type="short">Karl Baedeker: Nordamerika. Leipzig, 1893.</bibl>
+            <bibl type="transcript">Nordamerika 
+     Die
+     Vereinigten Staaten
+     nebst einem Ausflug nach
+     Mexiko
+     Handbuch für Reisende
+     von 
+     K. Bædeker 
+     Mit 17 Karten, 22 Plänen und 2 Grundrissen 
+     Leipzig 
+     Verlag von Karl Bædeker 
+     1893</bibl>
+            <biblStruct type="full">
+                <monogr>
+                    <author>Karl Baedeker</author>
+                    <title type="main">Nordamerika
+      Die
+      Vereinigten Staaten
+      nebst einem Ausglug nach
+      Mexiko</title>
+                    <title type="sub">Handbuch für Reisende 
+       von 
+       K. Bædeker 
+       Mit 17 Karten, 22 Plänen und 2 Grundrissen</title>
+                    <edition>first edition</edition>
+                    <imprint>
+                        <publisher>Verlag von Karl Bædeker</publisher>
+                        <pubPlace>Leipzig</pubPlace>
+                        <date when="1893">1893</date>
+                    </imprint>
+                    <extent>
+                        <measure type="pages">658 [LVIII, 488 p., maps not paged]</measure>
+                    </extent>
+                </monogr>
+            </biblStruct>
+            <msDesc>
+                <msIdentifier>
+                    <settlement>Basel</settlement>
+                    <institution>Universitätsbibliothek Basel</institution>
+                    <repository>UB Hauptbibliothek</repository>
+                    <idno type="signatory">Et 647</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <projectDesc>
+            <p>Image creation, optical character recognition and basic XML annotation has been carried out within the framework of the AAC-Austrian Academy Corpus.</p>
+            <p>Transformation to TEI/P5, linguistic and semantic annotation has been applied within the the GO!DIGITAL 1.0 project "travel!digital. Exploring People and Monuments in Baedeker Guidebooks (1875-1914)", Project-Nr.: ÖAW0204.</p>
+        </projectDesc>
+        <listPrefixDef>
+            <prefixDef matchPattern="(person)" replacementPattern="persons.xml#$1" ident="person-prefix">
+                <p>Private URIs using the person  
+                  prefix are pointers to person
+                  elements in the personography.xml file.
+                  For example, psn:MDH
+                  dereferences to personography.xml#MDH</p>
+            </prefixDef>
+            <prefixDef matchPattern="(t)" replacementPattern="https://vocabs.acdh.oeaw.ac.at/traveldigital/$1" ident="thesaurus-prefix">
+                <p>Private URIs using the t  
+                  prefix are pointers to entries
+                  in the travel!digital thesaurus.
+                  For example, t:Concept6005600
+                  dereferences to https://vocabs.acdh.oeaw.ac.at/traveldigital/Concept6005600.</p>
+            </prefixDef>
+        </listPrefixDef>
+        <editorialDecl>
+            <p>Annotation according to TEI/P5.</p>
+            <correction method="markup">
+                <p>Corrections have been represented using markup.</p>
+            </correction>
+            <normalization>
+                <p>Original orthography has been retained.</p>
+                <p>Original typography has been retained.</p>
+            </normalization>
+            <hyphenation eol="all">
+                <p>All end-of-line hyphenation has been retained.</p>
+            </hyphenation>
+            <interpretation>
+                <p>personal names of historical, mythological/religious and literary figures (except occurences in street names and company names), dates, selected designations of groups and sights</p>
+                <p>tokenization, PoS-tagging (Stuttgart-Tübingen-TagSet, 54 part-of-speech tags for annotating German text corpora, Guidelines 1999), lemmatization, manually corrected</p>
+            </interpretation>
+        </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+        <langUsage>
+            <language ident="de" usage="98"/>
+        </langUsage>
+        <textClass>
+            <keywords>
+                <list>
+                    <item>Baedeker guidebook</item>
+                    <item>Karl Baedeker</item>
+                    <item>historical travel guide</item>
+                    <item>North America</item>
+                    <item>Mexico</item>
+                    <item>German language</item>
+                </list>
+            </keywords>
+        </textClass>
+    </profileDesc>
+</teiHeader>
+<text type="book"><front><pb facs="https://id.acdh.oeaw.ac.at/traveldigital/Images/Baedeker-Nordamerika_1893/Baedeker-Nordamerika_i0003.tiff" n="Titel recto [S. III]"/>
+<titlePage><docTitle><titlePart type="main"><seg rend="spaced"><seg rend="bold"><w lemma="Nordamerika" type="NE" xml:id="NA_d1e3659">NORDAMERIKA</w></seg></seg><lb/>
+<milestone rend="hr" type="separator" unit="undetermined"/>
+<w lemma="d" type="ART" xml:id="NA_d1e3665">DIE</w><lb/>
+<seg rend="bold"><w lemma="vereinigen" type="ADJA" xml:id="NA_d1e3670">VEREINIGTEN</w>
+<seg type="ws"> </seg>
+<w lemma="Staat" type="NN" xml:id="NA_d1e3676">STAATEN</w></seg><lb/>
+<w lemma="nebst" type="APPR" xml:id="NA_d1e3681">NEBST</w>
+<seg type="ws"> </seg>
+<w lemma="ein" type="ART" xml:id="NA_d1e3687">EINEM</w>
+<seg type="ws"> </seg>
+<w lemma="Ausflug" type="NN" xml:id="NA_d1e3693">AUSFLUG</w>
+<seg type="ws"> </seg>
+<w lemma="nach" type="APPR" xml:id="NA_d1e3700">NACH</w><lb/>
+<seg rend="spaced"><w lemma="Mexiko" type="NE" xml:id="NA_d1e3705">MEXIKO</w></seg></titlePart>
+<milestone rend="hr" type="separator" unit="undetermined"/>
+<titlePart type="desc"><w lemma="Handbuch" type="NN" xml:id="NA_d1e3711">HANDBUCH</w>
+<seg type="ws"> </seg>
+<w lemma="für" type="APPR" xml:id="NA_d1e3717">FÜR</w>
+<seg type="ws"> </seg>
+<w lemma="Reisende" type="NN" xml:id="NA_d1e3723">REISENDE</w></titlePart></docTitle>
+<byline><w lemma="von" type="APPR" xml:id="NA_d1e3727">VON</w><lb/>
+<docAuthor><seg rend="bold"><w lemma="Karl" type="NE_ABK" xml:id="NA_d1e3733">K.</w>
+<seg type="ws"> </seg>
+<w lemma="Baedeker" type="NE" xml:id="NA_d1e3739">BÆDEKER</w></seg></docAuthor>
+<pc type="comma" xml:id="NA_d1e3742">,</pc></byline>
+<milestone rend="hr" type="separator" unit="undetermined"/>
+<titlePart><w lemma="mit" type="APPR" xml:id="NA_d1e3748">MIT</w>
+<seg type="ws"> </seg>
+<w lemma="17" type="CARD" xml:id="NA_d1e3754">17</w>
+<seg type="ws"> </seg>
+<w lemma="Karte" type="NN" xml:id="NA_d1e3760">KARTEN</w>
+<pc type="comma" xml:id="NA_d1e3763">,</pc>
+<seg type="ws"> </seg>
+<w lemma="22" type="CARD" xml:id="NA_d1e3770">22</w>
+<seg type="ws"> </seg>
+<w lemma="Plan" type="NN" xml:id="NA_d1e3776">PLÄNEN</w>
+<seg type="ws"> </seg>
+<w lemma="und" type="KON" xml:id="NA_d1e3782">UND</w>
+<seg type="ws"> </seg>
+<w lemma="2" type="CARD" xml:id="NA_d1e3789">2</w>
+<seg type="ws"> </seg>
+<w lemma="Grundriss" type="NN" xml:id="NA_d1e3795">GRUNDRISSEN</w></titlePart>
+<milestone rend="hr" type="separator" unit="undetermined"/>
+<docImprint><pubPlace><seg rend="spaced"><seg rend="bold"><w lemma="Leipzig" type="NE" xml:id="NA_d1e3804">LEIPZIG</w></seg></seg></pubPlace><lb/>
+<w lemma="Verlag" type="NN" xml:id="NA_d1e3808">VERLAG</w>
+<seg type="ws"> </seg>
+<w lemma="von" type="APPR" xml:id="NA_d1e3814">VON</w>
+<seg type="ws"> </seg>
+<publisher><w lemma="Karl" type="NE" xml:id="NA_d1e3822">KARL</w>
+<seg type="ws"> </seg>
+<w lemma="Baedeker" type="NE" xml:id="NA_d1e3828">BÆDEKER</w></publisher><lb/>
+<docDate><w lemma="1893" type="CARD" xml:id="NA_d1e3833">1893</w></docDate></docImprint></titlePage>
+
+</front></text></TEI>
