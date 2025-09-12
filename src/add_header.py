@@ -68,4 +68,8 @@ for i, x in tqdm(enumerate(files), total=len(files)):
     title.text = f"{title_short}, {page}"
     for pb in doc.any_xpath(".//tei:pb[@facs]"):
         pb.attrib["facs"] = img_url
+    for el in doc.any_xpath(".//tei:front"):
+        el.tag = "{http://www.tei-c.org/ns/1.0}body"
+    for el in doc.any_xpath(".//tei:back"):
+        el.tag = "{http://www.tei-c.org/ns/1.0}body"
     doc.tree_to_file(save_path)
